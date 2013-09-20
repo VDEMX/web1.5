@@ -1,0 +1,34 @@
+DirectoryIndex index.php
+ErrorDocument 404 /error-404.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule  ^inicio$ /index.php [QSA,L]
+RewriteRule  ^procontrol$ /serie-procontrol.php [QSA,L]
+RewriteRule  ^oficinas$ /sucursales.php [QSA,L]
+RewriteRule  ^novedades$ /productos-nuevos.php [QSA,L]
+RewriteRule  ^fdrive$ /f-drive.php [QSA,L]
+RewriteRule  ^nosotros$ /acerca-de.php [QSA,L]
+RewriteRule  ^servicios$ /servicios-vde.php [QSA,L]
+RewriteRule  ^energiarenovable$ /fotovoltaicos.php [QSA,L]
+RewriteRule  ^ax$ /bombas-AX.php [QSA,L]
+RewriteRule  ^anexo$ /federatas.php [QSA,L]
+RewriteRule  ^aviso-mar-2013$ /ajustes-mar-2013.php [QSA,L]
+RewriteRule  ^aviso-nov-2012$ /ajustes-nov-2012.php [QSA,L]
+RewriteRule  ^contacto$ /formulario.php [QSA,L]
+RewriteRule  ^tipo-de-cambio$ /tipo-d-cambio.php [QSA,L]
+RewriteRule  ^diva$ /serie-diva.php [QSA,L]
+RewriteRule  ^scala$ /serie-scala.php [QSA,L]
+RewriteRule  ^kor$ /serie-kor.php [QSA,L]
+RewriteRule  ^job$ /serie-job.php [QSA,L]
+RewriteRule  ^tanques-aquapak$ /tanques-aq.php [QSA,L]
+RewriteRule  ^prox$ /tanques-prox.php [QSA,L]
+RewriteRule  ^proxl$ /tanques-proxl.php [QSA,L]
+RewriteRule  ^acero$ /tanques-acero.php [QSA,L]
+RewriteRule  ^pro$ /tanques-pro.php [QSA,L]
+RewriteRule  ^sky$ /tanques-sky.php [QSA,L]
+RewriteRule  ^bienvenidos-a-vde$ /Bienvenidos-a-VDE/index.html [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
