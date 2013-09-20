@@ -240,11 +240,6 @@ font-size: ~"@{remValue}rem";
 	&:before {content: "k";}
 }
 
-
-
-
-
-
 .impact{
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
 }
@@ -285,7 +280,15 @@ font-size: ~"@{remValue}rem";
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
-.left{float: left;}
+.left{
+	@media only screen and (min-width: @mobile){
+		display:block;
+	}
+	@media only screen and (min-width: @tablet){
+		display: inline-block;
+		vertical-align: top;
+	}
+}
 .right{float:right;}
 .p100{width:100%;}
 .w422{width:422px;}
@@ -300,6 +303,7 @@ font-size: ~"@{remValue}rem";
 .verde{color: @verde;}
 .mt1em{margin-top: 1em!important;}
 .mb1em{margin-bottom: 1em!important;}
+.ml1em{margin-left:1em;}
 
 
 
