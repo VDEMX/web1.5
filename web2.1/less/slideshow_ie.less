@@ -1,0 +1,30 @@
+//Mixins
+@import "mixins";
+
+//variables
+@import "variab";
+
+.jms-slideshow, .step{width: 100%;min-width: 980px;}
+.jms-content{
+	margin-top: 3em;
+	background:@blanco !important;
+	.opacity (.5);
+	behavior: inherit!important;
+	h3{
+		color:@azul-obscuro;
+		.opacity (1);
+	}
+	p{
+		color:@negro;
+		.opacity (1);
+	}
+	a.jms-link {behavior: inherit!important;}
+}
+.step {
+	img{
+		right:0;
+		width: 45%;
+		top:60px;
+	}
+	p{font-size: 30px;}
+}

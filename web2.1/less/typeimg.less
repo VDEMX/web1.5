@@ -1,0 +1,177 @@
+/* Type & image presets */
+/* =3 Texto
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* Accessible focus treatment
+	people.opera.com/patrickl/experiments/keyboard/test */
+//variables
+@import "variab";
+
+//Mixins
+@import "mixins";
+
+@charset "UTF-8";
+
+small {font-size:@pr100 - 25;}
+
+strong, th {font-weight: bold;}
+
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+.justify {text-align:justify;}
+
+.b { font-weight: bold; }
+.i { font-style: italic; }
+.n { font-weight: normal; }
+.u { text-decoration:underline; }
+
+.t08 { .font-size(8);} 
+.t09 { .font-size(9);} 
+.t10 { .font-size(10);} 
+.t11 { .font-size(11);} 
+.t12 { .font-size(12);} 
+.t13 { .font-size(13);} 
+.t14 { .font-size(14);} 
+.t15 { .font-size(15);} 
+.t16 { .font-size(16);} 
+.t17 { .font-size(17);} 
+.t18 { .font-size(18);} 
+.t19 { .font-size(19);} 
+.t20 { .font-size(20);} 
+.t25 { .font-size(25);} 
+.t30 { .font-size(30);} 
+.t40 { .font-size(40);} 
+.t50 { .font-size(50);} 
+.t60 { .font-size(60);}
+.t70 { .font-size(70);} 
+.t80 { .font-size(80);} 
+.t90 { .font-size(90);} 
+.t100 { .font-size(100);} 
+.t08, .t09, .t10, .t11, .t12, .t13, .t14, .t15, .t16, .t17, .t18, .t19, .t20, .t25, .t30, .t40, .t50, .t60, .t70, .t80, .t90, .t100 {line-height: 1.2em;} 
+
+.lh80 { line-height:@pr100 - 20; }
+.lh90 { line-height:@pr100 - 10; }
+.lh100 { line-height:@pr100; }
+.lh110 { line-height:@pr100 + 10; }
+.lh120 { line-height:@pr100 + 20; }
+.lh130 { line-height:@pr100 + 30; }
+.lh140 { line-height:@pr100 + 40; }
+.lh150 { line-height:@pr100 + 50; }
+.lh160 { line-height:@pr100 + 60; }
+.lh170 { line-height:@pr100 + 70; }
+.lh180 { line-height:@pr100 + 80; }
+.lh190 { line-height:@pr100 + 90; }
+.lh200 { line-height:@pr100 + 100; }
+
+p {.parrafo;}
+h1 {.encabezado;}
+h2 {.encabezado(0.5em 0,1.8rem, 1.1em);}
+h3 {.encabezado(0.6em 0,1.6rem, 1.2em, normal);}
+h4 {.encabezado(0.7em 0,1.5rem, 1.3em, bold);}
+h5 {.encabezado(0.8em 0,1.2rem, 1.1em, bolder);}
+h6 {.encabezado(0.9em 0,1rem, 1em, bolder);}
+
+.small {.parrafo(@zero @zero 1.875em ,0.8em,1.875em);}
+.large {.parrafo(@zero @zero 1.25em ,1.2em,2.5em);}
+
+.blanco {color:@blanco;}
+.gris{color:@gris;}
+.gris-obscuro{color:@gris-obscuro;}
+.negro {color:@negro;}
+.naranja {color:@naranja;}
+.aqua {color:@aqua;}
+.azul {color:@azul;}
+.fuchsia {color:@fuchsia;}
+.verde {color:@verde;}
+.lima {color:@lima;}
+.marron {color:@marron;}
+.marino {color:@marino;}
+.olivo {color:@verde-olivo;}
+.purpura {color:@purpura;}
+.rojo {color:@rojo;}
+.tinto {color:@tinto;}
+.plata {color:@plata;}
+.amarillo {color:@amarillo;}
+.rosa {color:@rosa;}
+.crema {color:@crema;}
+
+a img {display: block;		/* Stops image links getting text link styles */}
+
+img {.redondear(3px);margin-bottom:@px10 * 2;.pie();}
+
+p, ul, ol, blockquote {
+margin-bottom:@px10 * 2.4;	/* Changing this will break the baseline grid. */
+}
+
+li {
+margin-bottom:@px01 * 6;
+}
+
+blockquote {
+border-left: 1px solid @gris;
+color:@gris-obscuro;
+padding-left:@px10 + 5;
+margin-left:@px01 -16;
+}
+
+/* !Íconos */
+
+/* !VDE */
+@font-face {
+  font-family: "iconos-vde";
+  src:url("../fonts/vdeicons/iconos-vde.eot");
+  src:url("../fonts/vdeicons/iconos-vde.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/vdeicons/iconos-vde.ttf") format("truetype"),
+    url("../fonts/vdeicons/iconos-vde.svg#iconos-vde") format("svg"),
+    url("../fonts/vdeicons/iconos-vde.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before, [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "iconos-vde";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+[data-icon]:before {content: attr(data-icon);}
+
+
+.icon-descargar:before {content: "a";}
+.icon-ojo:before {content: "b";}
+.icon-menu:before {content: "d";}
+.icon-mail:before {content: "e";}
+.icon-line-left:before {content: "f";}
+.icon-line-right:before {content: "g";}
+.icon-line-mini-left:before {content: "h";}
+.icon-line-mini-right:before {content: "i";}
+.icon-tri-left:before {content: "j";}
+.icon-tri-right:before {content: "k";}
+.icon-linecons-left:before {content: "l";}
+.icon-linecons-right:before {content: "m";}
+.icon-arrow-right:before {content: "n";}
+.icon-arrow-left:before {content: "o";}
+.icon-bomba:before {content: "p";}
+.icon-motor:before {content: "q";}
+.icon-piscinas:before {content: "r";}
+.icon-press:before {content: "s";}
+.icon-energia:before {content: "t";}
+.icon-tanque:before {content: "u";}
+.icon-accesorio:before {content: "v";}
+.icon-control:before {content: "c";}
+.icon-lupa:before {content: "w";}
+.icon-globo:before {content: "x";}
+.icon-twitter:before {content: "y";}
+.icon-facebook:before {content: "z";}
+.icon-rss:before {content: "A";}
+.icon-youtube:before {content: "B";}
+.icon-line-up:before {content: "D";}

@@ -1,0 +1,302 @@
+
+//basicos--------------------------------------------------------------------------------*/	
+.porcentaje(@px10:5%){width:@px10;}
+.left(){float:left;}
+.right(){float:right;}
+.clear(){clear:both;}
+.margin(@top:@em01,@right:@em01,@bottom:@em01,@left:@em01,){
+	margin-top:@top;
+	margin-right:@right;
+	margin-bottom:@bottom;
+	margin-left:@left;
+}
+.padding(@top:@em01,@right:@em01,@bottom:@em01,@left:@em01,){
+	padding-top:@top;
+	padding-right:@right;
+	padding-bottom:@bottom;
+	padding-left:@left;
+}
+	
+.columns(@colwidth: 250px, @colcount: 0, @colgap: 50px, @columnRuleColor: #EEE, @columnRuleStyle: solid, @columnRuleWidth: 1px) {
+  -moz-column-width: @colwidth;
+  -moz-column-count: @colcount;
+  -moz-column-gap: @colgap;
+  -moz-column-rule-color: @columnRuleColor;
+  -moz-column-rule-style: @columnRuleStyle;
+  -moz-column-rule-width: @columnRuleWidth;
+  -webkit-column-width: @colwidth;
+  -webkit-column-count: @colcount;
+  -webkit-column-gap: @colgap;
+  -webkit-column-rule-color: @columnRuleColor;
+  -webkit-column-rule-style: @columnRuleStyle;
+  -webkit-column-rule-width: @columnRuleWidth;
+  column-width: @colwidth;
+  column-count: @colcount;
+  column-gap: @colgap;
+  column-rule-color: @columnRuleColor;
+  column-rule-style: @columnRuleStyle;
+  column-rule-width: @columnRuleWidth;
+}
+.inline-block{
+	vertical-align: top;
+    display: inline-block;
+}
+.hide{display:none;}
+
+
+
+//bordes--------------------------------------------------------------------------------*/	
+.border(@width: 1px, @type: solid, @color: @negro){border:@arguments;}   
+.underline(@width: 1px, @type: solid, @color: @negro){border-bottom:@arguments;} 
+.redondear(@radius:5px) { 
+   -webkit-border-radius:@radius; 
+   -moz-border-radius:@radius; 
+   -khtml-border-radius:@radius;
+   -ms-border-radius:@radius;
+    border-radius:@radius; 
+    .pie;
+} 
+.border-radius(@topright:5px, @bottomright:5px, @bottomleft:5px, @topleft:5px) {
+  -webkit-border-top-right-radius: @topright;
+  -webkit-border-bottom-right-radius: @bottomright;
+  -webkit-border-bottom-left-radius: @bottomleft;
+  -webkit-border-top-left-radius: @topleft;
+  -moz-border-radius-topright: @topright;
+  -moz-border-radius-bottomright: @bottomright;
+  -moz-border-radius-bottomleft: @bottomleft;
+  -moz-border-radius-topleft: @topleft;
+  border-top-right-radius: @topright;
+  border-bottom-right-radius: @bottomright;
+  border-bottom-left-radius: @bottomleft;
+  border-top-left-radius: @topleft;
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+  .pie;
+}
+.boxShadow (@hor: 3px, @vert: 2px, @blur: 5px, @shadow:@gris-medio) {
+	-webkit-box-shadow: @hor @vert @blur @shadow;
+	-moz-box-shadow: @hor @vert @blur @shadow;
+	box-shadow: @hor @vert @blur @shadow;
+	.pie;
+}
+.boxShadow-inset (@hor: 0px, @vert: 1px, @blur: 0px, @shadow: #7fd2f1,@hor2: 1px, @vert2: 1px, @blur2: 2px, @shadow2: @gris-medio) {
+	-webkit-box-shadow: inset @hor @vert @blur @shadow, @hor2 @vert2 @blur2 @shadow2;
+	-moz-box-shadow: inset @hor @vert @blur @shadow, @hor2 @vert2 @blur2 @shadow2;
+	box-shadow: inset @hor @vert @blur @shadow, @hor2 @vert2 @blur2 @shadow2;
+	.pie;
+}
+.box-shadow(@arguments) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  box-shadow: @arguments;
+  .pie;
+}
+.drop-shadow(@x-axis: 0, @y-axis: 1px, @blur: 2px, @alpha: 0.1) {
+  -webkit-box-shadow: @x-axis @y-axis @blur rgba(0, 0, 0, @alpha);
+  -moz-box-shadow: @x-axis @y-axis @blur rgba(0, 0, 0, @alpha);
+  box-shadow: @x-axis @y-axis @blur rgba(0, 0, 0, @alpha);
+}
+.inner-shadow(@horizontal:0, @vertical:1px, @blur:2px, @alpha: 0.4) {
+  -webkit-box-shadow: inset @horizontal @vertical @blur rgba(0, 0, 0, @alpha);
+  -moz-box-shadow: inset @horizontal @vertical @blur rgba(0, 0, 0, @alpha);
+  box-shadow: inset @horizontal @vertical @blur rgba(0, 0, 0, @alpha);
+  .pie;
+}
+
+//posición--------------------------------------------------------------------------------*/	
+.absoluta (@top:@px01,@left:@px01){position:absolute; top:@top; left:@left; }
+.ptop(@top:1px) {top:@top;} 
+.pleft(@left:1px) {left:@left;} 
+.pbottom(@bottom:1px) {bottom:@right;} 
+.pright(@right:1px) { right:@right;} 
+
+ 
+//Transformations --------------------------------------------------------------------------------*/	
+.transition (@range: all, @time: 1s, @ease: ease-in-out ) { 
+	-moz-transition: @range @time @ease ;
+	-webkit-transition: @range @time @ease ;
+	transition: @range @time @ease;
+}
+.transiciones (@transition) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	transition:      @transition;  
+}
+.opacity (@opacity: 0.5) {
+	@ieOpacity: @opacity * 100;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@{ieOpacity})";
+	filter: ~"alpha(opacity=@{ieOpacity})";	
+	opacity:@opacity;
+}
+.animation (@name, @duration: 300ms, @delay: 0, @ease: ease) {
+	-webkit-animation: @name @duration @delay @ease;
+	-moz-animation:    @name @duration @delay @ease;
+	-ms-animation:     @name @duration @delay @ease;
+	animation:     @name @duration @delay @ease;
+}
+.transform(@string){
+	-webkit-transform: @string;
+	-moz-transform: 	 @string;
+	-ms-transform: 		 @string;
+	-o-transform: 		 @string;
+}
+.scale (@factor) {
+	-webkit-transform: scale(@factor);
+	-moz-transform: 	 scale(@factor);
+	-ms-transform: 		 scale(@factor);
+	-o-transform: 		 scale(@factor);
+}
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+.skew (@deg, @deg2) {
+	-webkit-transform:       skew(@deg, @deg2);
+	-moz-transform: 	 skew(@deg, @deg2);
+	-ms-transform: 		 skew(@deg, @deg2);
+	-o-transform: 		 skew(@deg, @deg2);
+}
+.translate (@x, @y:0) {
+	-webkit-transform:       translate(@x, @y);
+	-moz-transform: 	 translate(@x, @y);
+	-ms-transform: 		 translate(@x, @y);
+	-o-transform: 		 translate(@x, @y);
+}
+.translate3d (@x, @y: 0, @z: 0) {
+	-webkit-transform:       translate3d(@x, @y, @z);
+	-moz-transform: 	 translate3d(@x, @y, @z);
+	-ms-transform: 		 translate3d(@x, @y, @z);
+	-o-transform: 		 translate3d(@x, @y, @z);
+}
+.perspective (@value: 1000) {
+	-webkit-perspective: 	@value;
+	-moz-perspective: 	@value;
+	-ms-perspective: 	@value;
+	perspective: 		@value;
+}
+.transform-origin (@x:center, @y:center) {
+	-webkit-transform-origin: @x @y;
+	-moz-transform-origin:    @x @y;
+	-ms-transform-origin:     @x @y;
+	-o-transform-origin:      @x @y;
+}
+.reflect (@below:5px, @color:@negro, @opacity: 0.5) {
+	-webkit-box-reflect: below @below -webkit-gradient(linear, left top, left bottom, from(@color), color-stop(@opacity, @color), to(transparent));
+}
+
+
+//Texto--------------------------------------------------------------------------------*/	
+.font-size(@sizeValue){
+  @remValue: (@sizeValue / 10);
+  @pxValue: (@sizeValue * 1);
+  font-size: ~"@{pxValue}px";
+  font-size: ~"@{remValue}rem";
+}
+
+.parrafo (@margen: @em01 + 0.2, @medida: @em01, @entrelineado: @em01 + 0.2){ margin:@margen;font-size:@medida;line-height:@entrelineado;}
+.encabezado (@margen: (@em01 - 0.4) @zero, @medida: (@em01 + 1), @entrelineado: @em01, @weight:lighter ) { margin:@margen; font-size:@medida; line-height:@entrelineado; font-weight:@weight;}
+.sombreado(@equix:@px01, @ye:@px01, @blur:@px01 + 1, @color:@blanco,){text-shadow:@equix @ye @blur @color;}
+
+.Ubuntu-font(){font-family: 'Ubuntu', sans-serif;}
+
+//color--------------------------------------------------------------------------------*/	
+.gradient (@startColor: @gris, @endColor: @blanco) {
+	background-color: @startColor; /* Old browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, @startColor, @endColor);/* Chrome10+,Safari5.1+ */
+	background: -moz-linear-gradient(top, @startColor, @endColor);/* FF3.6+ */
+	background: -ms-linear-gradient(top, @startColor, @endColor);/* IE10+ */
+	background: -o-linear-gradient(top, @startColor, @endColor);/* Opera 11.10+ */
+	background: linear-gradient(to bottom,  @startColor 0%, @endColor 100%); /* W3C */
+	-pie-background:linear-gradient(@startColor, @endColor); /*PIE*/
+	.pie;
+}
+
+.BlueGloss(){ 
+	background: #004e7d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #067aad 0%, #347ea6 50%, #005b8d 51%, #002d57 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#067aad), color-stop(50%,#347ea6), color-stop(51%,#005b8d), color-stop(100%,#002d57)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #067aad 0%,#347ea6 50%,#005b8d 51%,#002d57 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #067aad 0%,#347ea6 50%,#005b8d 51%,#002d57 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #067aad 0%,#347ea6 50%,#005b8d 51%,#002d57 100%); /* IE10+ */
+	background: linear-gradient(top,  #067aad 0%,#347ea6 50%,#005b8d 51%,#002d57 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#067aad', endColorstr='#002d57',GradientType=0 ); /* IE6-9 */
+	-pie-background:linear-gradient(#067aad, #002d57); /*PIE*/
+	.pie;
+}
+
+.BlueGloss2(){ 
+	background: #2da4c5; /* Old browsers */
+	background: -moz-linear-gradient(top,  #06a2c9 0%, #2fa4c4 50%, #008ab2 51%, #006c90 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#06a2c9), color-stop(50%,#2fa4c4), color-stop(51%,#008ab2), color-stop(100%,#006c90)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #06a2c9 0%,#2fa4c4 50%,#008ab2 51%,#006c90 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #06a2c9 0%,#2fa4c4 50%,#008ab2 51%,#006c90 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #06a2c9 0%,#2fa4c4 50%,#008ab2 51%,#006c90 100%); /* IE10+ */
+	background: linear-gradient(top,  #06a2c9 0%,#2fa4c4 50%,#008ab2 51%,#006c90 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06a2c9', endColorstr='#006c90',GradientType=0 ); /* IE6-9 */
+	-pie-background:linear-gradient(#06a2c9, #006c90); /*PIE*/
+	.pie;
+}
+.vineta(){
+	background: -moz-linear-gradient(left, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 42%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.85) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.85)), color-stop(42%,rgba(0,0,0,0)), color-stop(55%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.85))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 42%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.85) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 42%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.85) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 42%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.85) 100%); /* IE10+ */
+background: linear-gradient(to right, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 42%,rgba(0,0,0,0) 55%,rgba(0,0,0,0.85) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#d9000000',GradientType=1 ); /* IE6-9 */
+.pie;
+}
+.rgba(@r:255,@g:255,@b:255,@a:0.5){
+	background: rgba(@r, @g, @b, @a);
+}
+
+
+//propios--------------------------------------------------------------------------------*/	
+.col(@width:4.85%, @MarginRight:3.8%){ 
+	margin-right:@MarginRight;
+	.left;
+	width: @width; 
+}
+.pie(){behavior: url("@{base-url}js/PIE.htc");}
+.tag(@top:3,@right:11,@bottom:3,@left:3,@color:@turquesa,@source:tag,@repeat:stretch,@alto:16px, ){
+	border-color:@color;
+	border-style: solid; 
+	color:@blanco;
+	float: left;
+	height:@alto;
+	line-height:@alto;
+	margin:3px 2px;
+	min-width:87px;
+	text-align: center;
+	text-decoration: none;
+	.sombreado(1px,1px, 0, @negro);
+	border-width: @top + @px00 @right + @px00 @bottom + @px00 @left + @px00; 
+	-moz-border-image:url("@{base-url}images/@{source}.png") @top @right @bottom @left @repeat;/* Old Firefox */ 
+	-webkit-border-image:url("@{base-url}images/@{source}.png") @top @right @bottom @left @repeat;/* Safari */
+	-o-border-image:url("@{base-url}images/@{source}.png") @top @right @bottom @left @repeat;/* Opera */
+	border-image:url("@{base-url}images/@{source}.png") @top @right @bottom @left fill @repeat;
+	padding: 0 3px;
+	.pie;
+}
+.wrap(){
+  text-wrap: wrap;
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+.BoxSizing(){
+  	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.UserSelect(){
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}

@@ -1,0 +1,411 @@
+//variables
+@import "variab";
+
+//Mixins
+@import "mixins";
+
+.onecol {.col(4.7%);}
+.twocol {.col(13.2%);}
+.threecol {.col(22.05%);}
+.fourcol {.col(30.6%);}
+.fivecol {.col(39%);}
+.sixcol {.col(48%);}
+.sevencol {.col(56.75%);}
+.eightcol {.col(61.4%);}
+.ninecol {.col(74.05%);}
+.tencol {.col(82%);}
+.elevencol {.col(91.35%);}
+.twelvecol {.col(100%);}
+
+.mp-menu {
+	left: -280px;
+	width: 0;
+	display: none;
+}
+.mp-pusher{padding-left:0!important;}
+.scroller {overflow: inherit;}
+
+#buscador {
+    max-width:220px;
+    input, input:focus {width: 220px!important;}
+}
+
+#footer {
+	h2{.font-size(16);}
+	.fourcol.last {
+		.col(27%);
+	}
+}
+
+#menu {
+	a {
+		padding: 20px 0.7em 8px;
+		&:hover {.underline(3px, solid, @blanco);}
+		&:focus,&:active {background: @blanco; color:@azul-marino;padding: 20px 0.7em 16px;.underline(0, solid, @blanco);}
+	}
+}
+
+#col-filtros #uno, #col-filtrosSP #uno, #col-filtros #dos, #col-filtrosSP #dos {
+	display: none;
+}
+
+#col-esp .tabs .content {
+    height: 580px;
+    width: 78%;
+    .box{overflow: auto; width: 250px; padding: 0; margin: 0;}
+}
+
+#col-esp, #col-det, #col-tec, #col-des{background: @blanco;border: 1px solid @gris-claro + 13;}
+#sectores .mod-home {width: 21.4% !important;}
+
+.lb-album li > a span{display:none;}
+
+#lightbox {
+	.lb-overlay {
+			    background: url("../images/overlay.png") repeat scroll 0 0 transparent;
+			    border: 0 none;
+			    height: 100%;
+			    margin: 0 auto;
+			    padding: 20px 0 0;
+			    width: 100%;
+			    > div {
+				    height: 445px;
+				    width: 445px;
+				}
+				a.lb-close {
+				    top: -35px;
+				    background: @azul-marino;}
+				.info {
+				    margin: 10px auto;
+				    padding-bottom: 5em;
+				    background:@blanco;
+				}
+				div{
+				    h3 {
+				    .font-size(16);
+				    height: 40px;
+				    line-height: 1em;
+				    margin-top: 6px;
+				    width: 35%;
+				    }
+				    p {
+				    .font-size(10);
+				    height: 45px;
+				    padding: 0;
+				    width: 53%;
+				    }
+				}
+			}
+		.lb-prev, .lb-next {
+		    border: 0 none !important;
+		    bottom: 190px;
+		    top: auto;
+		}
+}
+
+.coverflow {
+	.demo {
+		.wrapper {
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbbbb', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+			#coverflow {
+				img {
+				border: 1px solid @gris-claro;}
+			}
+		}
+	}
+}
+.cover #marcas .bloq {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#DBDBDB',GradientType=0 ); /* IE6-9 */
+    border: 1px solid @gris!important;
+    img {display: inherit;}
+}
+#vineta {
+    height:462px!important;
+    width: 101%!important;
+}
+.box { display: none; height: 255px; overflow: auto; display: block; position: relative; overflow-x: hidden; }
+#pnuevos #col-tabs .res .info {
+    height: 140px;
+    h3 {margin: 0 0.8em 0;}
+}
+
+#soporte-t .soporte {border: 4px solid @gris;}
+
+#soporte-t #col-opro #tS2 .jTscrollerContainer .jTscroller .bloque img {width: 165px;max-width: 165px;}
+#soporte-t .soporte .bloqueQ, #soporte-t .soporte .bloqueH {
+		.video, .manuales, .chat, .foro, .estatus, .contacta {background-image: url("../images/iconos-soporteIE.png");}
+		.video{background-position: 0 -30px;}
+		.manuales{background-position: -200px -23px; height: 160px;}
+		.chat{background-position: -400px -25px;}
+		.foro{background-position: 0 -230px;}
+		.estatus{background-position: -230px -250px;height: 120px;}
+		.contacta{background-position: -460px -230px;height: 160px;}
+	}
+
+#detsop{
+	#col-tec, #col-op {
+		.porcentaje(26%);
+		.border(1px, solid, @gris-claro);
+	}
+	#col-det{
+		.imgdim {display: block;}
+		.tb-esp {
+		    display: block;
+		    visibility: visible;
+		    .font-size(10);
+		}
+		h2 {.font-size(16)!important;}
+		.esp {
+			.row-shadow{background: none repeat scroll 0 0 @blanco;}
+		}
+	}
+	#col-tec .esp {height: 960px;}
+}
+
+.modulo {.border(1px, solid, @gris);}
+
+#error404 {
+	input{
+	behavior: inherit;
+		&[type="search"] {background: @blanco!important; border: 1px solid @gris!important; }
+	}
+}
+
+.no-backgroundsize .offline, .no-backgroundsize .online{background: url(../images/chat-IE.png)!important;}
+
+.blog{
+	.post .resumen {
+		behavior: inherit;
+		.tag_title {
+			width: 110px;
+			height: 44px;
+			img {behavior: inherit; margin: 0;}
+		}
+		.tags{
+			behavior: inherit;
+			background: @turquesa;
+			border: 0;
+		}
+		border: 1px solid @gris;
+		.p67 {width:65.95%!important;}
+		.comments div, .leermas div {background-image: url(../images/sprites.png)!important;}
+	}
+	#sidebar {
+		.mt25 {.font-size(9.2);}
+		input{border: 1px solid @gris;}
+	}
+	.categoria .post {
+		height: 525px!important;
+		.resumen {
+			height: 480px!important;
+			padding-bottom: 1em;
+			.p67{width: 90%!important}
+			.comments span a, .leermas span a{margin: 0!important; display: block;}
+		}	
+	    a{
+		    margin: 1em auto 0!important;
+		    display: block;
+		    border: 0;
+		    &:link, &:visited{margin: 1em auto 0!important;}
+	    }
+	}
+	.search .post .resumen .res {
+		width: auto!important;
+		margin-top: 0!important;
+		h2 {margin-top: 0!important;}
+	}
+	.articulo{
+		input.name, #email, #web, #mensaje{
+			background:@blanco;
+			border: 1px solid @gris;
+			padding: 8px 5px 0;
+			width: 95%;
+		}
+		input.name, #email, #web{height: 25px;}
+		#mensaje{width: 96.3%;}
+	}
+}
+
+
+#hogar .eightcol .mod-home, #industria .eightcol .mod-home, #comercio .eightcol .mod-home, #agricultura .eightcol .mod-home {width:27.7% !important;}
+#sectores .mod-home, #hogar .mod-home, #industria .mod-home, #comercio .mod-home, #agricultura .mod-home {width: 21.3% !important;}
+
+#acceder {
+	#email, #pass, #pass2, .name, #pass {behavior: inherit;.border(1px, solid, @gris-obscuro); padding: 3px;width: 98%; height: 19px; background: none @blanco;}
+	#enviar, img, {behavior: inherit;}
+	#acceso {
+    	height: 35px;
+    	width:90px;
+    	behavior: inherit;
+    }
+}
+#agricultura, #hogar, #comercio, #industria, #agricultura, #detsop, #col-esp, #col-det, #col-tec , #sectores{img{behavior: inherit;}}
+#detsop #col-det .principal, #detsop #col-det .manuales .btn-manuales .a_demo_one, .busqueda input,  {behavior: inherit;}
+.chatsupport{
+	textarea{behavior: inherit; border: 1px solid @gris;}
+	#acceder{
+		 input {behavior: inherit;}
+		 .name{width: 98%!important;}
+	}
+}
+
+#contacta .fourcol{
+	.name, input[type="tel"], input[type="email"], textarea {
+    	background: none repeat scroll 0 0 @blanco;
+    	border: 1px solid @gris;
+    	box-shadow: none;
+    	padding: 0 2%;
+    	width: 96%;
+    }
+    .name, input[type="tel"], input[type="email"]{
+	    height: 22px;
+	    padding-bottom: 0;
+	    padding-top: 5px;
+    }
+}
+
+#boxLinks {
+list-style: none; overflow: hidden; display: block;
+li { 
+	display: inline; 
+	.active{background: @blanco!important; color: @azul-obscuro;}
+	a { 
+		color: @blanco;
+		float: left; 
+		display: block; 
+		padding: 0 15px;
+		margin-left: 1px; 
+		position: relative; 
+		left: -1px; 
+		text-decoration: none; 
+		.font-size(14);
+		font-weight: bold;
+		height: 40px;
+		letter-spacing: 1px;
+		line-height: 40px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 100px;  
+		border: 1px solid @gris-claro + 17;
+		border-bottom:1px solid @blanco;
+		&:link, &:visited  {background:@azul-marino;}
+		&:hover {background:@azul-obscuro;}
+	}
+}
+}
+
+#formulario-RP  {
+    input{
+	    border: 1px solid @gris;
+	    background: none @blanco;
+	    &[type="number"] {width:94px!important;} 
+    }
+    span, small {
+		.margin(1em, 0, 1em, 180px) !important;
+	    width:300px !important;
+	}
+}
+
+#tab-1, .tab-label-1, #tab-2, .tab-label-2, #tab-3, .tab-label-3{display: none!important;}
+.group:after {visibility: hidden; display: block; .font-size(0); content: " "; clear: both; height: 0;}
+
+.tabs .content {
+    border: 1px solid @gris-claro + 17; 
+	padding: 0 30px;
+	top: -25px;
+	width:87%;
+	height:1100px;
+	min-height: 200px;
+	overflow: hidden;
+	position: relative;
+	z-index: 5;
+	.box {display: none;height:1600px;max-height: 100%; overflow: inherit; display: block; position: relative; overflow-x: hidden; }   
+}
+
+#nos {
+	#col-tabs {
+		.tabs {
+			#tab-1, .tab-label-1, #tab-2, .tab-label-2, #tab-3, .tab-label-3, #tab-4, .tab-label-4{display: none}
+			#boxLinks {
+			  list-style: none;
+			  overflow: hidden;
+			  position: relative;
+			  width: 96%;
+			  display: block;
+			  margin: 0 15px;
+			  li {
+			  	display: inline;
+			  	.active {
+				  	color: @azul-marino !important;
+				  	background: @blanco !important;
+				  }
+				 a {
+				  padding: 4px 8px;
+				  .redondear;
+				  color: @negro;
+				  text-decoration: none;
+				  float: left;
+				  display: block;
+				  margin-right: 1px;
+				  position: relative;
+				  left: 0;
+				  &:link, &:visited {
+					  color: @blanco;
+					  .gradient (@azul, @azul-marino);
+					}
+				  &:hover {color: @blanco;}
+				}
+			  }
+			}
+			.content {
+				margin: 0!important;
+				width:95% !important;
+				height: 1035px;
+				overflow: hidden;
+				padding:0 2%;
+				position: relative;
+				top: -5px;
+				background: @blanco;
+				.box {
+				  height: 1025px;
+				  overflow: auto;
+				  display: block;
+				  position: relative;
+				  overflow-x: hidden;
+				  color: @negro;
+				  padding-top: 1em;
+				}
+				#box {overflow: hidden;position: relative; }
+				b { position: absolute; top: 0px; right: 0px; width:1px; height: 251px; overflow: hidden; text-indent: -9999px; }
+				#box1:target, #box2:target, #box3:target, #box4:target {display: block;}
+			}
+		}
+	}
+}
+
+.foro {
+	.eightcol {
+		.busqueda-foro input{border: 1px solid @gris;}
+		#foros .descrip {
+			img {behavior: inherit;}
+		}
+	}
+	.categoria #foros .descrip img {behavior: inherit;}
+	.perfil{
+		#email {
+	    	margin-top: 0;
+	    	width: 25%;
+    	}
+    	.avataruser .custom-input-file {
+	    	.archivo {display: none;}
+    	}
+    	#cambiar_contrasena input{
+	    	background:@blanco;
+	    	border: 1px solid @gris;
+	    	height: 30px;
+	    	padding: 3px;
+    	}
+	}
+}
+
+.cat .busqueda-foro input{border: 1px solid @gris;}
