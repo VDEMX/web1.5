@@ -1,0 +1,87 @@
+.onecol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 4.7%;
+}
+.twocol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 13.2%;
+}
+.threecol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 22.05%;
+}
+.fourcol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 30.6%;
+}
+.fivecol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 39%;
+}
+.sixcol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 48%;
+}
+.sevencol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 56.75%;
+}
+.eightcol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 61.4%;
+}
+.ninecol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 74.05%;
+}
+.tencol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 82%;
+}
+.elevencol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 91.35%;
+}
+.twelvecol {
+  margin-right: 3.799999999999997%;
+  float: left;
+  width: 100%;
+}
+#buscador {
+  max-width: 200px;
+}
+#menu #inicio a {
+  font-size: 0%;
+}
+#slider {
+  max-width: 1140px;
+}
+#slider #slides {
+  border: 1px solid #CCC;
+}
+#slider #shadow #left,
+#slider #shadow #right {
+  width: 48%;
+}
+.mod-home {
+  background: #EEE;
+  border: 1px solid #808080;
+  width: 30%;
+}
+#footer h2 {
+  margin: 0 0 0 1em;
+}
+#footer hr {
+  margin: 0;
+}

@@ -1,0 +1,538 @@
+<!doctype html>
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="es"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
+<head>
+<!-- ES IMPRESCIDIBLE QUE LA ETIQUETA X-UA-COMPATIBLE SEA LA PRIMERA QUE APAREZCA EN EL HEADER -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="utf-8"/>
+	<title>VDE | Ingeniería que fluye</title>
+    <!-- For iPhone 4 -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon.png">
+	<!-- For iPad 1-->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon.png">
+	<!-- For iPhone 3G, iPod Touch and Android -->
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
+	<!-- For Nokia -->
+	<link rel="shortcut icon" href="images/apple-touch-icon.png">
+	<!-- For everything else -->
+	<link rel="shortcut icon" href="http://vde.com.mx/favicon.ico">
+	<link rel="icon" href="images/favicon.gif" type="image/gif" />
+    <!--Microsoft. Delete if not required -->
+	<meta http-equiv="cleartype" content="on">
+	<!--[if lt IE 7 ]><script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script><script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>		<![endif]-->
+<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+ 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; target-densitydpi=160dpi;"/>
+    
+    <!--iOS. Delete if not required -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+ 	
+ 	<!-- All JavaScript at the bottom, except for Modernizr, Modernizr enables HTML5 elements & feature detects-->
+    <script src="js/modernizr.js"></script>
+    
+	<!-- The 1140px Grid -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	<!-- Put your layout here -->
+	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" />
+	<!-- Estilos generales -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+  
+	
+	<!-- Type and image presets - NOT ESSENTIAL -->
+	<link rel="stylesheet" href="css/typeimg.css" type="text/css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300' rel='stylesheet' type='text/css'>
+	<!-- Make minor type adjustments for 1024 monitors -->
+	<link rel="stylesheet" href="css/smallerscreen.css" media="only screen and (max-width: 1023px)" />
+	<!-- Resets grid for mobile -->
+	<link rel="stylesheet" href="css/mobile.css" media="handheld, only screen and (max-width: 767px)" />
+    <!--iPhone-->
+    <link rel="stylesheet" href="css/iphone.css" media="screen and (min-device-width : 320px) and (max-device-width : 767px)"  />
+    
+    <!-- http://t.co/y1jPVnT -->
+	<link rel="canonical" href="/">
+	<!--acordión productos-->
+	<noscript>
+			<style>
+				.st-accordion ul li{
+					height:auto;
+				}
+				.st-accordion ul li > a span{
+					visibility:hidden;
+				}
+			</style>
+	</noscript>
+	     <!-- JavaScript del slider de rango -->
+     <script src="js/html5slider.js">
+</script>
+<script type="text/javascript">
+onload = function() {
+  document.getElementById('one').onchange = function() {
+      document.getElementById('uno').innerHTML = this.value;
+  };
+  document.getElementById('one').onchange();
+  document.getElementById('two').onchange = function() {
+      document.getElementById('dos').innerHTML = this.value;
+  };
+  document.getElementById('two').onchange();
+  document.getElementById('mmm').innerHTML =
+    ['min: ' + document.getElementById('two').min,
+     'max: ' + document.getElementById('two').max,
+     'step: ' + document.getElementById('two').step].join(', ');
+};
+</script>
+<script>
+function mostrardiv() {
+div = document.getElementById('col-filtrosSP');
+div.style.display = '';
+}
+function cerrar() {
+div = document.getElementById('col-filtrosSP');
+div.style.display='none';
+}
+</script>
+		
+<body>
+<div id="container">
+<!-- probar si se soportan etiquetas HTML5-->
+<!--
+<script>
+if (Modernizr.borderradius){
+  alert('Soporta borderradius');
+}else {
+  alert('No Soporta borderradius');
+}
+</script>
+-->
+		<!-- #header -->
+		<header id="header" class="clearfix" role="banner">
+        	<hgroup role="heading">
+            <!-- #login -->
+            <div id="login">
+            <strong>Bienvenido</strong> <a>Iniciar sesión</a> | <a>English version</a>
+            </div>
+            	<a href="index.html"><h1>VDE</h1></a>
+            	<h2>Aliados para su progreso</h2>
+        	</hgroup>
+            <!-- #menu -->
+            <nav id="menu" role="navigation">
+				<ul>
+					<li id="inicio"><a href="#">Inicio</a></li>
+                    <li id="nosotros"><a href="#">Nosotros</a></li>
+                    <li id="productos">
+	                    
+	             
+                    </li>
+                    <li id="soporte"><a href="#">Soporte</a></li>
+                    <li id="tienda"><a href="#">Tienda en línea</a></li>
+                    <li id="contacto"><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+<!-- #productos -->
+			<nav id="menu-productos" role="navigation">
+                <div id="st-accordion" class="st-accordion">
+                    <ul>
+                        <li>
+	                            <a href="#">Productos</a>
+                            <div class="st-content" style="display:block;">
+                           
+
+                        </li>
+                    </ul>
+                </div>
+			</nav>
+	
+	 	                    		
+			
+			<!-- #buscador -->
+<div id="right-header">
+<div id="buscador">
+  	<label for="search-basic" class="hide">Busqueda:</label>
+    <input type="search" placeholder="Buscar" />
+</div>
+</div>
+
+    	</header> 
+<!-- #Content -->
+		<div id="content" role="main">
+        			<div class="row">
+        			<div id="btn-filtros"><p><a href="javascript:mostrardiv();" class="a_demo_one">Modificar búsqueda</a></p></div>
+        			<div id="col-filtrosSP" style="display:none;">
+        			<select>
+        				<option>Serie</option>
+        				<option>KOR07</option>
+        				<option>KOR1.2</option>
+        				<option>KOR2</option>
+        				<option>KOR3</option>
+        				<option>KOR4.5</option>
+        				<option>KOR6</option>
+        				<option>KOR10</option>
+        				<option>KOR15</option>
+        				<option>KOR20</option>
+        				<option>KOR25</option>
+        				<option>KOR32</option>
+        				<option>KOR40</option>
+        				<option>KOR53</option>
+        				<option>KOR70</option>
+        			</select>
+        			<select>
+        				<option>Diametro</option>
+	                    <option>4"</option>
+	                    <option>6"</option>
+	                    <option>8"</option>
+        			</select>
+        			 <select>
+        				<option>Tamaño de la descarga <span>(en pulgadas)</span></option>
+	                    <option>1¼"</option>
+	                    <option>1½"</option>
+	                    <option>2"</option>
+	                    <option>2"</option>
+	                    <option>3"</option>
+	                    <option>4"</option>
+	                    <option>6"</option>
+        			</select>
+        			<select>
+        				<option>Caballos de fuerza <span>(en pulgadas)</span></option>
+	                    <option>0.33 - 5</option>
+	                    <option>0.5 - 7</option>
+	                    <option>0.5 - 10</option>
+	                    <option>1- 20</option>
+	                    <option>2 - 10</option>
+        			</select>
+        			<div class="flujo">
+                    	<h2>Flujo <span>(Litros por segundo)</span></h2>
+                    		<div>
+                    			<input type="range" id="one" value="20"  min="0" max="100" step="1"  />
+                    			<div id="uno">&nbsp;</div>
+                    		</div>
+                    </div> 
+                    <div id="flotante" ><p><a href="javascript:cerrar();" class="a_demo_one">Buscar</a></p></div>
+                    <div class="clear"></div>
+				</div>
+				
+				<div id="col-filtros">
+					<h2>Serie</h2>
+                    <div>
+	                   <a href="#">KOR07</a><br />
+	                   <a href="#">KOR1.2</a><br />
+	                   <a href="#">KOR2</a><br />
+	                   <a href="#">KOR3</a><br />
+	                   <a href="#">KOR4.5</a><br />
+	                   <a href="#">KOR6</a><br />
+	                   <a href="#">KOR10</a><br />
+	                   <a href="#">KOR15</a><br />
+	                   <a href="#">KOR20</a><br />
+	                   <a href="#">KOR25</a><br />
+	                   <a href="#">KOR32</a><br />
+	                   <a href="#">KOR40</a><br />
+	                   <a href="#">KOR53</a><br />
+	                   <a href="#">KOR70</a><br />
+                    </div>
+                    <hr />
+                    <h2>Diametro</h2>
+                    <div>
+	                   <a href="#">4"</a><br />
+	                   <a href="#">6"</a><br />
+	                   <a href="#">8"</a><br />
+                    </div>
+                    <hr />
+                    <h2>Flujo <span>(Litros por segundo)</span></h2>
+                    <div>
+	                   <input type="range" id="one" value="20"  min="0" max="100" step="1"  />
+<div id="uno">&nbsp;</div>
+                    <hr />
+                    <h2>Tamaño de la descarga <span>(en pulgadas)</span></h2>
+                    <div>
+	                   <a href="#">1¼"</a><br />
+	                   <a href="#">1½"</a><br />
+	                   <a href="#">2"</a><br />
+	                   <a href="#">2"</a><br />
+	                   <a href="#">3"</a><br />
+	                   <a href="#">4"</a><br />
+	                   <a href="#">6"</a><br />
+                    </div>
+                    <hr />
+                     <h2>Caballos de fuerza</h2>
+                    <div>
+	                   <a href="#">0.33 - 5</a><br />
+	                   <a href="#">0.5 - 7</a><br />
+	                   <a href="#">0.5 - 10</a><br />
+	                   <a href="#">1- 20</a><br />
+	                   <a href="#">2 - 10</a><br />
+                    </div>
+                    <hr />
+                    <div id="flotante" ><a href="javascript:cerrar();"> presiona aquí para cerrar</a> </div>
+                    <div class="clear"></div>
+				</div></div>
+				<div id="col-tabs">
+					<section class="tabs">
+	            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+		        <label for="tab-1" class="tab-label-1">Productos</label>
+		
+	            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+		        <label for="tab-2" class="tab-label-2">Manuales</label>
+		
+	            <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+		        <label for="tab-3" class="tab-label-3">Accesorios</label>
+            
+			    <div class="clear"></div>
+			
+		        <div class="content">
+			        <div class="content-1">
+						<div class="fourcol ">
+							<div class="res">
+								<a href="#"><img src="images/productos/altamira/BS/bs.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>Serie BS</h3></a>
+									<p>Bombas con diseño altamente eficiente que se logra empleando materiales de excelente calidad y resistencia.</p>
+								</div>
+							</div>
+							<div class="res">
+								<a href="#"><img src="images/productos/altamira/K/k.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>Serie K</h3></a>
+									<p>Motores rebobinables ALTAMIRA SERIE K de 6”, 8”, 10” y 12”. El motor ALTAMIRA SERIE K es un producto fabricado bajo los más estrictos controles de calidad.</p>
+								</div>
+							</div>
+							<div class="res">
+								<a href="#"><img src="images/productos/altamira/KOR/kor.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>Serie KOR</h3></a>
+									<p>Estas bombas han sido diseñadas con tecnología de punta y construidas con materiales de la más alta calidad.</p>
+								</div>
+							</div>
+						</div>
+						<div class="fourcol ">
+							<div class="res">
+								<a href="#"><img src="images/productos/altamira/T/serie-t.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>Serie T</h3></a>
+									<p>Ideal para pozos profundos de 4” de diámetro y mayores.</p></div>
+								</div>
+							<div class="res">
+								<a href="#"><img src="images/productos/altamira/R/Serie-R.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>Serie R</h3></a>
+									<p>El motor ALTAMIRA SERIE R es el resultado de una larga experiencia en motores sumergibles rebobinables a baño de agua.</p>
+								</div>
+							</div>
+							<div class="res">
+								<a href="#"><img src="images/productos/altamira/TX/tx.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>Serie TX</h3></a>
+									<p>Las bombas TX Altamira son bombas centrífugas multietapas no-autocebantes con un diseño innovador vertical en línea.</p>
+								</div>
+							</div>
+						</div>
+						<div class="fourcol last">
+							<div class="res">
+								<a href="#"><img src="images/productos/aquapak/motores/aquapak.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>MOTORES AQUA PAK</h3></a>
+									<p>Motores sumergibles Aqua Pak de 4” a baño de aceite de calidad PREMIUM. Para pozos profundos con ademes de 4” y mayores.</p>
+								</div>
+							</div>
+							<div class="res">
+								<a href="#"><img src="images/productos/aquapak/TASK/task.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>Serie TASK</h3></a>
+									<p>Las bombas sumergibles serie TASK están diseñadas para instalarse en ademe de 4”.</p>
+								</div>
+							</div>
+							<div class="res">
+								<a href="#"><img src="images/productos/aquapak/MAX/max.jpg"></a>
+								<div class="info">
+									<a href="#"><h3>Serie MAX</h3></a>
+									<p>Bomba en acero inoxidable con impulsores en Noryl y difusores en Lexan, materiales que le otorgan durabilidad y calidad.</p>
+								</div>
+							</div>
+						</div>
+				    </div>
+			        <div class="content-2">
+						<h2>Título</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h3>Título</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+				    </div>
+			        <div class="content-3">
+						<h2>Título</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h3>Título</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h3>Título</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				    </div>
+		        </div>
+			</section>
+				</div>
+                <div id="col-des">
+					<div class="logos">
+						<img src="images/logos/altamira.png">
+						<img src="images/logos/aquapak.png">
+						<img src="images/logos/espa.png">
+						<img src="images/logos/franklin.png">
+					</div>
+					<img src="images/resultados/familia-bombas-sumergibles.jpg">
+					<h2>Bombas sumergibles</h2>
+                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="clear"></div>
+				</div>
+				
+			</div>
+            
+			<div class="clear"></div>
+		</div>
+		
+		<!-- #footer -->
+		<footer id="footer" role="contentinfo">
+        <!-- You're free to remove the credit link to Jayj.dk in the footer, but please, please leave it there :) -->
+        <div class="row">
+        	<div class="mt20 mb20 ml20 left t11 p90 lh170">
+            	<a href="#">Inicio</a> | <a href="#">nosotros</a> | <a href="#">productos</a> | <a href="#">soporte</a> | <a href="#">Tienda en línea</a> | <a href="#">Contacto</a> 
+            </div>
+            <div class="fourcol">
+					<h2>Nosotros</h2>
+                    <hr>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in metus ullamcorper velit facilisis imperdiet ut ut erat. Aliquam bibendum, tortor ut malesuada laoreet, tortor orci dignissim dolor, et consequat est lectus sit amet elit.</span>
+                    <div class="clear"></div>
+				</div>
+				<div class="fourcol">
+					<h2>Contáctanos</h2>
+                    <hr>
+                    <span>Da <a href="#">Click aquí</a> para contactarnos.<br>
+Si tienes una duda, comentario o sugerencia, por favor da click en la liga de arriba o envíanos un email a <a href="#">info@vde.com.mx</a></span>
+                    <div class="clear"></div>
+				</div>
+                <div class="fourcol last">
+					<h2>Oficinas generales</h2>
+                    <hr>
+                    <span>Morelos 905 Sur, 67350 Allende, N.L., México. Teléfono: Conmutador <strong>01(826)2680 800</strong>, Ventas: <strong>01(826) 2680 801</strong>, Fax:<strong>01(826)268-3366</strong> Fax sin costo: <strong>01-800-71BOMBA(71-26622)</strong> y <strong>01-800-832-6600</strong></span>
+                    <div class="clear"></div>
+				</div>
+        </div>
+        <div id="foot">
+        	<div class="sevencol ml30 mt10 last">®2012 VDE todos los derechos reservados | <a href="#">Términos de uso y privacidad</a></div>
+            <div id="redes">
+                <div class="RSS"></div>
+                <div class="youtube"></div>
+                <div class="tweet"></div>
+                <div class="face"></div>
+                <div class="right mt10 mr10 t12"><strong>Síguenos en:</strong></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer> 
+    
+    <div class="clear"></div>
+	</div>
+
+<!-- JavaScript at the bottom for fast page loading -->
+     <!-- JavaScript del menu de productos para smartphone-->
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery.dcdrilldown.1.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function($){
+	$('#drilldown-1').dcDrilldown();
+	$('#drilldown-2').dcDrilldown({
+			speed       	: 'fast',
+			saveState		: true,
+			showCount		: true,
+			linkType		: 'link',
+			backText		: 'All',
+			defaultText		: 'Seleciona una opción'
+	});
+});
+</script>
+
+
+      <!-- JavaScript del menu de productos -->
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.accordion.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+			
+				$('#st-accordion').accordion({
+					oneOpenedItem	: true
+				});
+				
+            });
+        </script>
+
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js">\x3C/script>')</script>
+  
+    <script type="text/javascript">
+    // When ready...
+window.addEventListener("load",function() {
+  // Set a timeout...
+  setTimeout(function(){
+    // Hide the address bar!
+    window.scrollTo(0, 1);
+  }, 0);
+});
+</script>
+
+<script>
+// iOS scale bug fix
+MBP.scaleFix();
+
+// Respond.js
+yepnope({
+	test : Modernizr.mq('(only all)'),
+	nope : ['js/respond.min.js']
+});
+</script>
+<!-- JavaScript para el input de la busqueda -->
+<script>
+$(document).ready(function() {
+
+ if ($.browser.webkit) return false;
+  target = $('input[type="text"], input[type="email"], input[type="search"]');
+
+  target.each( function(i, el) {
+  el = $(el);
+  var ph = el.attr('placeholder');
+  if (!ph) return true;
+
+  el.addClass('placeholder');
+  el.attr('value', ph);
+
+  el.focus( function(e) {
+  if( el.val()==ph ) {
+   el.removeClass('placeholder');
+   el.attr('value', '');
+   }
+  });
+
+  el.blur( function(e) {
+  if( $.trim(el.val())=='' ) {
+   el.addClass('placeholder');
+   el.attr('value', ph);
+   }
+  });
+ });
+});
+</script>
+   <!--Analytics-->     
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29366062-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

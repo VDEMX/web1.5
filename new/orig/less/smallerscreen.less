@@ -1,0 +1,165 @@
+//variables
+@import "variab";
+
+//Mixins
+@import "mixins";
+
+body {font-size:
+	@em01 - 0.2; /* Makes type a bit smaller at 1024 so layout doesn't look unbalanced */
+	line-height:@em01 + 0.5em;	/* As above */
+}
+
+#container {.porcentaje(100%);max-width:@px100 * 10.24;min-width:@px100 * 7.50;}
+#container[orient="portrait"] 
+{
+	max-width:@px100 * 7.68;
+}
+
+#header {
+    background: url("../images/bkg-header.png") repeat-x scroll 0 -8px transparent;
+}
+
+#right-header {
+    float:left;
+    width:100%;
+}
+#buscador {
+    float:none;
+    margin:5px auto 1em;
+}
+#slider {
+    min-width: 725px;
+	#shadow #left, #shadow #right {
+    	width:50%;
+	}
+	#slides {
+    	height: 400px;
+	}
+}
+#content {
+    padding: 1em 1em 325px;
+}
+
+#footer {
+	background-image: none;
+	.gradient (#00899C, #024a7a);
+    box-shadow: 0 0 10px #666666;
+    height: 320px;
+		#foot {
+			.gradient (#00295d, #000426);
+			padding: 1em 0;
+			bottom: 0;
+		}
+}
+.jms-wrapper {
+    height: 380px;
+}
+/*small screens ----------- */
+@media only screen
+and (min-width :768px) 
+and (max-width : 1023px) 
+{
+/* Styles */
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+body {
+    background: url("../images/bkgx2.jpg") repeat-x scroll center top transparent;
+	background-size:100% auto;
+}
+ #header {
+    background: url("../images/bkg-headerx2.png") repeat-x scroll 0 -10px transparent!important;
+	background-size:auto 65%;
+	h1 {
+	background: url("../images/spritesx2.png") no-repeat scroll -225px -24px transparent;
+	background-size:330%;
+}
+}
+
+#menu a {
+    background: url("../images/menux2.png") repeat scroll 0 0 transparent;
+}
+
+#menu #inicio a, #menu #nosotros a, #menu #productos a, #menu #soporte a, #menu #tienda a, #menu #contacto a, {
+    background-size:auto 320%;
+}
+#buscador {
+    background: url("../images/spritesx2.png") no-repeat scroll 2px -331px #FFFFFF;
+	background-size:80% auto;
+}
+.productos,.productos-nuevos, .soporte, .tienda, .medio, .mapa{
+    		background-image: url("../images/spritesX2.png")!important;
+    		background-size:400% auto;
+		}
+		.productos{
+    		background-position: -173px -96px!important;
+    		background-size: 400% auto;
+    		height: 69px;
+    		width: 89px;
+		}
+		.productos-nuevos{
+    		background-position: -150px -4px;
+		}
+		.soporte{
+    		background-position: -86px -88px!important;
+    		background-size: 428% auto;
+		}
+		.medio{
+    		background-position: 686px -2px!important;
+    		background-size: 640% auto;
+		}
+		.tienda {
+    			background-position:-3px -90px!important;
+				height: 74px!important;
+				
+		}
+		.mapa {
+    		background-position: -60px -4px!important;
+    		background-size: 400% auto;
+    		height: 88px!important;
+		}
+#redes {
+				.face, .RSS, .tweet, .youtube {background-image: url("../images/spritesx2.png") !important;background-size: 1000% auto !important;}
+				.face {
+    				background-position: -272px -77px !important;
+				}
+				.RSS {
+    				background-position: -662px -120px !important;
+				}
+				.tweet {
+    				background-position: -314px -77px !important;
+				}
+				.youtube {
+    				background-position: -271px -120px !important;
+				}			
+		}
+		
+	
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+#header {
+	background-size:17.5% auto;
+}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+#container {max-width:@px100 * 7.68;}
+}

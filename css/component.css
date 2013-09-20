@@ -1,0 +1,163 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+#cssmenu{display: none;}
+
+@media screen and (max-width: 800px) {
+
+header h1 {
+	font-size: 1.1rem;
+	margin: 1.5em 0;
+}
+
+a {text-decoration: none;}
+
+#menu{display: none;}
+#cssmenu {display: block;}
+
+.cssmenu {
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #3B3B3B;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+}
+.cssmenu:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 34px;
+  background: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+.cssmenu-check {display: none;}
+#cssmenu-check:checked + #cssmenu {width: 30%;}
+#cssmenu-check:checked ~ .page-wrap {width: 70%;}
+#cssmenu-check:checked ~ .page-wrap .open-menu {display: none;}
+#cssmenu-check:checked ~ .page-wrap .close-menu {display: block;}
+#cssmenu-check:checked ~ .page-wrap .main-header {width: 70%;left: 30%;}
+
+.accordion{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.accordion a {
+  display: block;
+  border-top: 1px solid #484848;
+  border-bottom: 1px solid #2E2E2E;
+  color: white;
+  padding: 15px;
+  text-shadow: 1px 1px 2px #000;
+}
+.accordion ul{padding: 0;}
+.accordion li{
+	list-style-type: none;
+	background: linear-gradient(#3e3e3e, #383838);
+}
+.accordion li:hover, .accordion li:focus {
+  	background:linear-gradient(#464646, #3c3c3c);
+}
+.accordion li.active li{ background:linear-gradient(#505050, #404040); position: relative;}
+.accordion .has-sub::before {
+	content: '▶';
+	font-size:12px;
+	color: #BCBCBF;
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	top: 40%;
+	right: 0.5em;
+	font-family:icomoon;
+}
+
+.accordion .has-sub li:hover{
+	background:linear-gradient(#686868, #585858);
+}
+.accordion .has-sub .has-sub{
+	background:linear-gradient(#505050, #404040);
+}
+.accordion .has-sub .has-sub ul li{
+	background:linear-gradient(#787878, #6e6e6e);
+}
+.accordion .has-sub .has-sub ul li:hover{
+	background:linear-gradient(#828282, #787878);
+}
+
+.accordion .has-sub .has-sub .has-sub{
+	background:linear-gradient(#969696, #8c8c8c);
+}
+.accordion .has-sub .has-sub .has-sub ul li{
+	background:linear-gradient(#aaaaaa, #a0a0a0);
+}
+.accordion .has-sub .has-sub .has-sub ul li:hover{
+	background:linear-gradient(#bebebe, #b4b4b4);
+}
+
+.accordion .has-sub .has-sub .has-sub .has-sub{
+	background:linear-gradient(#d2d2d2, #c8c8c8);
+}
+.accordion .has-sub .has-sub .has-sub .has-sub ul li{
+	background:linear-gradient(#e6e6e6, #d2d2d2);
+}
+.accordion .has-sub .has-sub .has-sub .has-sub ul li:hover{
+	background:linear-gradient(#fafafa, #e6e6e6);
+}
+
+.has-sub{position: relative;}
+
+.accordion li.active {background:linear-gradient(#3f94bf, #246485);}
+
+.hide{display: none;}
+
+.main-header {
+	position: fixed;
+	left: 0;
+	transition: all 0.3s ease;
+}
+.main-header .toggle-menu {
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	color: white;
+	font-size: 32px;
+	cursor: pointer;
+	background: black;
+	margin: 0 0 0.2em 0;
+	padding: 0.2em 0 0.3em 0.5em;
+	text-shadow: 1px 1px 2px black;
+	font-family:icomoon;
+}
+.page-wrap {
+  float: right;
+  width: 100%;
+  transition: width 0.3s ease;
+}
+
+.content {
+  padding: 170px 20px 20px 20px;
+}
+
+.close-menu {
+  display: none;
+}
+
+}

@@ -1,0 +1,7 @@
+
+NET USE W: \\VDE-NT\TCVDE /USER:WORKGROUP1\TCVDE tcvde
+
+COPY C:\TC\tc.html  W:
+
+
+NET USE W: /DELETE

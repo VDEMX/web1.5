@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>VDE | Home</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #6796C2;
+	margin:0 auto;
+}
+img{
+	margin: 1.5em;
+}
+-->
+</style></head>
+
+<body>
+	<div>
+		<script language="javascript">
+	  function VecImagenes()
+	   {
+	   n=0;
+	   this[n++]="1_1.jpg";
+	   this[n++]="1_2.jpg";
+	   this[n++]="1_3.jpg";
+	   this[n++]="2_1.jpg";
+	   this[n++]="2_2.jpg";
+	   this[n++]="2_3.jpg";
+	   this[n++]="3_1.jpg";
+	   this[n++]="3_2.jpg";
+	   this[n++]="3_3.jpg";
+	   this[n++]="4_1.jpg";
+	   this[n++]="4_2.jpg";
+	   this[n++]="4_3.jpg";
+	   this[n++]="5_3.jpg";
+	   this[n++]="5_1.jpg";	 
+	   this[n++]="5_2.jpg";	 
+	   this[n++]="5_3.jpg";	   
+	   this.N=n;
+	   }
+	   var Imagenes=new VecImagenes();
+	   src= Imagenes[ Math.floor(Math.random() * Imagenes.N) ] ;
+	   document.write("<img src="+src+">");
+      </script>
+	</div>
+</body>
+</html>

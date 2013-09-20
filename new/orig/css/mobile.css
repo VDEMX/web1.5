@@ -1,0 +1,334 @@
+.row,
+.body,
+.container {
+  width: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.onecol,
+.twocol,
+.threecol,
+.fourcol,
+.fivecol,
+.sixcol,
+.sevencol,
+.eightcol,
+.ninecol,
+.tencol,
+.elevencol,
+.twelvecol {
+  width: auto;
+  float: none;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px;
+}
+/* Type presets */
+body {
+  font-size: 16px;
+  line-height: 24px;
+}
+#menu {
+  width: 100%;
+  margin-top: 15px;
+}
+#menu ul {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+#menu li {
+  float: left;
+  width: 99%;
+}
+#menu #inicio a,
+#menu #nosotros a,
+#menu #productos a,
+#menu #soporte a,
+#menu #tienda a,
+#menu #contacto a {
+  background: #1e5799;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5799), color-stop(50%, #2989d8), color-stop(51%, #207cca), color-stop(100%, #7db9e8));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* W3C */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+  /* IE6-9 */
+
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 3px 3px 3px #666666;
+  width: 100%;
+}
+#menu #inicio a:active,
+#menu #nosotros a:active,
+#menu #productos a:active,
+#menu #soporte a:active,
+#menu #tienda a:active,
+#menu #contacto a:active,
+#menu #inicio a:focus,
+#menu #nosotros a:focus,
+#menu #productos a:focus,
+#menu #soporte a:focus,
+#menu #tienda a:focus,
+#menu #contacto a:focus,
+#menu #inicio a:hover,
+#menu #nosotros a:hover,
+#menu #productos a:hover,
+#menu #soporte a:hover,
+#menu #tienda a:hover,
+#menu #contacto a:hover {
+  background: #b3dced;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b3dced), color-stop(50%, #29b8e5), color-stop(100%, #bce0ee));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
+  /* W3C */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=0);
+  /* IE6-9 */
+
+}
+#menu a {
+  color: white;
+  display: block;
+  font-size: 1.3em;
+  font-weight: inherit;
+  height: 35px;
+  line-height: 1.8em;
+  text-align: center;
+  text-indent: 0;
+  text-shadow: 1px 1px 3px #000000;
+  margin: 2px 0;
+}
+#login {
+  font-size: 0.6em;
+  line-height: 18px;
+}
+#header h1 {
+  margin: 5px 0 0;
+}
+#header h2 {
+  color: #FFF;
+  display: block!important;
+  float: left;
+  left: 0;
+  margin: 18px 10px 10px;
+  position: relative;
+  text-indent: 0;
+  text-shadow: 0 0 2px #FFF;
+  top: 0;
+  font-size: 1.4em;
+}
+#buscador {
+  background: url("../images/sprites.png") no-repeat scroll 4px -255px #ffffff;
+  height: 33px;
+  margin-top: 10px;
+  max-width: 335px;
+}
+.mod-home {
+  float: none;
+  margin: 1em auto;
+  padding: 0 20px;
+  width: 82%;
+}
+.mod-home span {
+  font-size: 1em;
+}
+.last,
+div.last {
+  margin-right: auto;
+}
+#footer {
+  position: relative;
+  height: auto;
+}
+#footer span {
+  margin: 0 2em 2em;
+}
+#footer #foot {
+  margin-top: 20px;
+  position: relative;
+}
+#footer #foot #redes {
+  float: left;
+  margin: 30px 0 0;
+  width: 70%;
+}
+#content {
+  padding: 1em;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  /* Slider */
+  #slider {
+    min-width: 290px;
+    height: auto;
+    width: 100%;
+  }
+  #slider #shadow #left,
+  #slider #shadow #right {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #slider #slides {
+    height: auto;
+  }
+  .jms-slideshow {
+    height: auto;
+    min-width: 290px;
+  }
+  .jms-wrapper {
+    height: auto;
+    min-width: 290px;
+  }
+  .jms-wrapper.not-supported .step {
+    margin: 10px auto;
+  }
+  .jms-content {
+    width: 250px;
+  }
+  .step {
+    height: 208px;
+    width: 100%;
+  }
+  .step h3 {
+    font-size: 1.3em;
+    padding-bottom: 5px;
+  }
+  .step p {
+    width: 250px;
+  }
+  .step img {
+    right: -5px;
+    top: 82px;
+    width: 200px;
+  }
+  a.jms-link {
+    font-size: 0.7em;
+    margin-top: 20px!important;
+    padding: 3px 15px;
+  }
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+  #container {
+    max-width: 480px;
+    min-width: 321px;
+  }
+  #header h2 {
+    font-size: 1.4em;
+  }
+  #footer #foot #redes {
+    width: 75%;
+  }
+  /* Slider */
+  .jms-content {
+    margin: 0 0 0 50px;
+    padding: 10px;
+    width: 400px;
+  }
+  .step p {
+    width: 380px;
+  }
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+  #container {
+    max-width: 320px;
+  }
+  #header h2 {
+    font-size: 0.95em;
+  }
+  #buscador {
+    max-width: 255px;
+  }
+  #footer #foot #redes {
+    margin: 30px 0 0 30px;
+    width: 82%;
+  }
+}
+#container {
+  width: 100%;
+  max-width: 768px;
+  min-width: 320px;
+}
+#container[orient="portrait"] {
+  max-width: 320px;
+}
+/* Slider */
+#slider {
+  min-width: 290px;
+}
+#slider #slides {
+  height: 188px;
+}
+.jms-slideshow {
+  height: 225px;
+}
+.jms-wrapper {
+  min-width: 290px;
+  height: 168px;
+}
+.jms-dots {
+  bottom: -5px;
+}
+a.jms-link {
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5 {
+  background-size: 125% auto;
+}
+.step p {
+  font-size: 2em;
+  width: 380px;
+}

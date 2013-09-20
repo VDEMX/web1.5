@@ -1,0 +1,52 @@
+/* -------------------------------------------------------------- 
+   
+   ie.css
+   
+   contiene tolos hack para internet explorer
+   unos cuantos que te ayudaran a reparar algunos problemas ya ubicados m‡s los que tu generes.
+   
+-------------------------------------------------------------- */
+
+/* para alinear el layout al centro en IE5 */
+body { text-align: center; }
+.container { text-align: left; }
+
+/* corregir el error de los margenes en IE */
+
+* html .column, * html div.w10, * html div.w20, * html div.w30, * html div.w40, * html div.w50, * html div.w60, * html div.w70, * html div.w80, * html div.w90, * html div.w100, * html div.w110, * html div.w120, * html div.w130, * html div.w140, * html div.w150, * html div.w160, * html div.w170, * html div.w180, * html div.w190, * html div.w200, * html div.w210, * html div.w230, * html div.w240, * html div.w250, * html div.w260, * html div.w270, * html div.w280, * html div.w290, * html div.w300, * html div.w310, * html div.w1320, * html div.w330, * html div.w340, * html div.w350, * html div.w360, * html div.w370, * html div.w380, * html div.w390, * html div.w400, * html div.w410, * html div.w420, * html div.w430, * html div.w440, * html div.w450, * html div.w460, * html div.w470, * html div.w480, * html div.w490, * html div.w500, * html div.w510, * html div.w520, * html div.w530, * html div.w540, * html div.w550, * html div.w560, * html div.w570, * html div.w580, * html div.w590, * html div.w600, * html div.w610, * html div.w620, * html div.w630, * html div.w640, * html div.w650, * html div.w660, * html div.w670, * html div.w680, * html div.w690, * html div.w700, * html div.w710, * html div.w720, * html div.w730, * html div.w740, * html div.w750, * html div.w760, * html div.w770, * html div.w780, * html div.w790, * html div.w800, * html div.w810, * html div.w820, * html div.w830, * html div.w840, * html div.w850, * html div.w860, * html div.w870, * html div.w880, * html div.w890, * html div.w900, * html div.w910, * html div.w920, * html div.w930, * html div.w940, * html div.w950, * html div.w960, * html div.w970, * html div.w980, * html div.w990, * html div.w1000,  {overflow-x: hidden; }
+
+
+/* Elementos
+-------------------------------------------------------------- */
+
+/* corregir el estilo de legend en IE6. */
+* html legend { margin:-18px -8px 16px 0; padding:0; }
+
+/* corrige el margen izquierdo en las listas ordenadas en IE6/7. */
+ol { margin-left:2em; }
+
+/* corregir el error de alinieado vertical en sup/sub in IE. */
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+
+/* corregido en IE7 para que no se pierdan los elementos. */
+html>body p code { *white-space: normal; } 
+
+/* IE 6&7 corregido el problema con la etiqueta <hr> y sus margenes */
+hr  { margin: -8px auto 11px; }
+
+
+/* limpiando
+-------------------------------------------------------------- */
+
+/* limpiando para que trabaje bien en IE */ 
+.clearfix, .container {display: inline-block;}
+* html .clearfix,
+* html .container {height: 1%;}
+
+
+/* corrigiendo el error en la etiqueta fieldset */
+fieldset {padding-top: 0;}
+
+/* hacks que tu generes para mantener limpiuo nuestro CSS
+-------------------------------------------------------------- */

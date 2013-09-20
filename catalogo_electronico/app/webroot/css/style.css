@@ -1,0 +1,371 @@
+/*
+Theme Name: Catalogo VDE
+Author: Hector Perez Hernandez <hectorph85@gmail.com>
+Description: Theme Catalogo VDE
+Version: 1.0
+*/
+
+/* =Reset
+----------------------------------------------- */
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+
+
+/* =Utily
+----------------------------------------------- */
+.clearfix:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix {display:block;}
+.clear {clear:both;}
+
+/* =Structure
+----------------------------------------------- */
+body{
+    background-color: #EFEFEF;
+    font-family: Verdana, Arial;
+}
+
+#container{
+    background-color: #F9F9F9;
+    margin: 0 auto;
+    min-height: 600px;
+    overflow: hidden;
+    width: 980px;
+}
+
+#header{
+    background: url("../img/default/header-top.png") repeat-x scroll 0 0 transparent;
+    height: 39px;
+}
+
+#content{
+    overflow: hidden;
+    padding: 10px;
+}
+
+.content-main-left, .content-main-right{
+    overflow: hidden;
+}
+
+.content-main-left{
+    float: left;
+    width: 25%;
+}
+
+.content-main-right{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    float: right;
+    padding: 10px;
+    width: 72%;
+}
+
+.menu-gestion{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+
+.menu-gestion ul{
+    list-style: none outside none;
+}
+
+.menu-gestion h3{
+    border-bottom: 1px solid #006CC9;
+    color: #006CC9;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-gestion a{
+    text-decoration: none;
+}
+
+fieldset.form-custom{
+    border: medium none;
+    margin-bottom: 1em;
+    padding: 16px 10px;
+}
+
+fieldset.form-custom form .required label:after {
+    color: #EE3322;
+    content: "*";
+    display: inline;
+}
+
+fieldset.form-custom label {
+    display: block;
+    font-size: 110%;
+    margin-bottom: 3px;
+}
+
+fieldset.form-custom input, textarea, select {
+    clear: both;
+    font-family: "frutiger linotype","lucida grande","verdana",sans-serif;
+    font-size: 140%;
+    padding: 1%;
+    width: 98%;
+}
+
+fieldset.form-custom input[type="submit"] {
+    display: inline;
+    font-size: 110%;
+    width: auto;
+}
+
+fieldset.form-custom form div {
+    clear: both;
+    margin-bottom: 1em;
+    overflow: hidden;
+    padding: 0.5em;
+    vertical-align: text-top;
+}
+
+fieldset.form-custom form div.checkbox{
+    background: none repeat scroll 0 0 transparent !important;
+    clear: none !important;
+    float: left;
+    height: auto !important;
+    width: auto !important;
+} 
+
+fieldset.form-custom input[type="checkbox"] {
+    clear: left;
+    float: left;
+    margin: 0 6px 7px 2px;
+    width: auto;
+}
+
+fieldset.form-custom div.checkbox label {
+    display: inline;
+    position: relative;
+    top: -4px;
+}
+
+fieldset.form-custom form .required {
+    font-weight: bold;
+}
+
+fieldset.form-custom legend{
+    color: #006CC9;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+fieldset.form-custom form .error {
+    background: none repeat scroll 0 0 #FDDBDB;
+    border: 1px solid #CD0A0A;
+    border-radius: 4px 4px 4px 4px;
+    font-weight: normal;
+}
+
+fieldset.form-custom select {
+    clear: both;
+    font-size: 120%;
+    vertical-align: text-bottom;
+}
+
+table.list{
+    width: 100%;
+}
+
+table.list th, table.list td{
+    height: 22px;
+    padding: 5px;
+    text-align: left;
+}
+
+table.list th{
+    background: none repeat scroll 0 0 #F0F8FF;
+    font-weight: bold;
+}
+
+table.list td{
+
+}
+
+table.list .actions a{
+    margin: 0 6px;
+}
+
+.title{
+    color: #006CC9;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active, a:hover, a:link, a:visited{
+    color: #FF6600;
+}
+
+.message, .success, .failure {
+    background: none repeat scroll 0 0 #FCFAF1;
+    border: 1px solid #FCEFA1;
+    border-radius: 4px 4px 4px 4px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.success{
+    background: none repeat scroll 0 0 #E8FFEF;
+    border: 1px solid #66FF99;    
+}
+
+.failure{
+    background: none repeat scroll 0 0 #FDDBDB;
+    border: 1px solid #CD0A0A;
+}
+
+#form-login{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 0 4px 18px #C8C8C8;
+    font-weight: normal;
+    margin-left: 8px;
+    padding: 16px 16px 40px;
+}
+
+#container-form-login{
+    margin: 7em auto;
+    width: 320px;
+}
+
+#container-form-login input {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border: 1px solid #E5E5E5;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    padding: 3px;
+    width: 97%;
+}
+
+#container-form-login input[type="submit"] {
+    background-color: #21759B;
+    border-color: #298CBA;
+    border-radius: 11px 11px 11px 11px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: -3px;
+    padding: 3px 10px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.icon-home{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.info{
+    color: #FFFFFF;
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    padding-top: 17px;
+}
+
+.info span{
+    font-weight: bold;
+}
+
+.info a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.container-logo{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3.subtitle-admin{
+    clear: both;
+    display: block;
+    font-weight: bold;
+}
+
+#add_keyword, #add_image{
+    color: #006CC9;
+    float: right;
+}
+
+.block-general-keyword{
+
+}
+
+.block-keyword, .block-image{
+    border: 1px solid #CCCCCC;
+    margin-top: 5px;
+}
+
+a.delete_keyword, a.delete_image{
+    color: red;
+    float: right;    
+}
+
+ul.list-keywords{
+    margin-left: 35px;
+}
+
+.content-image-images{
+    border: 1px solid #CCCCCC;
+    clear: none !important;
+    float: left;
+    margin: 5px;
+    max-width: 665px;
+    padding: 5px;
+}
+
+.content-image-images img{
+    clear: both;
+    display: block;
+}
+
+.content-image-images label{
+    color: red;
+    font-size: 12px !important;
+}
+
+.content-image-images div{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+h3, p span{
+    color: #11264A;
+    font-size: 1.1em;   
+}
+
+ul  {
+    padding-left: 5px;
+}
+ul li {
+    margin-left: 5px;
+}
+
+.content-image-application img{
+    width: 200px;
+    height: 200px;
+}
+.content-main-right img{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {max-width: 100%;}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {width:100%;}
+
+body{background: url(bkgx2.jpg) repeat-x scroll 0 0 #fff;}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+#title{display:none;}
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#jotform .gridContainer {
+    margin:0 auto;
+    max-width: 611px;
+    padding-left:0;
+    padding-right:0;
+    width: 100%;
+    background: #fff;
+}
+#jotform #Table_01 iframe {
+    min-height: 14060px;
+}
+#jotform #Table_01 iframe .form-image{width: 100%!important;}
+#formulario {width: 100%}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Table_01{
+	margin:0 auto; 
+	box-shadow:0 0 20px #000;
+}
+#Table_01 iframe{
+	min-height: 6897px;
+	height: 100%;
+}
+#leyenda{
+    width: 87.5%;
+	background: none repeat scroll 0 0 #FFFFFF;
+    height: 100%;
+    max-width: 1232px;
+    position: absolute;
+	font-size: xx-large;
+    font-weight: bolder;
+    padding: 20px 0 0;
+    text-align: center;
+	box-shadow: 0 0 20px #000000;
+}
+/* Mobile Layout. */
+/* vertical */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+#jotform .gridContainer {max-width: 320px;overflow-x: hidden;}
+.form-address-line {width: 270px !important;}
+.form-address-city, .form-address-state {width: 128px !important;}
+.form-address-table select {width: 133px !important;}
+.form-address-table {width: 90%!important;}
+.form-sub-label-container {width: 100%!important;}
+#input_6_postal {width:127px;}
+.form-product-item {width: 90%;}
+#input_25{width:100%!important;}
+}
+/* horizontal */
+@media only screen and (min-width: 321px) and (max-width: 480px){
+#jotform .gridContainer {max-width: 480px;overflow-x: hidden;}
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Table_01 iframe{min-height: 6660px;}
+#leyenda{width: 90.5%;}
+#jotform .gridContainer {max-width: 611px;}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Table_01 iframe{min-height: 6305px;}
+#leyenda{width: 88%;}
+}
