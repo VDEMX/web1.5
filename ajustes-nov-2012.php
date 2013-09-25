@@ -464,7 +464,7 @@ Por la presente hacemos de su conocimiento las correcciones a nuestra lista de p
   </tr>
 </table>
 			</article>
-			<a href="/anexo" class="button">Regresar</a>
+			<a href="/anexo" class="button"><span class="icon icon-atras"></span>Regresar</a>
 	</section>
 	
  	<?php include("iframe.php"); ?> 	

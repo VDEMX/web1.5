@@ -67,7 +67,7 @@ En la siguiente tabla le informamos el porcentaje de aumento sobre el precio de 
 </table>
 			</article>
 			
-			<a href="/anexo" class="button">Regresar</a>
+			<a href="/anexo" class="button"><span class="icon icon-atras"></span>Regresar</a>
 	</section>
 	
  	<?php include("iframe.php"); ?> 	

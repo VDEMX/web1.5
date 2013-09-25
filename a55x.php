@@ -25,7 +25,7 @@
  	<img src="images/a55x-curvas_02.jpg" alt="a55x-curvas_02">
  	<img src="images/a55x-curvas_04.jpg" alt="a55x-curvas_04">
  	<img src="images/a55x-curvas_05.jpg" alt="a55x-curvas_05">
- 	<a class="button" href="bombas-AX.php">Regresar</a>
+ 	<a class="button regresar" href="bombas-AX.php"><div class="icon icon-atras"></div>Regresar</a>
 	<div class="clear"></div>
 	</section>
  	

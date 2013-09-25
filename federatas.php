@@ -23,7 +23,7 @@ Reciba un cordial saludo así mismo hacemos de su conocimiento que debido a un a
 
 <p>Aprovechamos para informarle que debido a recientes incrementos de costos por parte de nuestros proveedores, nos vemos en la necesidad de realizar algunos ajustes de precios en ciertos productos.</p>
 
-<a href="/aviso-mar-2013" class="button">Ver cambios</a>
+<a href="/aviso-mar-2013" class="button"><span class="icon icon-ojo"></span>Ver cambios</a>
 			</article>
 			<article>
 			<h3>10 Noviembre 2012 </h3>
