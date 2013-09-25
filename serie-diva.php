@@ -14,7 +14,7 @@
  	<section id="ax" class="active">
  	<img src="images/diva-ficha-tecnica.jpg" alt="ficha comercial">
  	<div class="cien">
- 	<h2 class="headline fdrive">SERIE DIVA</h2>
+ 	<h2 class="headline azul">SERIE DIVA</h2>
  	<span>SISTEMA SUMERGIBLE DE PRESIÓN CONSTANTE CON VARIADOR DE FRECUENCIA</span>
  	</div>
  		<section class="doscol">

@@ -3,7 +3,7 @@
 <meta name="description" content="Estas bombas han sido diseñadas con tecnología de punta y construidas con materiales de la más alta calidad. En su fabricación se utiliza la maquinaria más moderna y precisa,logrando eficiencias hidráulicas sobresalientes que le garantizan bajos costos de operación.">
 <meta name="keywords" content="bombas, sumergibles, tecnología,calidad,moderna, precisa,eficiencias, hidráulicas, sistema, bombeo">
 <meta name="robots" content="Index, follow">
-<title>Sistemas Altamira | Serie KOR</title>
+<title><?php echo "$sitio"?> | Serie KOR</title>
 </head>
  	
 <body>

@@ -1,9 +1,9 @@
 <?php $active_page="productos"; ?>
 <?php include("head.php"); ?>
-<title>Sistemas Altamira | Serie KOR 53</title>
-<meta name="description" content="Estas bombas han sido diseñadas con tecnología de punta y construidas con materiales de la más alta calidad. En su fabricación se utiliza la maquinaria más moderna y precisa,logrando eficiencias hidráulicas sobresalientes que le garantizan bajos costos de operación." />
+<title><?php echo "$sitio"?> | Serie KOR 53</title>
+<meta name="description" content="Estas bombas han sido diseñadas con tecnología de punta y construidas con materiales de la más alta calidad. En su fabricación se utiliza la maquinaria más moderna y precisa,logrando eficiencias hidráulicas sobresalientes que le garantizan bajos costos de operación.">
 <meta name="keywords" content="bombas, sumergibles, tecnología,calidad,moderna, precisa,eficiencias, hidráulicas, sistema, bombeo">
-<meta name="robots" content="Index, follow" />
+<meta name="robots" content="Index, follow">
 </head>
  	
 <body>
@@ -26,7 +26,7 @@
         <img src="images/kor53_10.gif" alt="Notas">
         <img src="images/kor53_11.gif" alt="Eficiencia">
         <img src="images/kor53_12.gif" alt="Eficiencia">
-        <a class="button" href="serie-kor6-10.php"><div class="icon icon-atras"></div>Regresar</a>
+        <a class="button regresar" href="serie-kor6-10.php"><div class="icon icon-atras"></div>Regresar</a>
 		<div class="clear"></div>
 	</section>
 	

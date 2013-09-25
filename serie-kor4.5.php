@@ -1,6 +1,6 @@
 <?php $active_page="productos"; ?>
 <?php include("head.php"); ?>
-<title>Sistemas Altamira | Serie KOR 4.5</title>
+<title><?php echo "$nombre"?> | Serie KOR 4.5</title>
 <meta name="description" content="Estas bombas han sido diseñadas con tecnología de punta y construidas con materiales de la más alta calidad. En su fabricación se utiliza la maquinaria más moderna y precisa,logrando eficiencias hidráulicas sobresalientes que le garantizan bajos costos de operación.">
 <meta name="keywords" content="bombas, sumergibles, tecnología,calidad,moderna, precisa,eficiencias, hidráulicas, sistema, bombeo">
 <meta name="robots" content="Index, follow">
@@ -20,7 +20,7 @@
         <img src="images/kor4.5_03.gif" alt="Dimensiones">
         <img src="images/kor4.5_04.gif" alt="Curvas">
         <img src="images/kor4.5_05.gif" alt="Eficiencia">
-        <a class="button" href="serie-kor4.php"><div class="icon icon-atras"></div>Regresar</a>
+        <a class="button regresar" href="serie-kor4.php"><div class="icon icon-atras"></div>Regresar</a>
 		<div class="clear"></div>
 	</section>
  	

@@ -26,7 +26,7 @@
         <img src="images/kor10_09.gif" alt="Dimensiones">
         <img src="images/kor10_10.gif" alt="Curvas">
         <img src="images/kor10_11.gif" alt="Eficiencia">
-        <a class="button" href="serie-kor6-10.php"><div class="icon icon-atras"></div>Regresar</a>
+        <a class="button regresar" href="serie-kor6-10.php"><div class="icon icon-atras"></div>Regresar</a>
 		<div class="clear"></div>
 	</section>
  

@@ -1,6 +1,6 @@
 <?php $active_page="productos"; ?>
 <?php include("head.php"); ?>
-<title>Sistemas Altamira | Serie KOR 4"</title>
+<title><?php echo "$sitio"?> | Serie KOR 4"</title>
 <meta name="description" content="Estas bombas han sido diseñadas con tecnología de punta y construidas con materiales de la más alta calidad. En su fabricación se utiliza la maquinaria más moderna y precisa,logrando eficiencias hidráulicas sobresalientes que le garantizan bajos costos de operación.">
 <meta name="keywords" content="bombas, sumergibles, tecnología,calidad,moderna, precisa,eficiencias, hidráulicas, sistema, bombeo">
 <meta name="robots" content="Index, follow">
@@ -68,7 +68,7 @@
 		 	</ul>
  		</section>
  		
- 		<img src="images/kor4_05.jpg" alt="" usemap="#kor4_05Map">
+ 		<img src="images/kor4_05.jpg" alt="Serie Kor 4" usemap="#kor4_05Map"  id="kor6_10_05">
         <map name="kor4_05Map" id="kor4_05Map">
           <area shape="poly" coords="214,473,313,473,314,297,261,152,214,75" href="serie-kor07.php" />
           <area shape="poly" coords="367,472,368,278,312,176,261,95,262,154,314,296,314,474" href="serie-kor1.2.php" />
@@ -77,7 +77,7 @@
           <area shape="poly" coords="544,472,664,472,665,402,542,360" href="serie-kor4.5.php" />
         </map>
         <img src="images/kor4_06.jpg" alt="Código" class="mb1em">
-        <a class="button" href="/kor"><div class="icon icon-atras"></div>Regresar</a>
+        <a class="button regresar" href="/kor"><div class="icon icon-atras"></div>Regresar</a>
 		<div class="clear"></div>
 	</section>
 <?php include("iframe.php"); ?> 	

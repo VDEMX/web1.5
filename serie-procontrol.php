@@ -4,13 +4,6 @@
  		<meta name="description" content="PROCONTROL es un dispositivo electrónico especialmente diseñado para la Protección y Control de motores monofásicos y trifásicos.">
  		<meta name="keywords" content="PROCONTROL, dispositivo, electrónico, Protección, Control, motores, monofásicos, trifásicos">
  		<meta name="robots" content="Index, follow">
- 		
- 		<!-- Estilos -->
- 		<link rel="stylesheet" href="http://necolas.github.io/normalize.css/2.1.1/normalize.css" media="all">
- 		<link rel="stylesheet" href="css/styles.css" media="all">
-		
- 		<!-- Modernizr -->
- 		<script src="http://modernizr.com/downloads/modernizr.js"></script>
  	</head>
  	
  <body>

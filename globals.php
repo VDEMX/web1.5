@@ -1,5 +1,5 @@
 <?php
 	$sitio = "Villarreal Divisi&oacute;n Equipos S.A. de C.V.";
-	$url = "http://localhost:8888/villarreal/";
+	$url = "http://192.168.1.98:8888/villarreal/";
 	$nombre = "VDE";
 ?>

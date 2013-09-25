@@ -1,6 +1,6 @@
 <?php $active_page="productos"; ?>
 <?php include("head.php"); ?>
-<title>Sistemas Altamira | Serie KOR 6", 8" y 10"</title>
+<title><?php echo "$sitio"?> | Serie KOR 6", 8" y 10"</title>
 <meta name="description" content="Estas bombas han sido diseñadas con tecnología de punta y construidas con materiales de la más alta calidad. En su fabricación se utiliza la maquinaria más moderna y precisa,logrando eficiencias hidráulicas sobresalientes que le garantizan bajos costos de operación.">
 <meta name="keywords" content="bombas, sumergibles, tecnología,calidad,moderna, precisa,eficiencias, hidráulicas, sistema, bombeo">
 <meta name="robots" content="Index, follow">
@@ -84,7 +84,7 @@
 	    	<area shape="poly" coords="678,395,678,295,627,258,531,216,545,233,598,279,598,394" href="serie-kor70.php" />
 	    </map>
         <img src="images/kor6-10_06.jpg" alt="Código" class="mb1em">
-        <a class="button" href="/kor"><div class="icon icon-atras"></div>Regresar</a>
+        <a class="button regresar" href="/kor"><div class="icon icon-atras"></div>Regresar</a>
 		<div class="clear"></div>
 	</section>
  	

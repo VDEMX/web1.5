@@ -1,22 +1,9 @@
 <?php $active_page="productos"; ?>
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if IE 9]>         <html class="no-js ie9"> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
- 	<head>  
- 		<meta charset="utf-8">
- 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
- 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; target-densitydpi=160dpi;">
- 		<title>VDE | Serie Scala</title>
- 		<meta name="description" content="Las bombas SCALA están diseñadas para funcionar con agua limpia(libre de sólidos). La alta calidad en sus materiales de construcción aseguran un buen funcionamiento y un excelente desempeño." />
+<?php include("head.php"); ?>
+ 		<title><?php echo "$sitio"?> | Serie Scala</title>
+ 		<meta name="description" content="Las bombas SCALA están diseñadas para funcionar con agua limpia(libre de sólidos). La alta calidad en sus materiales de construcción aseguran un buen funcionamiento y un excelente desempeño.">
 		<meta name="keywords" content="bombas, SCALA, ,agua, limpia,excelente, desempeño.">
- 		<meta name="robots" content="Index, follow" />
- 		
- 		<!-- Estilos -->
- 		<link rel="stylesheet" href="http://necolas.github.io/normalize.css/2.1.1/normalize.css" media="all">
- 		<link rel="stylesheet" href="css/styles.css" media="all">
-		
- 		<!-- Modernizr -->
- 		<script src="http://modernizr.com/downloads/modernizr.js"></script>
+ 		<meta name="robots" content="Index, follow">
  	</head>
  	
  <body>
@@ -27,7 +14,7 @@
  	<section id="ax" class="active">
  	<img src="images/scala-ficha-comercial.jpg" alt="Ficha Comercial">
  	<div class="cien">
- 	<h2 class="headline">Serie Scala</h2>
+ 	<h2 class="headline azul">Serie Scala</h2>
 	 		<span>BOMBAS DE SUPERFICIE MULTIETAPAS</span>
  	</div>
  		<section class="doscol">
@@ -67,7 +54,10 @@
  		</section>
  		<section class="doscol">
 	 		<img src="images/scala-vectores.gif" alt="Vector">
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=04_FTAL-SCALA-1.pdf"><img src="images/btn-descargar.png" alt="btn-descargar"></a>
+	 		
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=04_FTAL-SCALA-1.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+	 		
+	 		<a href="http://vde.com.mx/fichas-tecnicas/04_FTAL-SCALA-1.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
 	 		
 		 	
 		 	<h2>Código de la bomba</h2>
@@ -118,7 +108,5 @@
 		<div class="clear"></div>
 	</section>
  	
- 	<!-- !Iframe -->
- 	<iframe src="machote.html" width="800" height="450" name="contenido" frameborder="0" valign="top" bgcolor="#6796C2" class="inactive"></iframe>
- 	
+ 	<?php include("iframe.php"); ?>
  	<?php include("footer.php"); ?>
