@@ -5,7 +5,7 @@
 	</section>
 	<small><?php echo "$nombre"?> ® 1992 - <?php echo date("Y");?>. Todos los derechos reservados.</small>
 	<!-- !Certificación -->
- 		<a id="siteSealFauxBadge" href="http://tracedseals.starfieldtech.com/siteseal/certsealnew?cdSealType=Seal1&sealId=55e4ye7y7mb73896088ecc0ab91847q9u3y7mb7355e4ye7aa288a307058975e5&referer=http://vde.com.mx/" target="_blank" onClick="window.open(this.href, this.target, 'width=575,height=565'); return false;" >				<img src="<?php echo "$url"?>images/gd-certified.jpg" alt="gd-certified" /> 
+ 		<a id="siteSealFauxBadge" href="http://tracedseals.starfieldtech.com/siteseal/certsealnew?cdSealType=Seal1&sealId=55e4ye7y7mb73896088ecc0ab91847q9u3y7mb7355e4ye7aa288a307058975e5&referer=http://vde.com.mx/" target="_blank" onClick="window.open(this.href, this.target, 'width=575,height=565'); return false;" >						<img src="<?php echo "$url"?>images/gd-certified.jpg" alt="gd-certified"> 
  		</a>
 </footer>
 </div>
