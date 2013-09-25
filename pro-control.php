@@ -16,7 +16,10 @@
 		<img class="left" src="images/pro-control_02.jpg" width="784" height="102" alt="Pro-Control" />
 		<img class="left" src="images/pro-control_03.jpg" width="421" height="640" alt="Pro-Control" />
 		<img class="left" src="images/pro-control_04.jpg" width="363" height="224" alt="Pro-Control" />
-		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=08_FTHC-PROCONTROL-1.pdf"><img class="left" src="images/pro-control_06.jpg" width="362" height="68"  alt="Pro-Control" /></a>
+		
+		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=08_FTHC-PROCONTROL-1.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/08_FTHC-PROCONTROL-1.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		
 		<img class="left" src="images/pro-control_07.jpg" width="362" height="348" alt="Pro-Control" />
 		<img class="left" src="images/pro-control_08.jpg" width="784" height="197" alt="Pro-Control" />
 		<div class="left w422">
