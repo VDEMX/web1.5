@@ -17,31 +17,20 @@
 .elevencol {.col(91.35%);}
 .twelvecol {.col(100%);}
 
-.mp-menu {
-	left: -280px;
-	width: 0;
-	display: none;
-}
-.mp-pusher{padding-left:0!important;}
-.scroller {overflow: inherit;}
-
-#buscador {
-    max-width:220px;
-    input, input:focus {width: 220px!important;}
-}
-
-#footer {
-	h2{.font-size(16);}
-	.fourcol.last {
-		.col(27%);
-	}
-}
-
 #menu {
 	a {
 		padding: 20px 0.7em 8px;
 		&:hover {.underline(3px, solid, @blanco);}
 		&:focus,&:active {background: @blanco; color:@azul-marino;padding: 20px 0.7em 16px;.underline(0, solid, @blanco);}
+	}
+}
+
+#buscador {behavior: inherit;}
+
+#footer {
+	h2{.font-size(16);}
+	.fourcol.last {
+		.col(27%);
 	}
 }
 
