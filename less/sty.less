@@ -1108,232 +1108,20 @@ header{
 	height: 500px;
 	margin: 0 auto;
 	display: block;
-	background: url(../images/mapa.jpg) no-repeat center top @blanco;
 	padding: 0;
 	position: relative;
 	@media only screen and (min-width: @mobile){
-		height: 200px;
-		background-size: 100% auto;
-		#tooltips{display:none;}
+		height: 370px;
 	}
 	@media only screen and (min-width: @mobile) and (orientation:landscape){
 		height: 230px;
-		background-size: auto 100%;
 	}
 	@media only screen and (min-width: @tablet){
+		height: 750px;
+	}
+	@media only screen and (min-width: @desktop){
+		height: 645px;
 		width: 100%;
-		height: 500px;
-		background-size: auto 100%;
-		#tooltips{display:block;}
-	}
-	#tooltip-01 a, #tooltip-02 a,#tooltip-03 a,#tooltip-04 a,#tooltip-05 a,#tooltip-06 a,#tooltip-07 a{
-		background-attachment: scroll;
-	    background-clip: border-box;
-	    background-color: transparent;
-	    background-origin: padding-box;
-	    background-repeat: no-repeat;
-	    position: absolute;
-	    .opacity(0);
-		.transition(0.9s);
-	}
-	#tooltip-01 a{
-		width: 100px;
-		height: 70px;
-		background-image: url("../images/tooltip_01.png");
-		background-size:90% auto;
-		background-position: right top;
-		@media only screen and (min-width: @tablet){
-		    top: 170px;
-		    left: 390px;
-		}
-		@media only screen and (min-width: @desktop){
-		    top: 190px;
-		    left: 430px;
-		}
-		&:hover{
-			.opacity(1);
-			width: 400px;
-			height:250px;
-			@media only screen and (min-width: @tablet){
-				top: -22px;
-				left: 374px;
-			}
-			@media only screen and (min-width: @desktop){
-				top:0;
-				left:395px;
-			}
-		}
-	}
-	#tooltip-02 a{
-		width: 70px;
-		height: 55px;
-		background-image: url("../images/tooltip_02.png");
-		background-size:100% auto;
-		background-position: right top;
-		@media only screen and (min-width: @tablet){
-		    left: 180px;
-		    top: 115px;
-		}
-		@media only screen and (min-width: @desktop){
-		    left: 180px;
-		    top: 115px;
-		}
-		&:hover{
-			.opacity(1);
-			width: 160px;
-			height: 90px;
-			@media only screen and (min-width: @tablet){
-				top: 60px;
-				left: 145px;
-			}
-			@media only screen and (min-width: @desktop){
-				top: 70px;
-				left: 145px;
-			}
-		}
-	}
-	#tooltip-03 a{
-		width: 60px;
-		height: 60px;
-		background-image: url("../images/tooltip_03.png");
-		background-size:100% auto;
-		background-position: right top;
-		@media only screen and (min-width: @tablet){
-			top: 260px;
-			left: 665px;
-		}
-		@media only screen and (min-width: @desktop){
-			top: 280px;
-			left: 702px;
-		}
-		&:hover{
-			.opacity(1);
-			width: 140px;
-			height: 90px;
-			@media only screen and (min-width: @tablet){
-				top: 217px;
-				left: 625px;
-			}
-			@media only screen and (min-width: @desktop){
-				top: 245px;
-				left: 667px;
-			}
-		}
-		
-	}
-	#tooltip-04 a{
-		width: 80px;
-		height: 60px;
-		background-image: url("../images/tooltip_04.png");
-		background-size:100% auto;
-		background-position: right top;
-		@media only screen and (min-width: @tablet){
-			top: 280px;
-			left: 320px;
-		}
-		@media only screen and (min-width: @desktop){
-			top: 303px;
-			left: 310px;
-		}
-		&:hover{
-			.opacity(1);
-			width: 165px;
-			height: 85px;
-			@media only screen and (min-width: @tablet){
-				top: 246px;
-				left: 233px;
-			}
-			@media only screen and (min-width: @desktop){
-				top: 274px;
-				left: 247px;
-			}
-		}
-		
-	}
-	#tooltip-05 a{
-		width: 69px;
-		height: 35px;
-		background-image: url("../images/tooltip_05.png");
-		background-size: 80% auto;
-		background-position:left top;
-		@media only screen and (min-width: @tablet){
-			top: 275px;
-			left: 590px;
-		}
-		@media only screen and (min-width: @desktop){
-			top: 310px;
-			left: 620px;
-		}
-		&:hover{
-			.opacity(1);
-			width: 160px;
-			height: 55px;
-			@media only screen and (min-width: @tablet){
-				top: 270px;
-				left: 505px;
-			}
-			@media only screen and (min-width: @desktop){
-				top: 295px;
-				left: 540px;
-			}
-		}
-	}
-	#tooltip-06 a{
-		width: 40px;
-		height: 40px;
-		background-image: url("../images/tooltip_06.png");
-		background-size:100% auto;
-		background-position:right top;
-		@media only screen and (min-width: @tablet){
-			top: 320px;
-			left: 415px;
-		}
-		@media only screen and (min-width: @desktop){
-			top: 350px;
-			left: 442px;
-		}
-		&:hover{
-			.opacity(1);
-			width: 175px;
-			height: 82px;
-			@media only screen and (min-width: @tablet){
-				top: 271px;
-				left: 357px;
-			}
-			@media only screen and (min-width: @desktop){
-				top: 302px;
-				left: 379px;
-			}
-		}
-		
-	}
-	#tooltip-07 a{
-		width: 50px;
-		height: 30px;
-		background-image: url("../images/tooltip_07.png");
-		background-size:80% auto;
-		background-position:right top;
-		@media only screen and (min-width: @tablet){
-			top: 340px;
-			left: 455px;
-		}
-		@media only screen and (min-width: @desktop){
-			top: 375px;
-			left: 475px;
-		}
-		&:hover{
-			.opacity(1);
-			width: 190px;
-			height: 60px;
-			@media only screen and (min-width: @tablet){
-				top: 330px;
-				left: 440px;
-			}
-			@media only screen and (min-width: @desktop){
-				top: 360px;
-				left: 462px;
-			}
-		}
 	}
 }
 
@@ -1344,6 +1132,7 @@ iframe{
 	margin: 0 auto;
 	display:block;
 	padding: 0!important;
+	border: 0;
 }
 
 /* !Pestañas */
@@ -2014,93 +1803,6 @@ footer{
 			img, a{.opacity(0);}
 			&:hover{
 				img, a{.opacity(1);}
-			}
-		}
-	}
-	#map {
-		background-image: url(../images/mapa-ie8.jpg);
-		#tooltip-01 a{
-			background-image: url("../images/tooltip_01-ie8.png");
-			width: 100px;
-			top: 190px;
-			left: 430px;
-			&:hover{
-			    width: 400px;
-			    height:250px;
-			    top:0;
-			    left:395px;
-			}
-		} 
-		#tooltip-02 a{
-			background-image: url("../images/tooltip_02-ie8.png");
-			left: 180px;
-		    top: 115px;
-		    width: 70px;
-			&:hover{
-			    top: 70px;
-			    left: 145px;
-			    width: 160px;
-			    height: 90px;
-			}
-		} 
-		#tooltip-03 a{
-			background-image: url("../images/tooltip_03-ie8.png");
-			top: 280px;
-			left: 702px;
-			width: 60px;
-			&:hover{
-			    top: 245px;
-				left: 667px;
-				width: 140px;
-				height: 90px;
-			}
-		} 
-		#tooltip-04 a{
-			background-image: url("../images/tooltip_04-ie8.png");
-			top: 303px;
-			left: 310px;
-			width: 80px;
-			&:hover{
-			    top: 274px;
-				left: 247px;
-				width: 165px;
-				height: 85px;
-			}
-		} 
-		#tooltip-05 a{
-			background-image: url("../images/tooltip_05-ie8.png");
-			top: 310px;
-			left: 620px;
-			width: 69px;
-			&:hover{
-			    top: 295px;
-				left: 540px;
-				width: 160px;
-				height: 55px;
-			}
-		} 
-		#tooltip-06 a{
-			background-image: url("../images/tooltip_06-ie8.png");
-			top: 350px;
-			left: 442px;
-			height: 40px;
-			&:hover{
-			    top: 302px;
-				left: 379px;
-				width: 175px;
-				height: 82px;
-			}
-		} 
-		#tooltip-07 a{
-			background-image: url("../images/tooltip_07-ie8.png");
-			top: 375px;
-			left: 475px;
-			width: 50px;
-			&:hover{
-			    top: 360px;
-				left: 462px;
-				width: 190px;
-				height: 60px;
 			}
 		}
 	}
