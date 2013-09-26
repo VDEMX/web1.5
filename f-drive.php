@@ -12,7 +12,7 @@
  	<?php include("header.php"); ?>
  	
  	<section id="ax" class="active">
- 	<img src="images/F-Drive_03.jpg" alt="F-Drive ficha comercial">
+ 	<img src="images/f-drive_03.jpg" alt="F-Drive ficha comercial">
  	<div class="cien">
  	<h2 class="headline fdrive">Serie F-DRIVE</h2>
  	</div>
