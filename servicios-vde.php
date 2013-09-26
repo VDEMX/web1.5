@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  	<?php include("header.php"); ?>	
- 	<section id="servicios" class="content active">
+ 	<section id="servicios" class="active">
 			<h2 class="titulo">Servicios</h2>
 			<article>
 			<img src="images/ventas.jpg" alt="Ventas y Asesoría" class="left">

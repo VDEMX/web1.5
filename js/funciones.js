@@ -12,8 +12,8 @@ function inicio ()
 		//agregar la clase .active al boton al que hicimos click:
 		$(this).addClass("active");
 		//esconder el mapa
-		$("#ranimg, #Table_01, #map, #productos-nuevos, #contacto, #acercade, #fotovoltaicos, #ax, #federatas").hide();
-		$("iframe").show();
+		$("#ranimg, #Table_01, #map, #productos-nuevos, #contacto, #acercade, #fotovoltaicos, #ax, #federatas, #servicios").hide();
+		$("#iframe").show();
 	});
 	//acordión del menú táctil
 	$('ul').accordion();

@@ -11,7 +11,7 @@
  	
  	<?php include("header.php"); ?>
 
- 		<iframe id="map" class="content active" src="http://mapsengine.google.com/map/embed?mid=z_NQWtCVolDo.kK_Z6d7VjPDM" frameborder="0"></iframe>
+ 		<iframe id="map" class="active" src="http://mapsengine.google.com/map/embed?mid=z_NQWtCVolDo.kK_Z6d7VjPDM" frameborder="0"></iframe>
 
  	
  	<?php include("iframe.php"); ?> 
