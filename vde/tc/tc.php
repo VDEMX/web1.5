@@ -1,9 +1,9 @@
 <h2 class="titulo mt1em">Tipo de cambio</h2>
 			<table class="table">
   <tr>
-    <th width="42">-Hoy-</th>
-    <th width="179">Fecha</th>
-    <th width="74">Tipo de Cambio</th>
+    <th width="55">-Hoy-</th>
+    <th width="178">Fecha</th>
+    <th width="82">Tipo de Cambio</th>
     <th width="88">Actualización</th>
   </tr>
   <tr>
