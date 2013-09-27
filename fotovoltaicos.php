@@ -41,8 +41,8 @@
 					<img src="images/sis-fot-mod_09.jpg" alt="sis-fot-mod_09" class="tres-col">
 					<img src="images/sis-fot-mod_10.jpg" alt="sis-fot-mod_10" class="tres-col">
 	 				<div class="p60 botones">
-		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=01-fich-fv.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-		 			<a href="http://vde.com.mx/fichas-tecnicas/01-fich-fv.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=CATALOGO-FV.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/CATALOGO-FV.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
 	 				</div>
 					<!--[if IE]><b>.</b><![endif]-->
 					</div>
@@ -53,20 +53,18 @@
                 	<img src="images/sis-fot-inv_10.jpg" alt="sis-fot-inv_06">
                 	
                 	<div class="p60 botones">
-                	<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=Datasheet_Replus_for_US.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/Datasheet_Replus_for_US.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
-                	</div>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=CATALOGO-FV.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/CATALOGO-FV.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
+	 				</div>
                 	
                 	<h2>INVERSORES DE INTERCONEXIÓN A RED</h2>
                 	<h3>(Sobre pedido)</h3>
                 	<img src="images/sis-fot-inv_03.jpg" alt="sis-fot-inv_03">
                 	<img src="images/sis-fot-inv_06.jpg" alt="sis-fot-inv_06">
                 	<div class="p60 botones">
-                	<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=sunny-boy.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/sunny-boy.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
-                	</div>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=CATALOGO-FV.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/CATALOGO-FV.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
+	 				</div>
                 	
                 	<!--[if IE]><b>.</b><![endif]--></div>
                 	<div id="box4" class="box">
@@ -128,6 +126,10 @@ y el cable de extensión MC4. </p>
                 	<section class="p40">
 	                	<p>Está diseñado para protección de sobretensión de equipo eléctrico con conexión a tierra, monofásico o trifásico de hasta 650 Vca. Este supresor de picos es adecuado para su instalación en interiores o exteriores. </p>
                 	</section>
+                	<div class="p60 botones">
+		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=CATALOGO-FV.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/CATALOGO-FV.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
+	 				</div>
                     <!--[if IE]><b>.</b><![endif]-->
                   </div>
                   <div id="box5" class="box">
