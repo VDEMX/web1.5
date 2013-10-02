@@ -83,5 +83,5 @@ MBP.scaleFix();
 // Respond.js
 yepnope({
 	test : Modernizr.mq('(only all)'),
-	nope : ['js/respond.min.js']
+	nope : ['respond.min.js']
 });

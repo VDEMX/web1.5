@@ -1,20 +1,20 @@
 <h2 class="titulo mt1em">Tipo de cambio</h2>
 			<table class="table">
   <tr>
-    <th width="55">-Hoy-</th>
-    <th width="178">Fecha</th>
-    <th width="82">Tipo de Cambio</th>
+    <th width="42">-Hoy-</th>
+    <th width="179">Fecha</th>
+    <th width="74">Tipo de Cambio</th>
     <th width="88">Actualización</th>
   </tr>
   <tr>
     <td class="tc">USD</td>
-    <td rowspan="2" class="tc">Martes 17 de Septiembre 2013</td>
-    <td class="tc b">$12.75 MXP</td>
-    <td rowspan="2" class="tc">09:25 am </td>
+    <td rowspan="2" class="tc">Martes 01  de Octubre 2013</td>
+    <td class="tc b">$13.04 MXP</td>
+    <td rowspan="2" class="tc">10:47 am </td>
   </tr>
   <tr>
     <td class="tc">EURO</td>
-    <td class="tc b">$1.34USD</td>
+    <td class="tc b">$1.36 USD</td>
   </tr>
 </table>
 <p class="tc">El tipo de cambio está ligado a la fecha en que se menciona en la tabla de arriba.</p>
