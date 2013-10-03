@@ -153,7 +153,7 @@ y el cable de extensión MC4. </p>
                   </section>
                   <section id="datos">
 	                  <h3>CONTÁCTANOS</h3>
-	                  <span>Para inscripciones o mayores informes contáctanos vía correo electrónico en: <a href="mailto:energiarenovable@vde.com.mx">energiarenovable@vde.com.mx</a></span>
+	                  <span>Para mayores informes contáctanos vía correo electrónico en: <a href="mailto:energiarenovable@vde.com.mx">energiarenovable@vde.com.mx</a></span>
 	                  <h4>¡Cupo limitado!</h4>
 	                  <a href="#box6"><button class="button">Contenido de cursos</button></a>
 	                  <figure>
@@ -172,6 +172,7 @@ y el cable de extensión MC4. </p>
 	                  		<img src="images/bullet-3.png" alt="Básico">
 		                  	<figcaption>Instalación presencial</figcaption>
 	                  </figure>
+	                   <a href="/curso" class=""><button class="button mt1em">Inscripción al curso</button></a>
                   </section>
                     <!--[if IE]><b>.</b><![endif]-->
                   </div>
