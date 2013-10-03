@@ -45,8 +45,8 @@
 					<img src="images/sis-fot-mod_09.jpg" alt="sis-fot-mod_09" class="tres-col">
 					<img src="images/sis-fot-mod_10.jpg" alt="sis-fot-mod_10" class="tres-col">
 	 				<div class="p60 botones">
-		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=01-fich-fv.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-		 			<a href="http://vde.com.mx/fichas-tecnicas/01-fich-fv.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=FICHA-TEC-OCT13-FV.pdf"><button type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/FICHA-TEC-OCT13-FV.pdf" target="_blank"><button type="button" class="button"><div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
 	 				</div>
 					<!--[if IE]><b>.</b><![endif]-->
 					</div>
