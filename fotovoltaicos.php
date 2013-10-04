@@ -134,7 +134,7 @@ y el cable de extensión MC4. </p>
                   </div>
                   <div id="box5" class="box">
                   <h2>CAPACITACIONES</h2>
-                  <p>Impartimos seminarios <strong>presenciales</strong> o <strong>en línea</strong> para la selección e instalación de sistemas fotovoltaicos en distintas aplicaciones.</p>
+                  <p>Conceptos Básicos e Instalación de Sistemas Fotovoltaicos <br> <strong>presencial</strong> o <strong>en línea</strong></p>
                   <section id="calandario">
 	                  <div class="custom-calendar-wrap custom-calendar-full">
 				<div class="custom-header clearfix">
@@ -155,22 +155,14 @@ y el cable de extensión MC4. </p>
 	                  <h3>CONTÁCTANOS</h3>
 	                  <span>Para mayores informes contáctanos vía correo electrónico en: <a href="mailto:energiarenovable@vde.com.mx">energiarenovable@vde.com.mx</a></span>
 	                  <h4>¡Cupo limitado!</h4>
-	                  <a href="#box6"><button class="button">Contenido de cursos</button></a>
+	                  <a href="#box6"><button class="button">Contenido del curso</button></a>
 	                  <figure>
 	                  		<img src="images/bullet-1.png" alt="Básico">
-		                  	<figcaption>Básico en línea</figcaption>
+		                  	<figcaption>En línea</figcaption>
 	                  </figure>
 	                   <figure>
 	                  		<img src="images/bullet-2.png" alt="Básico">
-		                  	<figcaption>Instalación en línea</figcaption>
-	                  </figure>
-	                   <figure>
-	                  		<img src="images/bullet-4.png" alt="Básico">
-		                  	<figcaption>Básico presencial</figcaption>
-	                  </figure>
-	                   <figure>
-	                  		<img src="images/bullet-3.png" alt="Básico">
-		                  	<figcaption>Instalación presencial</figcaption>
+		                  	<figcaption>Presencial</figcaption>
 	                  </figure>
 	                   <a href="/curso" class=""><button class="button mt1em">Inscripción al curso</button></a>
                   </section>
