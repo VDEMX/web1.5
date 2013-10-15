@@ -289,7 +289,15 @@ font-size: ~"@{remValue}rem";
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
-.left{float: left;}
+.left{
+	@media only screen and (min-width: @mobile){
+		display: block;
+	}
+	@media only screen and (min-width: @tablet){
+		display: inline-block;
+		vertical-align: top;
+	}
+}
 .right{float:right;}
 .p100{width:100%;}
 .w422{width:422px;}
@@ -495,9 +503,9 @@ header{
 	  .gradient(@ColorBase, @azul);
 	  color:@blanco;
 	  display: inline-block;
-	  .font-size(7.8);
+	  .font-size(7.5);
 	  line-height:1.2em;
-	  padding: 17px 6px 16px;
+	  padding: 17px 3px 16px;
 	  text-decoration: none;
 	}
 
@@ -798,7 +806,7 @@ header{
 .close-menu {.hide;}
 
 .inactive{.hide;}
-.active{display: block!important;}
+.active{display: block;}
 
 /* !Contenido */
 #ranimg {
@@ -1775,6 +1783,140 @@ footer{
 	}
 	@media only screen and (min-width: @desktop){
 		height: 800px;
+	}
+}
+
+#cursos-fv{
+	background: white;
+	section{
+		.left;
+		@media only screen and (min-width: @mobile){
+	    	width: 98%;
+		}
+		@media only screen and (min-width: @tablet){
+			width: 32%;
+		}
+		@media only screen and (min-width: @desktop){
+			width: 31%;
+			padding: 1%;
+		}
+		button{
+			@media only screen and (min-width: @mobile){
+		    	width: 100%;
+				.font-size(14);
+				display: block;
+			}
+			@media only screen and (min-width: @tablet){
+				width: 100%;
+				.font-size(9);
+			}
+			@media only screen and (min-width: @desktop){
+				width: 90%;
+				display: block;
+				margin: 0 auto 0.5em;
+				.font-size(14);
+			}
+		}
+		span{
+		    text-align: center;
+		    .font-size(7);
+		    display: block;
+		    margin-bottom: 1em;
+		    .rojo{color: red;}
+		}
+	}
+	img{margin: 1em 0;}	
+}
+
+#mc_embed_signup{
+	background: white;
+	div{
+		margin: 10px 0;
+		@media only screen and (min-width: @mobile){
+		   	display: inline-block;
+		   	width: 100%;
+		}
+	}
+	section{
+		.left;
+		@media only screen and (min-width: @mobile){
+		   	width: 95%;
+		}
+		@media only screen and (min-width: @tablet){
+			width: 45%;
+			padding: 2%;
+		}
+	}
+	textarea{height: 5em;}
+	#mce-EMAIL, #mce-CLIENTE, #mce-MMERGE9, #mce-MMERGE10, #mce-MMERGE11, #mce-MMERGE12, #mce-MMERGE13, #mce-MMERGE14, #mce-MMERGE15, #mce-MMERGE16, #mce-MMERGE17, #mce-MMERGE18 {
+		@media only screen and (min-width: @mobile){
+		    width: 100%;
+			display: block;
+		}
+		@media only screen and (min-width: @tablet){
+			width:100%;
+		}
+		@media only screen and (min-width: @desktop){
+		   width: 51%;
+		   .right;
+		}
+
+	}
+	#mce-VENDEDOR, #mce-MMERGE5, #mce-MMERGE6{
+		width: 100%;
+	}
+	#mce-MMERGE14{
+		text-transform: uppercase;
+	}
+	.indicates-required{
+		color: red;
+		line-height: 1.7em;
+		.font-size(8);
+	}
+	.tel{
+		label{
+			.left;
+		}
+		.phonefield{
+			margin: 0;
+			.right;
+			@media only screen and (min-width: @tablet){
+				.phonedetail1{ margin-left: 0;}
+				.phonedetail2{float: none;}
+				width: 100%;
+			}
+			@media only screen and (min-width: @desktop){
+				.phonedetail1{ margin-left: 0.5em;}
+				.phonedetail2{.right;}	
+				width: 64%;
+			}
+		}
+	}
+	.direccion {
+		@media only screen and (min-width: @tablet){
+			display: block;
+			height: auto;
+		}
+		@media only screen and (min-width: @desktop){
+		   height: 4.7em;		
+		}
+	}
+	.button{.right;}
+	.titulo{
+		@media only screen and (min-width: @mobile){
+		   .font-size(10);
+		}
+		@media only screen and (min-width: @tablet){
+			.font-size(13);
+		}
+	}
+	h2{
+		@media only screen and (min-width: @mobile){
+		   .font-size(13);
+		}
+		@media only screen and (min-width: @tablet){
+			.font-size(15);
+		}
 	}
 }
 

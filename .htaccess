@@ -28,8 +28,9 @@ RewriteRule  ^acero$ /tanques-acero.php [QSA,L]
 RewriteRule  ^pro$ /tanques-pro.php [QSA,L]
 RewriteRule  ^sky$ /tanques-sky.php [QSA,L]
 RewriteRule  ^bienvenidos-a-vde$ /Bienvenidos-a-VDE/index.html [QSA,L]
-RewriteRule  ^curso$ /formulario-fv.php [QSA,L]
-
+RewriteRule  ^curso$ /formulario-cursos.php [QSA,L]
+RewriteRule  ^curso-cancun$ /formulario-curso-fv-cancun.php [QSA,L]
+RewriteRule  ^curso-hermosillo$ /formulario-curso-fv-hermosillo.php [QSA,L]
 
 
 RewriteCond %{REQUEST_FILENAME} !-d
