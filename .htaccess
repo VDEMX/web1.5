@@ -2,7 +2,6 @@ DirectoryIndex index.php
 ErrorDocument 404 /error-404.php
 
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule  ^inicio$ /index.php [QSA,L]
 RewriteRule  ^procontrol$ /serie-procontrol.php [QSA,L]
 RewriteRule  ^oficinas$ /sucursales.php [QSA,L]
