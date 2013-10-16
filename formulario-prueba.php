@@ -1,6 +1,5 @@
 <?php
-    require('conexion.php'); 
- 
+    require('globals.php'); 
     if(isset($_POST['boton'])){
         if($_POST['nombre'] == ''){
             $error1 = '<span class="error">Ingrese su nombre</span>';
@@ -19,10 +18,9 @@
             //Cabeceras del correo
             $headers = "From: $nombre <$email>\r\n"; //Quien envia?
             $headers .= "X-Mailer: PHP5\n";
-            $headers .= 'MIME-Version: 1.0' . "\n";
-            $headers .= 'Content-type: text/html; charset=iso-UTF-8' . "\r\n"; //
+            $headers .= 'MIME-Version: 1.0' . "\r\n" . 'Content-type: text/html; charset=utf-8' . "\r\n"; //
  
-            if(mail($dest,$asunto,$cuerpo,$headers)){
+            if(mail($dest, '=?UTF-8?B?'.base64_encode($asunto).'?=', utf8_encode($cuerpo), $headers)){
  
                 foreach($_POST AS $key => $value) {
                     $_POST[$key] = mysql_real_escape_string($value);
@@ -31,7 +29,7 @@
                 $sql = "INSERT INTO `cf` (`nombre`,`email`,`asunto`,`mensaje`) VALUES ('{$_POST['nombre']}','{$_POST['email']}','{$_POST['asunto']}','{$_POST['mensaje']}')";
                 mysql_query($sql) or die(mysql_error()); 
  
-                $result = '<div class="result_ok">Email enviado correctamente <img src="http://web.tursos.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley"> </div>';
+                $result = '<div class="result_ok">Email enviado correctamente</div>';
                 // si el envio fue exitoso reseteamos lo que el usuario escribio:
                 $_POST['nombre'] = '';
                 $_POST['email'] = '';
@@ -39,17 +37,17 @@
                 $_POST['mensaje'] = '';
  
             }else{
-                $result = '<div class="result_fail">Hubo un error al enviar el mensaje <img src="http://web.tursos.com/wp-includes/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley"> </div>';
+                $result = '<div class="result_fail">Hubo un error al enviar el mensaje</div>';
             }
         }
     }
 ?>
+
+
 <html>
     <head>
         <title>Contacto</title>
         <link rel='stylesheet' href='css/estilos.css'>
-        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
-        <script src='js/funciones.js'></script>
     </head>
     <body>
         <form class='contacto' method='POST' action=''>
@@ -60,5 +58,7 @@
             <div><input type='submit' value='Envia Mensaje' class='boton' name='boton'></div>
             <?php echo $result; ?>
         </form>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+        <script src='js/funciones.js'></script>
     </body>
 </html>
