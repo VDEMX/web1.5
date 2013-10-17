@@ -13,10 +13,22 @@
 			<h2 class="headline">Anexo Fe de Erratas</h2>
 			<h3 class="titulo">Correcciones y actualizaciones lista de precios:</h3>
 			<article>
-			<h3>28 de Marzo de 2013 </h3>
-			<p><strong>Estimado Cliente:</strong><br><br>
+			<h3>28 de Septiembre de 2013 </h3>
 
-Reciba un cordial saludo así mismo hacemos de su conocimiento que debido a un aumento no definido por nuestro proveedor, los precios de lista de las bombas centrifugas marca FRANKLIN ELECTRIC ubicadas en nuestra lista de precios 2012 sección 6 página 107 tabla 2 y 3 hasta la página 115 no estarán vigentes, si requiere usted conocer el precio de algún modelo favor de confirmarlo con el área de ventas.</p>
+<p>Aprovechamos para informarle que debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en ciertos productos.</p>
+
+<a href="/aviso-sep-2013" class="button"><span class="icon icon-ojo"></span>Ver cambios</a>
+			</article>
+			<article>
+			<h3>22 de Agosto de 2013 </h3>
+
+<p>Aprovechamos para informarle que debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en ciertos productos.</p>
+
+<a href="/aviso-ago-2013" class="button"><span class="icon icon-ojo"></span>Ver cambios</a>
+			</article>
+			<article>
+			<h3>28 de Marzo de 2013 </h3>
+			<p>Hacemos de su conocimiento que debido a un aumento no definido por nuestro proveedor, los precios de lista de las bombas centrifugas marca FRANKLIN ELECTRIC ubicadas en nuestra lista de precios 2012 sección 6 página 107 tabla 2 y 3 hasta la página 115 no estarán vigentes, si requiere usted conocer el precio de algún modelo favor de confirmarlo con el área de ventas.</p>
 			</article>
 			<article>
 			<h3>22 de Marzo de 2013 </h3>
