@@ -10,7 +10,7 @@
         }else if($_POST['mensaje'] == ''){
             $error4 = '<span class="error">Ingrese un mensaje</span>';
         }else{
-            $dest = "kevinz@vde.com.mx"; //Email de destino
+            $dest = "ventas@vde.com.mx"; //Email de destino
             $nombre = $_POST['nombre'];
             $email = $_POST['email'];
             $asunto = $_POST['asunto']; //Asunto
