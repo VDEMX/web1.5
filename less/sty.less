@@ -823,78 +823,107 @@ header{
 	padding: 1em 1em 0;
 }
 
+/* !Contacto */
 #contacto {
 	background: @blanco;
 	p{
 		padding:1em;
 		display: inline-block;
 		vertical-align: top;
-		background: rgba(0,0,0,0.04);
+		background: whitesmoke;
 		.BorderRadius(5px);
-		margin:1em;
+		margin:0 1em 1em;
 	}
-	.titulo {padding: 0 1em;}
-	fieldset {
-		margin: 1em;
-		padding: 1em;
-		display: inline-block;
-		vertical-align: top;
-		.font-size(9);
-		.BorderRadius(5px);
-		section{
-			margin-right: 2%;
-			display: inline-block;
-			vertical-align: top;
-			width: 47%;
-			@media only screen and (min-width: @mobile){
-				width:100%;
-			}
-			@media only screen and (min-width: @tablet){
-				width: 48%;
-			}
-			input, textarea{
-				margin-bottom: 0.5em;
-				display: inline-block;
-				vertical-align: top;
-				width: 74%;
-				@media only screen and (min-width: @mobile){
-					width:100%;
-				}
-				@media only screen and (min-width: @tablet){
-					width: 74%;
-				}
-			}
-			textarea{height: 5.7em;}
-			label{
-				display: inline-block;
-				vertical-align: top;
-				margin-top: 0.3em;
-				width: 24%;
-				text-align: right;
-				@media only screen and (min-width: @mobile){
-					width:100%;
-					text-align:left;
-				}
-				@media only screen and (min-width: @tablet){
-					width: 24%;
-					text-align: right;
-				}
-			}
-			input[type="submit"]{
-				.button;
-				.right;
-				margin-right: 0.5em;
-			}
-			#respuesta{
-				width: 100%;
-				display: inline-block;
-				vertical-align: top;
-				margin-left: 22%;
-			}
-			&:last-child{margin-right: 0;}
+	section{
+		width: 49%;
+		.left;
+		@media only screen and (min-width: @mobile){
+			width: 99%;
+		}
+		@media only screen and (min-width: @tablet){
+			width: 49%;
+		}
+		h2, adress{
+			padding:0 1em;
+			display: block;
 		}
 	}
 }
+
+.contacto{
+	padding:1.2em;
+	background-color: white;
+	border:1px, solid, lightgray;
+	.BorderRadius(6px);
+	.BoxShadow(~"0px 5px 10px silver, 0 0 0 10px whitesmoke inset");
+	label{
+		display: block; 
+		font-weight: bold;
+	}
+	div{margin-bottom: 15px;}
+	input[type='text'], input[type='email'], textarea{
+		padding:1%;
+		border: 1px solid lightgray;
+		resize: none;
+		margin: 5px 0;
+		width: 98%;
+		.BoxShadow(0 0 0 3px whitesmoke);
+		&:focus{
+			outline: none;
+			.BoxShadow(0 0 0 3px lavender);
+		}
+		&.invalido{
+			.BoxShadow(0 0 0 3px pink);
+		}
+	}
+}
+
+.error{
+    background-color: firebrick;
+    color: @blanco;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 6px 12px;
+    .left;
+    .BorderRadius(4px);
+    @media only screen and (min-width: @mobile){
+	    width: 91%;
+	    position:relative;
+	    margin-left:0;
+	}
+	@media only screen and (min-width: @tablet){
+	    width:auto;
+	    position: absolute;
+	    margin-left: 16px;
+	}
+    &:before{
+	    border-style: solid;
+	    border-width: 6px 8px;
+	    content: "";
+	    display: block;
+	    height: 0;
+	    left: -16px;
+	    position: absolute;
+	    top: 8px;
+	    width: 0;
+	    @media only screen and (min-width: @mobile){
+		    border-color: transparent;
+		}
+		@media only screen and (min-width: @tablet){
+		    border-color: transparent firebrick transparent transparent;
+		}
+	}
+}
+
+.result_fail, .result_ok{
+    background: none repeat scroll 0 0 firebrick;
+    .BorderRadius(20px);
+    color:@blanco;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+}
+.result_ok{background: none repeat scroll 0 0 @ColorBase;}
 
 #Table_01 {
 	width: 100%;
@@ -1923,6 +1952,8 @@ footer{
 }
 
 .custom-year{margin-right: 2em;}
+
+
 
 .touch{
 	@media only screen and (min-width: @desktop) and (orientation:landscape){

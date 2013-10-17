@@ -17,13 +17,6 @@ function inicio ()
 	});
 	//acordión del menú táctil
 	$('ul').accordion();
-	//formulario de contacto
-	$('#myform').html5form({
-        method: 'POST',
-        messages : 'es', // Opciones 'en', 'es', 'it', 'de', 'fr', 'nl', 'be', 'br'
-        responseDiv : '#respuesta',
-        allBrowsers: true,  
-    }); 
     //pestañas
    $(".tab").click(function tabs(){
    //quitar la clase .active a la pestaña que la tenga:
@@ -86,6 +79,7 @@ yepnope({
 	nope : ['respond.min.js']
 });
 
+// Formulario de contacto
 $(function formulario() { 
 	var emailreg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;	
 	$(".boton").click(function(){  

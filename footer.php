@@ -17,8 +17,6 @@
 <script defer src='js/jquery.flexslider-min.js'></script>
 <!-- Menú táctil -->
 <script src="js/jquery.dlmenu.js"></script>
-<!-- Plugin html5form -->
-<script src="http://html5form.googlecode.com/svn/trunk/jquery.html5form-1.5-min.js"></script>
 <!-- Script personalizados -->
 <script src="js/funciones.js"></script>
 <!-- Efectos touch -->

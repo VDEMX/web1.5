@@ -1,5 +1,6 @@
 DirectoryIndex index.php
 ErrorDocument 404 /error-404.php
+AddDefaultCharset utf-8
 
 RewriteEngine On
 RewriteRule  ^inicio$ /index.php [QSA,L]
