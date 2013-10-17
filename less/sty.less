@@ -56,7 +56,6 @@ font-size: ~"@{remValue}rem";
     background: linear-gradient(to right,  @ColorInicial 0%, @ColorFinal 100%); /* W3C */
     filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{ColorInicial}', endColorstr='@{ColorFinal}',GradientType=1 )"; /* IE6-9 */
     -ms-filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{ColorInicial}', endColorstr='@{ColorFinal}',GradientType=1 )"; /* IE6-8 */
-
 }
 
 .UserSelect(@selectable){
@@ -290,12 +289,14 @@ font-size: ~"@{remValue}rem";
 @viewport { width: device-width; }
 
 .left{
+	float: left;
 	@media only screen and (min-width: @mobile){
 		display: block;
 	}
 	@media only screen and (min-width: @tablet){
 		display: inline-block;
 		vertical-align: top;
+		float: none;
 	}
 }
 .right{float:right;}
@@ -443,14 +444,12 @@ header{
 	}
 	img{
 		margin: .5em 0 .5em 0;
-		vertical-align: top;
-		display: inline-block;
+		.left;
 		height: 70px;
 	}
 	h1{
 		color:@blanco;
-		display: inline-block;
-		vertical-align: top;
+		.left;
 		@media only screen and (min-width: @mobile) and (orientation:portrait){
 			.font-size(8);
 			margin: 0 1em 1em;
@@ -1979,6 +1978,8 @@ footer{
 
 /* IE8 o menor */
 .lt-ie9 {
+	header h1 {font-size: 28px;}
+	#menu a{font-size: 13px;padding: 17px 5px 16px;}
 	iframe {width: 814px;height: 455px;}
 	#container {width: 814px;}
     .toggle-menu {.hide}
