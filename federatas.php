@@ -15,7 +15,7 @@
 			<article>
 			<h3>28 de Septiembre de 2013 </h3>
 
-<p>Aprovechamos para informarle que debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en ciertos productos.</p>
+<p>hacemos de su conocimiento que debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en ciertos productos.</p>
 
 <a href="/aviso-sep-2013" class="button"><span class="icon icon-ojo"></span>Ver cambios</a>
 			</article>
