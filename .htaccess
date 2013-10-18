@@ -36,6 +36,7 @@ RewriteRule  ^curso-hermosillo$ /formulario-curso-fv-hermosillo.php [QSA,L]
 RewriteRule  ^altapres2$ /serie-altapres2.php [QSA,L]
 RewriteRule  ^altapres$ /serie-altapres.php [QSA,L]
 RewriteRule  ^cable$ /cable-sumergible.php [QSA,L]
+RewriteRule  ^manometro$ /manometros.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
