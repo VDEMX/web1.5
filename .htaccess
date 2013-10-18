@@ -39,6 +39,7 @@ RewriteRule  ^cable$ /cable-sumergible.php [QSA,L]
 RewriteRule  ^manometro$ /manometros.php [QSA,L]
 RewriteRule  ^pres10$ /pres-10.php [QSA,L]
 RewriteRule  ^presurizadores$ /presurizadores-individules.php [QSA,L]
+RewriteRule  ^presion-constante$ /presurizadores-presion-constante.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
