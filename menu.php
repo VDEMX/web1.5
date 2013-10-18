@@ -9,7 +9,8 @@
                <li><a href="/kor"><span>Bombas Altamira Serie KOR (Acero Inoxidable)</span></a></li>
                <li><a href="/bs"><span>Bombas Altamira Serie BS (Hierro)</span></a></li>
                <li class="boton"><a href="vde/seriet.html" target="contenido"><span>Bombas Altamira Serie T</span></a></li>
-               <li class="boton"><a href="vde/bom_sum_aqua.html" target="contenido"><span>Bombas Aqua Pak (Serie Max y Task)</span></a></li>
+               <li><a href="/max"><span>Bombas Aqua Pak Serie Max</span></a></li>
+               <li class="boton"><a href="vde/bom_sum_aqua_task.html" target="contenido"><span>Bombas Aqua Pak Serie Task</span></a></li>
                <li class="last boton"><a href="vde/mbe.html" target="contenido"><span>Bombas Espa (Acuaria)</span></a></li>
             </ul>
          </li>
