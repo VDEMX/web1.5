@@ -33,7 +33,7 @@ RewriteRule  ^bienvenidos-a-vde$ /Bienvenidos-a-VDE/index.html [QSA,L]
 RewriteRule  ^curso$ /formulario-cursos.php [QSA,L]
 RewriteRule  ^curso-cancun$ /formulario-curso-fv-cancun.php [QSA,L]
 RewriteRule  ^curso-hermosillo$ /formulario-curso-fv-hermosillo.php [QSA,L]
-
+RewriteRule  ^altapres2$ /serie-altapres2.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f

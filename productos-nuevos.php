@@ -110,7 +110,7 @@
 							<h3>Altapres</h3>
 							<span>Bomba multietapas horizontales para alta presión</span>
 							<img src="images/logo-altamira.png" alt="Altamira">
-							<a class="boton" href="vde/altapres2.html" target="contenido"><div class="icon icon-ojo"></div> Ver producto</a>
+							<a href="/altapres2"><div class="icon icon-ojo"></div> Ver producto</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -160,8 +160,7 @@
 				</li>
 			</ul>
 		</section>
-	            
-            </section>
+	</section>
  	
  	<?php include("iframe.php"); ?>
  	<?php include("footer.php"); ?>
