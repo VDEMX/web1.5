@@ -54,7 +54,7 @@
          			<a href="#"><span>Presurizador Tradicional</span></a>
          			<ul>
          				<li class="boton"><a href="vde/minismart.html" target="contenido"><span>Minismart</span></a></li>
-         				<li  class="boton"><a href="vde/preskit.html" target="contenido"><span>Una Bomba con Kit</span></a></li>
+         				<li><a href="/preskit"><span>Una Bomba con Kit</span></a></li>
          				<li><a href="/presurizadores"><span>Una Bomba con Tanque</span></a></li>
          				<li><a href="/velocidad-constante"><span>Múltiple Velocidad Constante</span></a></li>
          			</ul>

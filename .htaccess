@@ -51,6 +51,7 @@ RewriteRule  ^apll$ /serie-apll.php [QSA,L]
 RewriteRule  ^apt$ /serie-apt.php [QSA,L]
 RewriteRule  ^k$ /serie-k.php [QSA,L]
 RewriteRule  ^r$ /serie-r.php [QSA,L]
+RewriteRule  ^preskit$ /serie-pres10.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
