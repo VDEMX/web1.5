@@ -16,9 +16,10 @@
          </li>
          <li class="has-sub"><a href="#"><span>Motores Sumergibles</span></a>
             <ul>
-               <li class="boton"><a href="vde/bmotoressum.html" target="contenido"><span>Motores Sumergibles Altamira </span></a></li>
-               <li class="boton"><a href="vde/msf.html" target="contenido"><span>Motores Sumergibles Franklin</span></a></li>
-               <li class="last boton"><a href="vde/motores.html" target="contenido"><span>Motores Sumergibles Aqua Pak</span></a></li>
+               <li><a href="/k"><span>Altamira  Serie K</span></a></li>
+               <li><a href="/r"><span>Altamira  Serie R</span></a></li>
+               <li class="boton"><a href="vde/msf.html" target="contenido"><span>Franklin</span></a></li>
+               <li class="last boton"><a href="vde/motores.html" target="contenido"><span>Aqua Pak</span></a></li>
             </ul>
          </li>
          <li class="has-sub"><a href="#"><span>Bombas Sumergibles para Aguas Residuales</span></a>
