@@ -19,7 +19,7 @@
 	 		<h2>CARACTERÍSTICAS</h2>
 	 		<article>
 		 		<ul>
-					<li>Tiene botón de rearme. (excepto el kit 00 que tiene el rearme automático).</li>
+					<li>Tiene botón de rearme (excepto el KIT 00 que tiene el rearme automático).</li>
 					<li>Presión de arranque: 1.5 Kg/cm2 (21 psi).								  </li>
 					<li>No requiere mantenimiento o precarga.									  </li>
 					<li>Instalación muy sencilla.												  </li>
@@ -34,7 +34,7 @@
 		 		<h4>Restricciones</h4>
 		 		<ul>
 			 		<li>Altura máxima de edificio: 12m.										   </li>
-					<li>Max. Amperaje del motor: 10 amp. (1/2 y 3/4 hp) excepto Kit 00 (15 amp)</li>
+					<li>Máx. Amperaje del motor: 10 amp. (1/2 y 3/4 hp) excepto KIT 00 (15 amp)</li>
 					<li>Gasto máximo: 133 lpm (2.22 lps)									   </li>
 					<li>Menor consumo de electricidad.										   </li>
 		 		</ul>
@@ -56,7 +56,7 @@
   </tr>
   <tr>
     <td>PRES 10</td>
-    <td>Kit de presión ALTAMIRA incluye: Manometro y pulsador de rearme manual</td>
+    <td>KIT de presión ALTAMIRA incluye: Manometro y pulsador de rearme manual</td>
     <td>1&quot;(M)x1&quot;(M)</td>
     <td>127</td>
     <td>10</td>

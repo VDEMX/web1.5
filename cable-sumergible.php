@@ -19,7 +19,7 @@
 	 		<h2>CARACTERÍSTICAS</h2>
 	 		<article>
 		 		<ul>
-					<li>Aprovado para motores sumergibles ALTAMIRA, Franklin y nacionales.</li>
+					<li>aprobado para motores sumergibles ALTAMIRA, Franklin y nacionales.</li>
 					<li>Cable clase C.													  </li>
 		 		</ul>
 		 		<h4>APLICACIONES</h4>
@@ -29,7 +29,7 @@
 					<li>Ganadería 												 </li>
 					<li>Industria												 </li>
 					<li>Construcción 											 </li>
-					<li>Sistemas muicipales de agua potable 					 </li>
+					<li>Sistemas municipales de agua potable 					 </li>
 					<li>Comerciales (hoteles, oficinas, cines, restaurantes, etc)</li>
 		 		</ul>
 	 		</article>

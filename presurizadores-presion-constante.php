@@ -1,7 +1,7 @@
 <?php $active_page="productos"; ?>
 <?php include("head.php"); ?>
- 		<title><?php echo "$sitio"?> | Presurizadores múltiples de presión constante</title>
- 		<meta name="description" content="Presurizadores múltiples de presión constante">
+ 		<title><?php echo "$sitio"?> | Presurizadores múltiples de PRESIÓN CONSTANTE</title>
+ 		<meta name="description" content="Presurizadores múltiples de PRESIÓN CONSTANTE">
 		<meta name="keywords" content="Presurizadores, múltiples, presión, constante">
  		<meta name="robots" content="Index, follow">
  	</head>
@@ -14,7 +14,7 @@
  	<section id="ax" class="active">
  	<div class="cien">
  	<h2 class="headline azul">Presurizadores múltiples</h2>
-	 		<span>presión constante</span>
+	 		<span>PRESIÓN CONSTANTE</span>
  	</div>
  		<section class="doscol">
 	 		<h2>ESPECIFICACIONES</h2>
@@ -22,11 +22,11 @@
 		 		<h4>APLICACIONES</h4>
 		 		<ul>
 			 		<li>Grupo de viviendas. 	  </li>
-					<li>Hoteles					  </li>
+					<li>Hoteles.				  </li>
 					<li>Hospitales. 			  </li>
 					<li>Cines. 					  </li>
-					<li>Escuela 				  </li>
-					<li>Aplicaciones Industriales.</li>
+					<li>Escuelas. 				  </li>
+					<li>Aplicaciones industriales.</li>
 					<li>Centros comerciales. 	  </li>
 					<li>Campos deportivos, etc.   </li>
 		 		</ul>
@@ -34,13 +34,13 @@
 		 		<p>Excelente presión de agua en toda la red hidráulica. Motores pretegidos eléctricamente e hidráulicamente. Ideal para trabajo continuo.</p>
 		 		<h4>Ventajas</h4>
 		 		<ul>
-				   <li>Fácil de instalar, ya que se suministran completamente armados.</li>
+				   <li>Fácil de instalar, ya que se suministran completamente armados. </li>
 				   <li>Componentes de excelente calidad.							   </li>
 				   <li>Equipo silencioso.											   </li>
 				   <li>Disponibilidad de refacciones.								   </li>
 				   <li>Funcionamiento automático.									   </li>
-				   <li>Equipo compacto.											   </li>
-				   <li>Ahorro de energía electrica.								   </li>
+				   <li>Equipo compacto.											       </li>
+				   <li>Ahorro de energía electrica.								       </li>
 				   <li>Garantía.													   </li>
 				   <li>Respaldo Técnico.											   </li>
 				   <li>Seguridad y Sencillez en el manejo.							   </li>

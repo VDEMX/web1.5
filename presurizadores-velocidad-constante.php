@@ -1,7 +1,7 @@
 <?php $active_page="productos"; ?>
 <?php include("head.php"); ?>
- 		<title><?php echo "$sitio"?> | Presurizadores múltiples de velocidad constante</title>
- 		<meta name="description" content="Presurizadores múltiples de velocidad constante">
+ 		<title><?php echo "$sitio"?> | Presurizadores múltiples de VELOCIDAD CONSTANTE</title>
+ 		<meta name="description" content="Presurizadores múltiples de VELOCIDAD CONSTANTE">
 		<meta name="keywords" content="Presurizadores, múltiples, velocidad, constante">
  		<meta name="robots" content="Index, follow">
  	</head>
@@ -14,7 +14,7 @@
  	<section id="ax" class="active">
  	<div class="cien">
  	<h2 class="headline azul">Presurizadores múltiples</h2>
-	 		<span>velocidad constante</span>
+	 		<span>VELOCIDAD CONSTANTE</span>
  	</div>
  		<section class="doscol">
 	 		<h2>ESPECIFICACIONES</h2>
@@ -22,11 +22,11 @@
 		 		<h4>APLICACIONES</h4>
 		 		<ul>
 			 		<li>Grupo de viviendas. 	  </li>
-					<li>Hoteles					  </li>
+					<li>Hoteles.				  </li>
 					<li>Hospitales. 			  </li>
 					<li>Cines. 					  </li>
-					<li>Escuela 				  </li>
-					<li>Aplicaciones Industriales.</li>
+					<li>Escuelas. 				  </li>
+					<li>Aplicaciones industriales.</li>
 					<li>Centros comerciales. 	  </li>
 					<li>Campos deportivos, etc.   </li>
 		 		</ul>

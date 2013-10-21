@@ -18,7 +18,7 @@
             <div><label>Correo electrónico:</label><input tabindex='2' type='email' class='email' name='email' value='<?php echo $_POST['email']; ?>'><?php echo $error2 ?></div>
             <div><label>Asunto:</label><input tabindex='3' type='text' class='asunto' name='asunto' value='<?php echo $_POST['asunto']; ?>'><?php echo $error3 ?></div>
             <div><label>Mensaje:</label><textarea tabindex='4' rows='6' class='mensaje' name='mensaje'><?php echo $_POST['mensaje']; ?></textarea><?php echo $error4 ?></div>
-            <div><input tabindex='5' type='submit' value='Envíar Mensaje' class='button' name='boton'></div>
+            <div><input tabindex='5' type='submit' value='Enviar Mensaje' class='button' name='boton'></div>
             <?php echo $result; ?>
         </form>	
  	</section>

@@ -15,14 +15,14 @@
 			<article>
 			<h3>28 de Septiembre de 2013 </h3>
 
-<p>hacemos de su conocimiento que debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en ciertos productos.</p>
+<p>Hacemos de su conocimiento que debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en las Bombas Sumergibles 4” AQUA PAK Serie TASK y Bombas Sumergibles 4” AQUA PAK Serie MAX </p>
 
 <a href="/aviso-sep-2013" class="button"><span class="icon icon-ojo"></span>Ver cambios</a>
 			</article>
 			<article>
 			<h3>22 de Agosto de 2013 </h3>
 
-<p>Aprovechamos para informarle que debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en ciertos productos.</p>
+<p>Aprovechamos para informarle que debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en Tanques precargados ALTAMIRA serie ACERO (color verde), Tanques precargados ALTAMIRA serie PRO, Presurizadores individuales ALTAMIRA con tanque ALTAMIRA serie ACERO (color verde), Presurizadores individuales ALTAMIRA con tanque ALTAMIRA serie PRO.</p>
 
 <a href="/aviso-ago-2013" class="button"><span class="icon icon-ojo"></span>Ver cambios</a>
 			</article>
@@ -33,7 +33,7 @@
 			<article>
 			<h3>22 de Marzo de 2013 </h3>
 
-<p>Aprovechamos para informarle que debido a recientes incrementos de costos por parte de nuestros proveedores, nos vemos en la necesidad de realizar algunos ajustes de precios en ciertos productos.</p>
+<p>Debido a incrementos de costos por parte de algunos de nuestros proveedores, nos vemos en la necesidad de realizar un ajuste de precios en Bombas sumergibles AQUA PAK Serie TASK, Motobomba AQUA PAK (bombas TASK con motor sumergible Franklin Electric), Motores Sumergibles Franklin Electric 4", 6" y 8", Cajas de control Franklin Electric, Bombas sumergibles para lodos Franklin Electric, Bomba multietapas horizontales ALTAMIRA serie Altapres, SUBDRIVE, MONODRIVE y QUICK PAK, Arrancadores magnéticos a tensión plena, a tensión reducida y estado sólido marca SIEMENS, Dispositivos de protección: PUMPTEC, PUMPTEC 5, PUMPTEC QD, SUBMONITOR/STD y SUBMONITOR/PRE.</p>
 
 <a href="/aviso-mar-2013" class="button"><span class="icon icon-ojo"></span>Ver cambios</a>
 			</article>
