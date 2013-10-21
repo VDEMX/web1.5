@@ -44,6 +44,11 @@ RewriteRule  ^velocidad-constante$ /presurizadores-velocidad-constante.php [QSA,
 RewriteRule  ^bs$ /serie-bs.php [QSA,L]
 RewriteRule  ^max$ /serie-max.php [QSA,L]
 RewriteRule  ^amiga$ /serie-amiga.php [QSA,L]
+RewriteRule  ^apf$ /serie-apf.php [QSA,L]
+RewriteRule  ^apl$ /serie-apl.php [QSA,L]
+RewriteRule  ^apld$ /serie-apld.php [QSA,L]
+RewriteRule  ^apll$ /serie-apll.php [QSA,L]
+RewriteRule  ^apt$ /serie-apt.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f

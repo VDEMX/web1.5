@@ -14,7 +14,7 @@
  	 	<section id="ax" class="active">
  	 	<img src="images/amiga-ficha-comercial.jpg" alt="Ficha comercial">
  	<div class="cien">
- 	<h2 class="headline azul">Serie Amiga</h2>
+ 	<h2 class="headline lodo">Serie Amiga</h2>
 	 		<span>BOMBA SUMERGIBLE PARA ACHIQUE</span>
  	</div>
  		<section class="doscol">
