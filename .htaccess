@@ -43,6 +43,7 @@ RewriteRule  ^presion-constante$ /presurizadores-presion-constante.php [QSA,L]
 RewriteRule  ^velocidad-constante$ /presurizadores-velocidad-constante.php [QSA,L]
 RewriteRule  ^bs$ /serie-bs.php [QSA,L]
 RewriteRule  ^max$ /serie-max.php [QSA,L]
+RewriteRule  ^amiga$ /serie-amiga.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
