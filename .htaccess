@@ -58,6 +58,8 @@ RewriteRule  ^flotador$ /switch-flotador.php [QSA,L]
 RewriteRule  ^switch$ /switch-presion.php [QSA,L]
 RewriteRule  ^tableros-presion-constante$ /tableros-control-pc.php [QSA,L]
 RewriteRule  ^tableros-velocidad-constante$ /tableros-control.php [QSA,L]
+RewriteRule  ^tubos$ /tubos-columna.php [QSA,L]
+RewriteRule  ^valvulas$ /valvulas-check.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f

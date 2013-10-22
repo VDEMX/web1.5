@@ -114,11 +114,12 @@
          		</li>
          		<li class="boton"><a href="vde/medidormec.html" target="contenido"><span>Medidores de Flujo</span></a></li>
          		<li><a href="/pres10"><span>Control Automático de Presión</span></a></li>
-         		<li class="boton"><a href="vde/accesorio_menores.html" target="contenido"><span>Válvulas etc...</span></a></li>
          		<li><a href="/cable"><span>Cable Sumergible</span></a></li>
          		<li><a href="/manometro"><span>Manómetro</span></a></li>
          		<li><a href="/flotador"><span>Switch flotador</span></a></li>
          		<li><a href="/switch"><span>Switch de Presión</span></a></li>
+         		<li><a href="/tubos"><span>Tubo para columna</span></a></li>
+         		<li><a href="/valvulas"><span>Válvulas check para bombas sumergibles</span></a></li>
          		<li class="boton"><a href="vde/arrancador.html" target="contenido"><span>Arrancadores Magnéticos</span></a></li>
          		<li class="boton"><a href="vde/arrancadors.html" target="contenido"><span>Arrancadores Suaves</span></a></li>
          		<li class="has-sub"><a href="#"><span>Protecciones para Motor</span></a>
