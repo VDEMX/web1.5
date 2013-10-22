@@ -48,6 +48,7 @@
 		 		<p>En el hogar, Grupos de viviendas, Hoteles, Hospitales, Cines, Escuelas, Aplicaciones industriales, Campos agrícolas, Jardines comerciales, Campos deportivos, Áreas recreativas, etc.</p>
  		</section>
  		<h2>Especificaciones técnicas</h2>
+ 		<!-- bomba Espa y tanque horizontal Well-X-Trol -->
  		<h3>Presurizadores automáticos con bomba Espa y tanque horizontal Well-X-Trol</h3>
  		<table class="table">
   <tr>
@@ -95,6 +96,8 @@
     <td>3 Baños</td>
     </tr>
 </table>
+
+<!-- bomba Prisma y tanque vertical Altamira Acero -->
 <h3>Presurizadores automáticos con bomba Prisma y tanque vertical Altamira Acero</h3>
 <table class="table">
   <tr>
@@ -181,6 +184,8 @@
   </tr>
 </table>
 <img src="images/tanques.jpg" alt="Presurizadores">
+
+<!-- bomba Delta y tanque vertical Altamira Acero -->
 <h3>Presurizadores automáticos con bomba Delta y tanque vertical Altamira Acero</h3>
 <table class="table">
   <tr>
@@ -237,6 +242,8 @@
     </tr>
 </table>
 <img src="images/pres-delta.jpg" alt="Presurizadores" class="w400">
+
+<!-- bomba Tecno y tanque vertical Altamira Acero -->
 <h3>Presurizadores automáticos con bomba Tecno y tanque vertical Altamira Acero</h3>
 <table class="table">
   <tr>
@@ -274,7 +281,9 @@
     </tr>
 </table>
 <img src="images/pres-tecno.jpg" alt="Presurizadores" class="w200">
-<h3>Presurizadores automáticos con bomba Aqua Pak y tanque vertical Altamira Sky</h3>
+
+<!-- bomba Aqua Pak y tanque vertical Altamira Azul -->
+<h3>Presurizadores automáticos con bomba Aqua Pak y tanque vertical Altamira Azul</h3>
 <table class="table">
   <tr>
     <th rowspan="2" scope="col">Modelo</th>
@@ -341,7 +350,145 @@
     <td>35 Gal (132 litros)</td>
     </tr>
 </table>
+<img src="images/pres-step-azul.png" alt="Presurizadores" class="w200">
+
+<!-- bomba Aqua Pak y tanque vertical Altamira Sky -->
+<h3>Presurizadores automáticos con bomba Aqua Pak y tanque vertical Altamira Sky</h3>
+<table class="table">
+  <tbody><tr>
+    <th rowspan="2" scope="col">Modelo</th>
+    <th rowspan="2" scope="col">HP</th>
+    <th rowspan="2" scope="col">Fases x volts</th>
+    <th rowspan="2" scope="col">LPM a 30 PSI</th>
+    <th rowspan="2" scope="col">Tipo de bomba</th>
+    <th colspan="4" scope="col">Características del tanque</th>
+    <th rowspan="2" scope="col">Recomendado para</th>
+  </tr>
+  <tr>
+    <th scope="col">Volumen</th>
+    <th scope="col">Sistema</th>
+    <th scope="col">H=Horizontal V=Vertical</th>
+    <th scope="col">Material</th>
+    </tr>
+  <tr>
+    <td>PRESS-AP4-24L</td>
+    <td rowspan="10">1/2</td>
+    <td rowspan="21">1 x 115</td>
+    <td rowspan="3">16</td>
+    <td rowspan="3">Periférica AP4</td>
+    <td rowspan="2">24 Litros</td>
+    <td>Diafragma</td>
+    <td rowspan="9">H</td>
+    <td rowspan="17">Acero al carbón</td>
+    <td rowspan="6">1 Baño</td>
+  </tr>
+  <tr>
+    <td>PRESS-AP4-24LM</td>
+    <td rowspan="2">Membrana</td>
+    </tr>
+  <tr>
+    <td>PRESS-AP4-50L</td>
+    <td>50 Litros</td>
+    </tr>
+  <tr>
+    <td>PRESS-AP5X-24L</td>
+    <td rowspan="3">18</td>
+    <td rowspan="3">Periférica AP5X</td>
+    <td rowspan="2">24 Litros</td>
+    <td>Diafragma</td>
+    </tr>
+  <tr>
+    <td>PRESS-AP5X-24LM</td>
+    <td rowspan="2">Membrana</td>
+    </tr>
+  <tr>
+    <td>PRESS-AP5X-50L</td>
+    <td>50 Litros</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX05E-24L</td>
+    <td rowspan="4">33</td>
+    <td rowspan="4">Jet acero inoxidable 304 FIX05E</td>
+    <td rowspan="2">24 Litros</td>
+    <td>Diafragma</td>
+    <td rowspan="3">2 Baños</td>
+  </tr>
+  <tr>
+    <td>PRESS-FIX05E-24LM</td>
+    <td rowspan="3">Membrana</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX05E-50L</td>
+    <td>50 Litros</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX05E-19AZ</td>
+    <td>72 litros</td>
+    <td>V</td>
+    <td>2.5 Baños</td>
+  </tr>
+  <tr>
+    <td>PRESS-STEP60-24L</td>
+    <td rowspan="5">3/4</td>
+    <td rowspan="5">60</td>
+    <td rowspan="5">Multipasos horizontal STEP60</td>
+    <td rowspan="2">24 Litros</td>
+    <td>Diafragma</td>
+    <td rowspan="3">H</td>
+    <td rowspan="5">3 Baños</td>
+  </tr>
+  <tr>
+    <td>PRESS-STEP60-24LM</td>
+    <td rowspan="4">Membrana</td>
+    </tr>
+  <tr>
+    <td>PRESS-STEP60-50L</td>
+    <td>50 Litros</td>
+    </tr>
+  <tr>
+    <td>PRESS-STEP60-19AZ</td>
+    <td>72 litros</td>
+    <td rowspan="2">V</td>
+    </tr>
+  <tr>
+    <td>PRESS-STEP60-35AZ</td>
+    <td>132 litros</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX10E-24L</td>
+    <td rowspan="6">1</td>
+    <td rowspan="6">42</td>
+    <td rowspan="6">Jet acero inoxidable 304 FIX10E</td>
+    <td rowspan="3">24 Litros</td>
+    <td>Diafragma</td>
+    <td rowspan="4">H</td>
+    <td rowspan="6">2.5 Baños</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX10E-24LM</td>
+    <td rowspan="5">Membrana</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX10E-24LX</td>
+    <td>Acero inoxidable</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX10E-50L</td>
+    <td>50 Litros</td>
+    <td rowspan="3">Acero al carbón</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX10E-19AZ</td>
+    <td>72 litros</td>
+    <td rowspan="2">V</td>
+    </tr>
+  <tr>
+    <td>PRESS-FIX10E-35AZ</td>
+    <td>132 litros</td>
+    </tr>
+</tbody></table>
 <img src="images/pres-fix.jpg" alt="Presurizadores" class="w200">
+
 <h3>Presurizadores automáticos con bomba Espa y tanque vertical Altamira Pro</h3>
 <table class="table">
   <tr>
