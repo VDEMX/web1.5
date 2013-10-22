@@ -53,6 +53,7 @@ RewriteRule  ^k$ /serie-k.php [QSA,L]
 RewriteRule  ^r$ /serie-r.php [QSA,L]
 RewriteRule  ^preskit$ /serie-pres10.php [QSA,L]
 RewriteRule  ^t$ /serie-t.php [QSA,L]
+RewriteRule  ^tx$ /serie-tx.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
