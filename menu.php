@@ -19,7 +19,7 @@
                <li><a href="/k"><span>Altamira  Serie K</span></a></li>
                <li><a href="/r"><span>Altamira  Serie R</span></a></li>
                <li class="boton"><a href="vde/msf.html" target="contenido"><span>Franklin</span></a></li>
-               <li class="last boton"><a href="vde/motores.html" target="contenido"><span>Aqua Pak</span></a></li>
+               <li class="last"><a href="/motores"><span>Aqua Pak</span></a></li>
             </ul>
          </li>
          <li class="has-sub"><a href="#"><span>Bombas Sumergibles para Aguas Residuales</span></a>
