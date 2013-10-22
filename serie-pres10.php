@@ -44,9 +44,10 @@
 	 		<img src="images/pres10.jpg" alt="Pres10">
 	 		
 	 		<h2>Paquetes</h2>
-		 		<p>Incluye bomba Altamira, adaptador inoxidable, juegos de cables, terminales y presurizador Pres 10.</p>
+		 		<p>Incluye bomba Espa o Aqua Pak, adaptador inoxidable, juegos de cables, terminales y presurizador Pres 10.</p>
  		</section>
  		<h2>Especificaciones</h2>
+<h3>Kits con bomba Espa</h3>
 <table class="table">
   <tr>
     <th scope="col">Modelo</th>
@@ -74,7 +75,51 @@
     <td>3 Baño</td>
   </tr>
 </table>
-
+<h3>Kits con bomba Espa</h3>
+<table class="table">
+  <tbody><tr>
+    <th scope="col">Modelo</th>
+    <th scope="col">HP</th>
+    <th scope="col">Fases x volts</th>
+    <th scope="col">LPM a 30 PSI</th>
+    <th scope="col">Tipo de bomba</th>
+    <th scope="col">Recomendado para</th>
+  </tr>
+  <tr>
+    <td>PRESS-AP4-P10</td>
+    <td rowspan="3">1/2</td>
+    <td rowspan="5">1 x 115</td>
+    <td>16</td>
+    <td>Periférica AP4</td>
+    <td>1 Baño</td>
+  </tr>
+  <tr>
+    <td>PRESS-AP5X-P10</td>
+    <td>18</td>
+    <td>Periférica AP5X</td>
+    <td>1 Baño</td>
+  </tr>
+  <tr>
+    <td>PRESS-FIX05E-P10</td>
+    <td>33</td>
+    <td>Jet acero inoxidable 304 FIX05E</td>
+    <td>1.5 Baños</td>
+  </tr>
+  <tr>
+    <td>PRESS-FIX10E-P10</td>
+    <td>1</td>
+    <td>42</td>
+    <td>Jet acero inoxidable 304 FIX10E</td>
+    <td>2.5 Baños</td>
+  </tr>
+  <tr>
+    <td>PRESS-STEP60-P10</td>
+    <td>3/4</td>
+    <td>60</td>
+    <td>Multipasos horizontal STEP 60</td>
+    <td>3 Baños</td>
+  </tr>
+</tbody></table>
 	</section>
  	<?php include("iframe.php"); ?> 
  	<?php include("footer.php"); ?>
