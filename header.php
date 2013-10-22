@@ -14,4 +14,5 @@
 				<?php include("menu.php"); ?>
 			<!--[if IE 9]></div><![endif]-->
 			<!--[if !(IE 9)]><!--></nav><!--<![endif]-->
+		<?php include("search.php"); ?>
 	</header>

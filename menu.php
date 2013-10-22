@@ -143,4 +143,5 @@
    <li <?php if ($active_page=="federatas") echo " class='active'"; ?>><a href="/anexo"><span>Lista de precios</span></a></li>
    <li <?php if ($active_page=="tipodecambio") echo " class='active'"; ?>><a href="/tipo-de-cambio"><span>Tipo de cambio</span></a></li>
    <li <?php if ($active_page=="contacto") echo " class='active'"; ?>><a href="/contacto"><span>Contacto</span></a></li>
+   <?php include("search.php"); ?>
 </ul>

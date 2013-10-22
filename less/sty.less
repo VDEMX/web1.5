@@ -469,10 +469,24 @@ header{
 			margin:1em;
 		}
 		@media only screen and (min-width: @desktop){
-			.font-size(15);
-			margin: 1.2em 1em;
+			.font-size(13);
+			margin: 1.8em 0 0;
 		}
 		.TextShadow(2px,2px,3px);
+	}
+	.gsc-control-cse {
+		background-color: transparent!important;
+		border: 0!important;
+		position: absolute;
+		top: -15px;
+		right: -5px;
+		width: 33%!important;
+		@media only screen and (min-width: @tablet){
+		    display: none;
+		}
+		@media only screen and (min-width: @desktop){
+		    display: block;
+		}
 	}
 }
 
@@ -486,6 +500,7 @@ header{
 	}
 	@media only screen and (min-width: @desktop){
 		display: inline-block;
+		.gsc-control-cse{display: none;}
 	}
 	height: 49px;
 	.gradient(@ColorBase, @azul);
@@ -674,6 +689,11 @@ header{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	.gsc-control-cse {
+		background-color: transparent!important;
+		border: 0!important;
+		padding: 1em 3px;
+	}
 	a {
 	  text-decoration: none;
 	  display: block;
@@ -1957,8 +1977,6 @@ footer{
 }
 
 .custom-year{margin-right: 2em;}
-
-
 
 .touch{
 	@media only screen and (min-width: @desktop) and (orientation:landscape){
