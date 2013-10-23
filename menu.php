@@ -10,7 +10,7 @@
                <li><a href="/bs"><span>Altamira Serie BS (Hierro)</span></a></li>
                <li><a href="/t"><span>Altamira Serie T</span></a></li>
                <li><a href="/max"><span>Aqua Pak Serie Max</span></a></li>
-               <li class="boton"><a href="vde/bom_sum_aqua_task.html" target="contenido"><span>Aqua Pak Serie Task</span></a></li>
+               <li><a href="/task"><span>Aqua Pak Serie Task</span></a></li>
                <li class="last boton"><a href="vde/mbe.html" target="contenido"><span>Espa (Acuaria)</span></a></li>
             </ul>
          </li>
