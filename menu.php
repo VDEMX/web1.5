@@ -99,7 +99,12 @@
 		         	    <li><a href="/pro"><span>Serie Pro</span></a></li>
 		         	</ul>
          		</li>
-         		<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a href="/tanques-aquapak"><span>Tanques Aqua Pak</span></a></li>
+         		<li class="has-sub"><a href="#"><span>Tanques Aqua Pak</span></a>
+         			<ul>
+         				<li><a href="/tanques-horizontales"><span>Horizontales</span></a></li>
+		         	    <li><a href="/tanques-verticales"><span>Verticales</span></a></li>
+		         	</ul>
+         		</li>
          		<li class="boton"><a href="vde/tanquew.html" target="contenido"><span>Tanques Well-X-Trol</span></a></li>
          	</ul>
          </li>
