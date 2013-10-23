@@ -33,7 +33,7 @@
          	<ul>
          		<li class="boton"><a href="vde/pd.html" target="contenido"><span>Uso Doméstico, Sistemas de Riego e Hidroneumáticos</span></a></li>
          		<li><a href="/loop"><span>Circuladora para Agua Caliente</span></a></li>
-         		<li class="boton"><a href="vde/phm.html" target="contenido"><span>Para Hidromasaje</span></a></li>
+         		<li><a href="/venus"><span>Para Hidromasaje</span></a></li>
          		<li class="boton"><a href="vde/bi.html" target="contenido"><span>Uso Industrial</span></a></li>
          		<li class="boton"><a href="vde/bdosificadora.html" target="contenido"><span>Acondicionamiento de Agua (Dosificadoras)</span></a></li>
          		<li class="boton"><a href="vde/fps.htm" target="contenido"><span>Uso Agrícola</span></a></li>

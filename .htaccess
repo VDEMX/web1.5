@@ -71,6 +71,7 @@ RewriteRule  ^silver$ /serie-silver.php [QSA,L]
 RewriteRule  ^step$ /serie-step.php [QSA,L]
 RewriteRule  ^supra$ /serie-supra.php [QSA,L]
 RewriteRule  ^task$ /serie-task.php [QSA,L]
+RewriteRule  ^venus$ /serie-venus.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
