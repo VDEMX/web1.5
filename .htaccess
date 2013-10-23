@@ -65,6 +65,7 @@ RewriteRule  ^aly$ /serie-aly.php [QSA,L]
 RewriteRule  ^ap$ /serie-ap.php [QSA,L]
 RewriteRule  ^fix$ /serie-fix.php [QSA,L]
 RewriteRule  ^loop$ /serie-loop.php [QSA,L]
+RewriteRule  ^minismart$ /serie-minismart.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
