@@ -67,6 +67,7 @@ RewriteRule  ^fix$ /serie-fix.php [QSA,L]
 RewriteRule  ^loop$ /serie-loop.php [QSA,L]
 RewriteRule  ^minismart$ /serie-minismart.php [QSA,L]
 RewriteRule  ^sigma$ /serie-sigma.php [QSA,L]
+RewriteRule  ^silver$ /serie-silver.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
