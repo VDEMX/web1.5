@@ -64,6 +64,7 @@ RewriteRule  ^motores$ /motores-aquapak.php [QSA,L]
 RewriteRule  ^aly$ /serie-aly.php [QSA,L]
 RewriteRule  ^ap$ /serie-ap.php [QSA,L]
 RewriteRule  ^fix$ /serie-fix.php [QSA,L]
+RewriteRule  ^loop$ /serie-loop.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
