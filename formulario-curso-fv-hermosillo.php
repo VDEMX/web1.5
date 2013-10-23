@@ -130,7 +130,7 @@
 	<label for="mce-MMERGE18">Código postal <span class="asterisk">*</span></label>
 	<input type="text" name="CP" class="" value="" id="mce-MMERGE18" pattern="[0-9]{3,5}" required>
 </div>
-<div class="indicates-required"><span class="asterisk">*</span> Campo Obligatorios</div>
+<div class="indicates-required"><span class="asterisk">*</span> Campos Obligatorios</div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
