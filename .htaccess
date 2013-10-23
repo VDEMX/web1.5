@@ -61,6 +61,7 @@ RewriteRule  ^tableros-velocidad-constante$ /tableros-control.php [QSA,L]
 RewriteRule  ^tubos$ /tubos-columna.php [QSA,L]
 RewriteRule  ^valvulas$ /valvulas-check.php [QSA,L]
 RewriteRule  ^motores$ /motores-aquapak.php [QSA,L]
+RewriteRule  ^aly$ /serie-aly.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
