@@ -55,9 +55,9 @@
  		<section class="doscol">
 	 		<img src="images/scala-vectores.gif" alt="Vector">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=04_FTAL-SCALA-1.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=04_FTAL-SCL-1309111.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/04_FTAL-SCALA-1.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/04_FTAL-SCL-1309111.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
 	 		
 		 	
 		 	<h2>Código de la bomba</h2>
