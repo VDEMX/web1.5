@@ -21,8 +21,7 @@
 /* !Type presets */
 
 body {
-	font-size:@px10 + 6;
-	line-height:@px10 * 2.4;
+	font-size: 110%;
 }
 
 .container {
@@ -245,7 +244,7 @@ body {
 
 #com-right .btn-imprimir, #com-right .boton {
     float: none !important;
-    margin: 0 auto;
+    margin: 0 auto 0.6em;
     max-width: 420px;
     width: 98%;
 }
@@ -614,7 +613,7 @@ body {
 .tabs label {
     font-size: 10px;
     padding: 0;
-    width: 90px;
+    width:115px;
 }
 
 #btn-filtros{
@@ -644,7 +643,7 @@ body {
     padding-left: 0;
     text-align: center;
     }
-    p{margin: 0.8em 0;}
+    p{margin:0;}
 }
 
 #menu-res-movil {display: none;}
@@ -1296,7 +1295,7 @@ body {
 		}
 	}
 	.btn-imprimir {
-		p {margin: 0 0 5px 0;}
+		p {margin: 0 0 1em;}
 		img {top: 8px;}
 	}
 	.perfil {
@@ -1554,8 +1553,8 @@ and (min-width : @mini-breakpoint-h) {
 	width: 40%;
 	margin: 1em;
 	 img {
-		 left: 10px;
-		 top: 22px;
+		 left:10px;
+		 top:10px;
 	}
 }
 .blog .articulo {input.name, input[type="email"], input[type="url"]{width: 87%;}}
@@ -1585,10 +1584,13 @@ and (min-width : @mini-breakpoint-h) {
 }
 
 #com-right {
+	margin-bottom: 1em;
+	.inline-block;
+	width: 100%;
 	.boton, .btn-imprimir {
 		float: right!important;
-		margin: 2px auto 0;
-		width: 52%;
+		margin: 0 auto;
+		width:45%;
 	}
 	.btn-imprimir {float: left!important;}
 }

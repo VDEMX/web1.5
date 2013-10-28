@@ -932,7 +932,12 @@ input[type="checkbox"] {
     min-width:@px100 * 9.8;
 }
 
-#content {.padding(1em, 1em, 230px, 1em); /* bottom padding for footer */}
+#content {
+	display: block;
+	margin: 0 auto;
+	max-width: @big-breakpoint;
+	.padding(1em, 1em, 230px, 1em); /* bottom padding for footer */
+}
 
 /* !9 Footer */
 #footer {
@@ -1727,7 +1732,7 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
 	padding: 0 15px;
     float: left;
 	display: block;
-	width: 100px;
+	width: 120px;
 	color: @blanco;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -1856,6 +1861,7 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
 	li {
     	list-style: disc outside none;
     	margin-left: 1em;
+    	line-height: 1em;
     }
 }
 
@@ -1897,11 +1903,9 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
 .inline-block {.inline-block;}
 
 #col-esp {
-    float: left;
-    margin: 0 1% 0 0.5%;
-    padding: 0 0.5% 1%;
-    width: 25%;
+    padding: 0 0 1%;
     min-height: 200px;
+    .col(27%, 1.5%);
     .tabs .content-1 h2 {margin: 0 0 5px;}
     .tabs .content-1 h2,.tabs .content-1 li {
 	    float: left;
@@ -1914,7 +1918,6 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
     	text-transform:inherit;
     }
     #foto{
-    	width: 90%;
     	padding:2em 5%;
     	margin-bottom: 2em;
     	min-height: 200px;
@@ -2074,7 +2077,7 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
 }
 
 #col-opro {
-	width: 72%;
+	width: 71%;
 	float:right;
 	.gradient (@gris-palido + 1,@gris-palido);
 	.redondear();
@@ -2198,7 +2201,35 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
 
 /*---Scroller---*/
 
-.jThumbnailScroller{position:relative; width:95%; height:175px; margin:160px auto 0 auto; padding:0; overflow:hidden; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;a:link, a:visited {border-bottom: 0 none;}.bloque {display: inline;.titulo {font-weight: bold;text-align: center;margin-top: 5px;}.texto {text-align: center;margin: 5px auto 0;max-width: 120px;}}}
+.jThumbnailScroller{
+	position:relative; 
+	width:95%; 
+	height:175px; 
+	margin:160px auto 0 auto; 
+	padding:0; 
+	overflow:hidden; 
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	border-radius:5px;
+	a:link, a:visited {
+		border-bottom: 0 none;
+	}
+	.bloque {
+	display: inline;
+		.titulo {
+			font-weight: bold;
+			text-align: center;
+			margin-top: 5px;
+		}
+		.texto {
+		text-align: center;
+		margin: 5px auto 0;
+		max-width: 120px;
+		.font-size(10);
+		line-height: 1em;
+		}
+	}
+}
 
 .jThumbnailScroller .jTscrollerContainer{position:absolute;}
 .jThumbnailScroller .jTscroller{position:relative; height:100%; margin:0; left:0; top:0; display:inline-block; *display:inline;}
@@ -2244,10 +2275,8 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
 }
 
 .lb-album li{
-	float: left;
     margin: 0 auto;
     position: relative;
-    width: 93%;
 }
 .lb-album li > a,
 .lb-album li > a img{
@@ -2317,14 +2346,13 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
     	background:rgba(255,255,255,0.7);
     	border-radius: 5px;
     	max-width: 700px;
-    	padding-bottom: 2em;
+    	padding: .5em 0;
     }
 }
 .lb-overlay > div{
 	position: relative;
 	color: rgba(27,54,81,0.8);
 	width: 550px;
-	height: 50px;
 	margin: 40px auto 0px auto;
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
 }
@@ -2333,11 +2361,11 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
 	padding: 0px 20px;
 	width:46%;
 	height: 50px;
+	.inline-block;
 }
     
 .lb-overlay div h3{
 	.font-size(20);
-	float: left;
 	text-align: right;
 	border-right: 1px solid rgba(27,54,81,0.4);
 }
@@ -2353,7 +2381,6 @@ a:active .mod-home {background: none repeat scroll 0 0 (@blanco - 10);}
 .lb-overlay div p{
 	.font-size(12);
 	text-align: left;
-	float: left;
 	width: 40%;
 	height: 60px;
     margin: 0.5em;

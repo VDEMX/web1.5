@@ -6,10 +6,10 @@
 @import "mixins";
 
 .row {
-	width:percentage(@uno);
-	max-width:unit(1140, px);
-	.margin(0, auto,0, auto);
-	padding-bottom: 15px;
+	max-width:@big-breakpoint;
+	width: 100%;
+	.margin(0, 0, 1em, 0);
+	.inline-block;
 }
 
 .onecol {.col;}
@@ -107,7 +107,6 @@ body {
 @media only screen
 and (min-width : @large-breakpoint) {
 /* Styles */
-.row {max-width:@large-breakpoint;}
 .tabs .content .content-1 .fourcol .res .info, .tabs .content .content-2 .fourcol .res .info, .tabs .content .content-3 .fourcol .res .info, .tabs .content .content-4 .fourcol .res .info, {height:120px !important;}
 #nos #col-tabs .tabs .content {width: 75.7%!important;}
 #pnuevos {
@@ -172,7 +171,6 @@ and (min-width : @large-breakpoint) {
 @media only screen
 and (min-width : @big-breakpoint) {
 /* Styles */
-.row {max-width:@big-breakpoint}
 #error404 img {
     display: block!important;
     height: 340px;
@@ -197,7 +195,6 @@ and (min-width : @big-breakpoint) {
 @media only screen
 and (min-width : @mega-breakpoint) {
 /* Styles */
-.row {max-width:@mega-breakpoint;}
 .tabs .content .content-1 .fourcol .res .info, .tabs .content .content-2 .fourcol .res .info, .tabs .content .content-3 .fourcol .res .info {height: 90px !important;}
 #hogar .eightcol .mod-home h2 {font-size: 2.4em!important;}
 #nos #col-tabs .tabs .content {width: 81.7%!important;}
