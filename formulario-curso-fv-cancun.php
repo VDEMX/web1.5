@@ -48,26 +48,26 @@
 </div><div class="mc-field-group size1of2 tel">
 	<label for="mce-MMERGE8">Celular </label>
     <div class="phonefield phonefield-us">
-        (<span class="phonearea"><input pattern="[0-9]{3,}" id="mce-MMERGE8-area" name="MMERGE8[area]" maxlength="3" size="3" value="" type="text" tabindex="9" ></span>)
-        <span class="phonedetail1"><input pattern="[0-9]{3,}" id="mce-MMERGE8-detail1" name="MMERGE8[detail1]" maxlength="3" size="3" value="" type="text" tabindex="10" ></span> - 
+        (<span class="phonearea"><input pattern="[0-9]{2,}" id="mce-MMERGE8-area" name="MMERGE8[area]" maxlength="2" size="2" value="" type="text" tabindex="9" ></span>)
+        <span class="phonedetail1"><input pattern="[0-9]{4,}" id="mce-MMERGE8-detail1" name="MMERGE8[detail1]" maxlength="4" size="4" value="" type="text" tabindex="10" ></span> - 
         <span class="phonedetail2"><input pattern="[0-9]{4,}" id="mce-MMERGE8-detail2" name="MMERGE8[detail2]" maxlength="4" size="4" value="" type="text" tabindex="11" ></span>
 		<span class="fake-phone"><input type="hidden" class=" phone" id="MMERGE8-fake-phone" value=""></span>
     </div>
 </div><div class="mc-field-group">
-	<label for="mce-MMERGE9">Participante 2 </label>
-	<input type="text" value="" name="MMERGE9" class="" id="mce-MMERGE9" tabindex="12" title="Participante 2">
+	<label for="PARTICIPA2">Participante 2 </label>
+	<input type="text" value="" name="PARTICIPA2" class="" id="mce-PARTICIPA2" tabindex="12" title="Participante 2">
 </div>
 <div class="mc-field-group">
-	<label for="mce-MMERGE10">Participante 3 </label>
-	<input type="text" value="" name="MMERGE10" class="" id="mce-MMERGE10" tabindex="13" title="Participante 2">
+	<label for="PARTICIPA3">Participante 3 </label>
+	<input type="text" value="" name="PARTICIPA3" class="" id="mce-PARTICIPA3" tabindex="13" title="Participante 3">
 </div>
 <div class="mc-field-group">
-	<label for="mce-MMERGE11">Participante 4 </label>
-	<input type="text" value="" name="MMERGE11" class="" id="mce-MMERGE11" tabindex="14" title="Participante 2">
+	<label for="PARTICIPA4">Participante 4 </label>
+	<input type="text" value="" name="PARTICIPA4" class="" id="mce-PARTICIPA4" tabindex="14" title="Participante 4">
 </div>
 <div class="mc-field-group">
-	<label for="mce-MMERGE12">Participante 5 </label>
-	<input type="text" value="" name="MMERGE12" class="" id="mce-MMERGE12" tabindex="15" title="Participante 2">
+	<label for="PARTICIPA5">Participante 5 </label>
+	<input type="text" value="" name="PARTICIPA5" class="" id="mce-PARTICIPA5" tabindex="15" title="Participante 5">
 </div>
 	</section>
 	<section>
