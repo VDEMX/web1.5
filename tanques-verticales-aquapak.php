@@ -43,9 +43,9 @@
  		<section class="doscol">
  		<img src="images/tanques-azul.jpg" alt="tanques">
  		
- 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=05_FTAQ-TNQS-1307111.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+ 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=05_FTAQ-TNQS-1307111.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/05_FTAQ-TNQS-1307111.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/05_FTAQ-TNQS-1307111.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
  		
 	 		<h2>Ideales para:</h2>
 		 		<p><strong>Extender la vida util de la bomba</strong> al reducir el ciclo de encendido de la misma , esto se traduce en un importante ahorro, tanto de energía como monetario.<br> <strong>Ser seguros e higiénicos.</strong> Al estar completamente cerrados impiden que agentes externos contaminen el agua que maneja, además de que todos los componentes que conforman los tanques cumplen con la norma americana FDA (Federal Drug Administration) brindándole al propietario de un Tanque AQUA PAK la tranquilidad de tener un abastecimiento de agua limpia y segura.<br> <strong>Abastecer de agua a presión</strong> sin tener en cuenta la elevación del tanque gracias a su precarga de aire.</p>

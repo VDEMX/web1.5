@@ -53,8 +53,8 @@
  		</section>
  		<section class="doscol">
 	 		<img src="images/WD-vector.gif" alt="vector">
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=08_FTHC-WTD-1309191.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-	 		<a href="http://vde.com.mx/fichas-tecnicas/08_FTHC-WTD-1309191.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=08_FTHC-WTD-1309191.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/08_FTHC-WTD-1309191.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		<h2>WATER DRIVE ES INTEGRADO POR</h2>
 				<ul>
 					<li>Variador de velocidad.						 </li>

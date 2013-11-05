@@ -53,8 +53,8 @@
  		<section class="doscol">
 	 		<img src="images/tanque-proxl.jpg" alt="PRO-XL">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=05_FTAL-PROXXL-1.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-	 		<a href="http://vde.com.mx/fichas-tecnicas/05_FTAL-PROXXL-1.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=05_FTAL-PROXXL-1.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/05_FTAL-PROXXL-1.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</div></a>
 	 		
  		</section>
  		<section class="caracteristicas">

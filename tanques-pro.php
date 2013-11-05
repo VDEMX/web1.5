@@ -49,9 +49,9 @@
  		<section class="doscol">
 	 		<img src="images/pro.jpg" alt="Acero">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=007-Serie_TANQUES-AL.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=007-Serie_TANQUES-AL.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/007-Serie_TANQUES-AL.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/007-Serie_TANQUES-AL.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		
  		</section>
  		<img src="images/pro-tabla.gif" alt="Tabla">

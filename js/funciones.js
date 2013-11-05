@@ -73,11 +73,7 @@ window.addEventListener("load",function cargar() {
 MBP.scaleFix();
 }
 
-// Respond.js
-yepnope({
-	test : Modernizr.mq('(only all)'),
-	nope : ['respond.min.js']
-});
+
 
 // Formulario de contacto
 $(function formulario() { 
