@@ -55,9 +55,9 @@
  		<section class="doscol">
 	 		<img src="images/apt-vector.gif" alt="Vector">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=10_FTAL-APLT-1.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=10_FTAL-APT-1.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/10_FTAL-APLT-1.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/10_FTAL-APT-1.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		
 	 		<h2>CÓDIGO DE LA BOMBA</h2>
 	 		<img src="images/apt-codigo.gif" alt="Códigp">
