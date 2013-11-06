@@ -6,7 +6,7 @@
 	<header class="main-header">
 		<label for="cssmenu-check" class="toggle-menu toggle"><div class="btn-navbar"><div class="icon-menu"></div> Menú</div></label>
 		<hgroup>
-			<a href="/inicio"><img class="boton" src="<?php echo "$url"?>images/logo-vde.png" alt="Logo"></a>
+			<a href="/inicio"><img src="<?php echo "$url"?>images/logo-vde.png" alt="Logo"></a>
 			<h1><?php echo "$sitio"?></h1> 
 		</hgroup>
 			<!--[if IE 9]><div id="menu"><![endif]-->
