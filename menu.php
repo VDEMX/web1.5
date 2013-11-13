@@ -43,7 +43,13 @@
          <li class="has-sub"><a href="#"><span>Piscinas</span></a>
          	<ul>
          		<li class="boton"><a href="#" onclick="self.frames['contenido'].location.href = 'vde/bpiscinas.html';"><span>Bombas</span></a></li>
-         		<li><a href="/filtros-de-arena"><span>Filtros de arena</span></a></li>
+         		<li class="has-sub">
+         			<a href="#"><span>Filtros de arena</span></a>
+         			<ul>
+         				<li><a href="/filtros-de-arena"><span>Construcción en plástico</span></a></li>
+         				<li><a href="/filtros-de-arena-fibra"><span>Construcción en fibra de vidrio</span></a></li>
+         			</ul>
+         		</li>
          		<li class="boton"><a href="#" onclick="self.frames['contenido'].location.href = 'vde/bcalor.htm';"><span>Bombas de Calor</span></a></li>
          		<li class="boton"><a href="#" onclick="self.frames['contenido'].location.href = 'vde/mantenimiento piscinas.htm';"><span>Mantenimiento</span></a></li>
          		<li class="boton"><a href="#" onclick="self.frames['contenido'].location.href = 'vde/accesorios piscinas.htm';"><span>Accesorios</span></a></li>

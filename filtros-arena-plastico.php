@@ -1,8 +1,8 @@
 <?php $active_page="productos"; ?>
 <?php include("head.php"); ?>
  		<title><?php echo "$sitio"?> | Filtros para piscina (construcción en plástico)</title>
- 		<meta name="description" content="La bomba multietapas serie STEP marca aqua pak nos ofrece confiabilidad y un bajo consumo energético. Es ideal para el uso doméstico , especialmente para la presurización y sistemas de irrigación.">
-		<meta name="keywords" content="bombas, multietapas, confiabilidad, bajo consumo, uso domestico, presurización, irrigación ">
+ 		<meta name="description" content="Filtros de arena especialmente diseñados para dejar libre de sólidos el agua de su piscina">
+		<meta name="keywords" content="Filtros, arena, libre, agua, piscina, plastico">
  		<meta name="robots" content="Index, follow">
  	</head>
  	

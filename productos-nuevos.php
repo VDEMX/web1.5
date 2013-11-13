@@ -17,12 +17,23 @@
 			<ul class="grid cs-style-4">
 				<li>
 					<figure>
+						<div><img src="images/Tanque_fibra.jpg" alt="Filtros de arena fibra"></div>
+						<figcaption>
+							<h3>Filtros para piscina</h3>
+							<span>Construcción en fibra de vidrio</span>
+							<img src="images/panda.png" alt="Altamira">
+							<a href="/filtros-de-arena-fibra"><div class="icon icon-ojo"></div> Ver producto</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
 						<div><img src="images/np-panel.jpg" alt="DIVA"></div>
 						<figcaption>
 							<h3>Sistemas fotovoltaicos</h3>
 							<span>Mediante módulos fotovoltaicos</span>
 							<img src="images/logo-energia.png" alt="Altamira">
-							<a href="http://vde.com.mx/energiarenovable"><div class="icon icon-ojo"></div> Ver producto</a>
+							<a href="/energiarenovable"><div class="icon icon-ojo"></div> Ver producto</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -33,7 +44,7 @@
 							<h3>Job</h3>
 							<span>Motobomba multietapas vertical</span>
 							<img src="images/logo-altamira.png" alt="Altamira">
-							<a href="http://vde.com.mx/job"><div class="icon icon-ojo"></div> Ver producto</a>
+							<a href="/job"><div class="icon icon-ojo"></div> Ver producto</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -44,7 +55,7 @@
 							<h3>Diva</h3>
 							<span>Motobomba sumergible con variador de frecuencia</span>
 							<img src="images/logo-hc.png" alt="HidroControl">
-							<a href="http://vde.com.mx/diva"><div class="icon icon-ojo"></div> Ver producto</a>
+							<a href="/diva"><div class="icon icon-ojo"></div> Ver producto</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -55,7 +66,7 @@
 							<h3>F-Drive</h3>
 							<span>Variador de frecuencia</span>
 							<img src="images/logo-hc.png" alt="HidroControl">
-							<a href="http://vde.com.mx/fdrive"><div class="icon icon-ojo"></div> Ver producto</a>
+							<a href="/fdrive"><div class="icon icon-ojo"></div> Ver producto</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -132,7 +143,7 @@
 							<h3>Supra</h3>
 							<span>Bombas para recircular en piscinas</span>
 							<img src="images/logo-aquapak.png" alt="Aqua Pak">
-							<a class="boton" href="vde/supra.html" target="contenido"><div class="icon icon-ojo"></div> Ver producto</a>
+							<a class="boton" href="/supra" target="contenido"><div class="icon icon-ojo"></div> Ver producto</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -143,7 +154,7 @@
 							<h3>Sigma</h3>
 							<span>Bombas sumergibles para achique</span>
 							<img src="images/logo-aquapak.png" alt="Aqua Pak">
-							<a class="boton" href="http://vde.com.mx/vde/sigma.html" target="contenido"><div class="icon icon-ojo"></div> Ver producto</a>
+							<a class="boton" href="/sigma" target="contenido"><div class="icon icon-ojo"></div> Ver producto</a>
 						</figcaption>
 					</figure>
 				</li>
@@ -154,7 +165,7 @@
 							<h3>Silver</h3>
 							<span>Bombas para recircular en piscinas</span>
 							<img src="images/logo-aquapak.png" alt="Aqua Pak">
-							<a class="boton" href="vde/silver.html" target="contenido"><div class="icon icon-ojo"></div> Ver producto</a>
+							<a class="boton" href="/silver" target="contenido"><div class="icon icon-ojo"></div> Ver producto</a>
 						</figcaption>
 					</figure>
 				</li>

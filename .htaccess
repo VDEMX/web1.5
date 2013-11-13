@@ -76,6 +76,7 @@ RewriteRule  ^venus$ /serie-venus.php [QSA,L]
 RewriteRule  ^tanques-horizontales$ /tanques-horizontales-aquapak.php [QSA,L]
 RewriteRule  ^tanques-verticales$ /tanques-verticales-aquapak.php [QSA,L]
 RewriteRule  ^filtros-de-arena$ /filtros-arena-plastico.php [QSA,L]
+RewriteRule  ^filtros-de-arena-fibra$ /filtros-arena-fibra.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
