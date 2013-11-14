@@ -97,7 +97,7 @@
          </li>
          <li class="has-sub"><a href="#"><span>Tanques</span></a>
          	<ul>
-         		<li class="has-sub"><a href="#"><span>Tanques Altamira</span></a>
+         		<li class="has-sub"><a href="#"><span>Altamira</span></a>
          			<ul>
          				<li><a href="/prox"><span>Serie Pro-X</span></a></li>
 		         	    <li><a href="/proxl"><span>Serie Pro-XL</span></a></li>
@@ -106,7 +106,7 @@
 		         	    <li><a href="/pro"><span>Serie Pro</span></a></li>
 		         	</ul>
          		</li>
-         		<li class="has-sub"><a href="#"><span>Tanques Aqua Pak</span></a>
+         		<li class="has-sub"><a href="#"><span>Aqua Pak</span></a>
          			<ul>
          				<li><a href="/tanques-horizontales"><span>Horizontales</span></a></li>
 		         	    <li><a href="/tanques-verticales"><span>Verticales</span></a></li>
