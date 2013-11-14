@@ -6,8 +6,8 @@
       <ul>
          <li class="has-sub"><a href="#"><span>Bombas Sumergibles para Pozo</span></a>
             <ul>
-               <li><a href="/kor"><span>Altamira Serie KOR (Acero Inoxidable)</span></a></li>
-               <li><a href="/bs"><span>Altamira Serie BS (Hierro)</span></a></li>
+               <li><a href="/kor"><span>Altamira Serie KOR</span></a></li>
+               <li><a href="/bs"><span>Altamira Serie BS</span></a></li>
                <li><a href="/t"><span>Altamira Serie T</span></a></li>
                <li><a href="/max"><span>Aqua Pak Serie Max</span></a></li>
                <li><a href="/task"><span>Aqua Pak Serie Task</span></a></li>
@@ -112,7 +112,7 @@
 		         	    <li><a href="/tanques-verticales"><span>Verticales</span></a></li>
 		         	</ul>
          		</li>
-         		<li class="boton"><a href="#" onclick="self.frames['contenido'].location.href = 'vde/tanquew.html';"><span>Tanques Well-X-Trol</span></a></li>
+         		<li class="boton"><a href="#" onclick="self.frames['contenido'].location.href = 'vde/tanquew.html';"><span>Well-X-Trol</span></a></li>
          	</ul>
          </li>
          <li class="has-sub"><a href="#"><span>Accesorios</span></a>
