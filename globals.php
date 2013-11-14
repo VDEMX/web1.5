@@ -1,9 +1,9 @@
 <?php
     $sitio = "Villarreal Divisi&oacute;n Equipos S.A. de C.V.";
     //FTP
-    //$url = "http://vde.com.mx/";
+    $url = "http://vde.com.mx/";
     //Local
-    $url = "http://localhost:8888/";
+    //$url = "http://localhost:8888/";
     $nombre = "VDE";
     
     //server
