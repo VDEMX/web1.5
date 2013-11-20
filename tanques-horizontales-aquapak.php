@@ -21,9 +21,9 @@
 	 		<article>
 		 		<p>Los Tanques Precargados AQUA PAK están diseñados para ser la mejor solución para sistemas de agua a presión, son ideales para utilizarse en residencias, instalaciones comerciales y cualquier utilización que necesite mantener su sistema de agua con muy buena presión. Son completamente seguros ya que sus componentes cumplen con los estrictos requisitos de EUA para los componentes para agua (FDA). Además de esto, el diseño agradable a la vista de estos tanques le da un valor agregado a la inversión del cliente.</p>
 		 		
-		 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=05_FTAQ-TNQS-1307111.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+		 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=05_FTAQ-TNQS-1307111.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/05_FTAQ-TNQS-1307111.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/05_FTAQ-TNQS-1307111.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 		 		
 	 		</article>
  		</section>

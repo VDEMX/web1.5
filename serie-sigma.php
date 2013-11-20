@@ -43,9 +43,9 @@
  		<section class="doscol">
 	 		<img src="images/sigma.jpg" alt="Sigma">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=004_Serie_SIGMA.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=004_Serie_SIGMA.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/004_Serie_SIGMA.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/004_Serie_SIGMA.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		
 		 	<h2>Código de la bomba</h4>
 		 	<img src="images/codigo-sigma.gif" alt="Código de la bomba">

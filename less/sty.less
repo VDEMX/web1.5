@@ -245,11 +245,6 @@ font-size: ~"@{remValue}rem";
 	&:before {content: "k";}
 }
 
-
-
-
-
-
 .impact{
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
 }
@@ -302,6 +297,8 @@ font-size: ~"@{remValue}rem";
 	}
 }
 .right{float:right;}
+.p30{width:30%;}
+.p70{width:70%;}
 .p100{width:100%;}
 .w165{width:165px;}
 .w180{width:180px;}
@@ -341,8 +338,9 @@ font-size: ~"@{remValue}rem";
 	.button {
 		margin: 0.5em auto 0.8em!important;
 		display: block!important;
-		width: 17rem;
+		width: 15rem;
 	}
+	small{margin-left: 2em;}
 }
 .cuatrocol{width: 22.5%;}
 .ochocol{width: 10%;}
@@ -1548,9 +1546,20 @@ iframe{
 		margin: 0;
 		@media only screen and (min-width: @mobile){
 			width: 96%;
+			&.p30, &.p70{	
+				display: block;
+				width: 100%;
+				padding: 0;
+			}
 		}
 		@media only screen and (min-width: @tablet){
 		    width: 45.5%;
+		    &.p30{width: 29%;}
+			&.p70{width: 70%;}
+			&.p30, &.p70{	
+				display:inline-block;    
+				vertical-align: top;
+			}
 		}
 	}
 	article{
@@ -1579,7 +1588,7 @@ iframe{
 		.TextShadow(1px, 1px, 3px, @negro);
 		.icon{
 			.font-size(16);
-			margin: -0.14em 0 0 -0.2em;
+			margin: -2px 5px 0;
 			.left;
 		}
 		&.regresar {

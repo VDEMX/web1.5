@@ -50,9 +50,9 @@
  		<section class="doscol">
 	 		<img src="images/fix-vector.jpg" alt="Vector">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=04_FTAQ-FIX-1307111.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=04_FTAQ-FIX-1307111.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/04_FTAQ-FIX-1307111.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/04_FTAQ-FIX-1307111.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		
 	 		<h2>CARACTERÍSTICAS DE OPERACIÓN</h2>
 	 		<ul>

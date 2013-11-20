@@ -46,8 +46,8 @@ como en instalaciones nuevas garantizando:</p>
  		</section>
  		<section class="doscol">
 	 		<img src="images/F-Drive_07.jpg" alt="Fdrive vectores">
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=08_FTHC-FDRIVE-1.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-	 		<a href="http://vde.com.mx/fichas-tecnicas/08_FTHC-FDRIVE-1.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=08_FTHC-FDRIVE-1.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/08_FTHC-FDRIVE-1.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		<h2>CARACTERÍSTICAS DE OPERACIÓN</h4>
 	 		<ul>
 	 			<li>Frecuencia de alimentación de red: 50 - 60 Hz (+/- 2%)</li>

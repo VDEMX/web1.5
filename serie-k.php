@@ -38,9 +38,9 @@
  		<section class="doscol">
 	 		<img src="images/k.jpg" alt="Vector">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=02_FTAL-K-1.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=02_FTAL-K-1.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/02_FTAL-K-1.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/02_FTAL-K-1.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		
 	 		<img src="images/k-tabla-4.gif" alt="Tabla" class="mb1em">
 	 		<img src="images/k-curva.gif" alt="curva">

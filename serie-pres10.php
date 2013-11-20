@@ -75,7 +75,7 @@
     <td>3 Baño</td>
   </tr>
 </table>
-<h3>Kits con bomba Espa</h3>
+<h3>Kits con bomba Aqua Pak</h3>
 <table class="table">
   <tbody><tr>
     <th scope="col">Modelo</th>

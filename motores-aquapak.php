@@ -40,9 +40,9 @@
  		<section class="doscol">
 	 		<img src="images/motor-aquapak.jpg" alt="Motor Aquapak" class="w165">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=003-Serie_aqua-pak_motores.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=003-Serie_aqua-pak_motores.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/003-Serie_aqua-pak_motores.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div>Visualizar ficha técnica</button></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/003-Serie_aqua-pak_motores.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		
 		 	<h2>Código de la bomba</h4>
 		 	<img src="images/motor-aquapak-codigo.jpg" alt="Código del motor">
