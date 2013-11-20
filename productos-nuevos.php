@@ -17,6 +17,17 @@
 			<ul class="grid cs-style-4">
 				<li>
 					<figure>
+						<div><img src="images/np-led.jpg" alt="Filtros de arena fibra"></div>
+						<figcaption>
+							<h3>Lámparas Led</h3>
+							<span>Lámparas de Leds para piscina</span>
+							<img src="images/panda.png" alt="Altamira">
+							<a href="/leds"><div class="icon icon-ojo"></div> Ver producto</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
 						<div><img src="images/Tanque_fibra.jpg" alt="Filtros de arena fibra"></div>
 						<figcaption>
 							<h3>Filtros para piscina</h3>
