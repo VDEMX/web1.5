@@ -75,6 +75,7 @@ RewriteRule  ^task$ /serie-task.php [QSA,L]
 RewriteRule  ^venus$ /serie-venus.php [QSA,L]
 RewriteRule  ^tanques-horizontales$ /tanques-horizontales-aquapak.php [QSA,L]
 RewriteRule  ^tanques-verticales$ /tanques-verticales-aquapak.php [QSA,L]
+RewriteRule  ^leds$ /lamparas-led.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f

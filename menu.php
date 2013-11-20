@@ -44,6 +44,7 @@
          		<li class="boton"><a href="vde/bpiscinas.html" target="contenido"><span>Bombas</span></a></li>
          		<li class="boton"><a href="vde/filtros.html" target="contenido"><span>Filtros</span></a></li>
          		<li class="boton"><a href="vde/bcalor.htm" target="contenido"><span>Bombas de Calor</span></a></li>
+         		<li><a href="/leds">Lámparas Led</a></li>
          		<li class="boton"><a href="vde/mantenimiento piscinas.htm" target="contenido"><span>Mantenimiento</span></a></li>
          		<li class="boton"><a href="vde/accesorios piscinas.htm" target="contenido"><span>Accesorios</span></a></li>
          	</ul>
