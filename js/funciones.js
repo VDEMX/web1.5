@@ -14,7 +14,7 @@ function inicio ()
 		//esconder el mapa
 		$("#ranimg, #Table_01, #map, #productos-nuevos, #contacto, #acercade, #fotovoltaicos, #ax, #federatas, #servicios").hide();
 		$("#iframe").show();
-	});
+	});	
 	//acordión del menú táctil
 	$('ul').accordion();
     //pestañas
@@ -52,6 +52,12 @@ function inicio ()
       function aviso4()
       {
             window.location = '/aviso-nov-2012#sec-8';
+      }
+   );
+    $('.vbox-close').click(
+      function ocultar()
+      {
+           $(".vbox-overlay").toggle();
       }
    );
 }

@@ -6,6 +6,7 @@
  		<meta name="robots" content="Index, follow">
  	</head>
  <body>
+ <!--<?php include("aviso.php"); ?>-->
   <section id="container">
  	<?php include("header.php"); ?>
  	<section id="ranimg" class="content">
@@ -24,6 +25,5 @@
 	  </ul>
 	</div>
  	</section>
- 	
  	<?php include("iframe.php"); ?>
  	<?php include("footer.php"); ?>
