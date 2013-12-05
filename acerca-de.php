@@ -15,7 +15,7 @@
  		<h2 class="titulo">Acerca de VDE</h2>
  		<p>Villarreal División Equipos, S.A. de C.V. (VDE), empresa fundada en 1992 y su giro consiste en diseñar, producir y distribuir al mayoreo, sistemas y equipos de alta calidad y tecnología de punta para el manejo del agua. Y desde mayo de 2013 también equipos fotovoltaicos para generación de electricidad.</p>
  		<section class="modulo">
-	 		<h3>Valores</h3>
+	 		<h2>Valores</h2>
  		<ul>
 	 		<li>Honestidad.		 </li>
 			<li>Respeto.		 </li>
@@ -25,7 +25,7 @@
  		</ul>
  		</section>
  		<section class="modulo">
-	 		<h3>Forma de trabajo</h3>
+	 		<h2>Forma de trabajo</h2>
  		<ul>
 	 		<li>En equipo.</li>
 			<li>Empeño en la búsqueda de la mejora continua.</li>
@@ -36,7 +36,7 @@
  		</ul>
  		</section>
  		<section class="modulo">
-	 		<h3>Servicios</h3>
+	 		<h2>Servicios</h2>
  		<ul>
 	 		<li>Asesoría profesional para la correcta selección, instalación y operación de los equipos.</li>
 			<li>Taller de servicio para realizar diagnósticos, reparaciones rápidas y gestión ágil de garantías.</li>

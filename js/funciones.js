@@ -12,7 +12,7 @@ function inicio ()
 		//agregar la clase .active al boton al que hicimos click:
 		$(this).addClass("active");
 		//esconder el mapa
-		$("#ranimg, #Table_01, #map, #productos-nuevos, #contacto, #acercade, #fotovoltaicos, #ax, #federatas, #servicios").hide();
+		$("#ranimg, #Table_01, #map, #productos-nuevos, #contacto, #acercade, #fotovoltaicos, #ax, #federatas, #servicios, #mc_embed_signup").hide();
 		$("#iframe").show();
 	});	
 	//acordión del menú táctil
@@ -62,6 +62,31 @@ function inicio ()
    );
 }
 
+//Alto automatico en los iframes
+function calcHeight()
+{
+	 //Cojo la altura en nuestra página
+	 var the_height=
+	 document.getElementById
+	('iframe').contentWindow.
+	 document.body.scrollHeight;
+	//Cambio la altura del iframe
+	 document.getElementById('iframe')
+	.height= the_height;
+}
+
+//Detectar el iPad
+if( navigator.userAgent.match( /iPad/i ) ) 
+{
+  	//Simular el evento hover al hacer click en pantallas táctiles
+    var myLinks = document.getElementsByClassName('liga');
+	for(var i = 0; i < myLinks.length; i++){
+	   myLinks[i].addEventListener('touchstart', function(){this.className = "hover";}, false);
+	   myLinks[i].addEventListener('touchend', function(){this.className = "";}, false);
+	}
+}
+
+//Detectar el iPhone y el iPod
 if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)))
 {
 // Ocultar la barra de dirreciones en iOS

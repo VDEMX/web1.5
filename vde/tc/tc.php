@@ -1,10 +1,10 @@
-<h2 class="titulo mt1em">Tipo de cambio</h2>
+<h2 class="mt1em">Tipo de cambio</h2>
 			<table class="table">
   <tr>
-    <th width="42">-Hoy-</th>
-    <th width="179">Fecha</th>
-    <th width="74">Tipo de Cambio</th>
-    <th width="88">Actualización</th>
+    <th>-Hoy-</th>
+    <th>Fecha</th>
+    <th>Tipo de Cambio</th>
+    <th>Actualización</th>
   </tr>
   <tr>
     <td class="tc">USD</td>

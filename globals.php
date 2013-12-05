@@ -3,7 +3,7 @@
     //FTP
     $url = "http://vde.com.mx/";
     //Local
-    //$url = "http://192.168.1.100:8888/";
+    //$url = "http://192.168.1.98:8888/";
     $nombre = "VDE";
     
     //server

@@ -46,7 +46,7 @@
 						<li>Sección 2 <a href="#" class="sec-02">-  Corrección de precios en motobombas SERIE TASK</a></li>
 						<li>Sección 6 <a href="#" class="sec-6">-  Corrección de precios en Bombas centrifugas SERIE DDS, SERIE FPDB1-1/2, SERIE FPDC1-1/2, SERIE FPDB2, SERIE FPDB3, HC-3X2-75 y HC6X4-10.</a></li>
 						<li>Sección 8 <a href="#" class="sec-8">-  Corrección en presurizadores automáticos ALTAMIRA: Bomba y Tanque precargado  SERIE PRO.</a></li>
-                      </ul>
+            </ul>
 			</article>
 	</section>
 	

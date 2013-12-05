@@ -31,8 +31,8 @@
 						<img src="images/sis-fotovoltaicos_06.jpg" alt="sis-fotovoltaicos_06">
 						<img src="images/sis-fotovoltaicos_07.jpg" alt="sis-fotovoltaicos_07">
 						<div class="p60 botones">
-							<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=CATALOGO-FV.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar Catálogo</button></a>
-							<a href="http://vde.com.mx/fichas-tecnicas/CATALOGO-FV.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar Catálogo</button></a>
+							<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=CATALOGO-FV.pdf"><div class="button"> <div class="icon icon-descargar"></div> Descargar Catálogo</div></a>
+							<a href="http://vde.com.mx/fichas-tecnicas/CATALOGO-FV.pdf" target="_blank"><div class="button"> <div class="icon icon-ojo"></div> Visualizar Catálogo</div></a>
 	 				</div>
                        <!--[if IE]><b>.</b><![endif]-->
                      </div>
@@ -45,8 +45,8 @@
 					<img src="images/sis-fot-mod_09.jpg" alt="sis-fot-mod_09" class="tres-col">
 					<img src="images/sis-fot-mod_10.jpg" alt="sis-fot-mod_10" class="tres-col">
 	 				<div class="p60 botones">
-		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=FICHA-TEC-OCT13-FV.pdf"><button type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-		 			<a href="http://vde.com.mx/fichas-tecnicas/FICHA-TEC-OCT13-FV.pdf" target="_blank"><button type="button" class="button"><div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=FICHA-TEC-OCT13-FV.pdf"><div class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/FICHA-TEC-OCT13-FV.pdf" target="_blank"><div class="button"><div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 				</div>
 					<!--[if IE]><b>.</b><![endif]-->
 					</div>
@@ -57,8 +57,8 @@
                 	<img src="images/sis-fot-inv_10.jpg" alt="sis-fot-inv_06">
                 	
                 	<div class="p60 botones">
-		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=Datasheet_Replus_for_US.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-		 			<a href="http://vde.com.mx/fichas-tecnicas/Datasheet_Replus_for_US.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=Datasheet_Replus_for_US.pdf"><div class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/Datasheet_Replus_for_US.pdf" target="_blank"><div class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 				</div>
                 	
                 	<h2>INVERSORES DE INTERCONEXIÓN A RED</h2>
@@ -66,8 +66,8 @@
                 	<img src="images/sis-fot-inv_03.jpg" alt="sis-fot-inv_03">
                 	<img src="images/sis-fot-inv_06.jpg" alt="sis-fot-inv_06">
                 	<div class="p60 botones">
-		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=sunny-boy.pdf"><button type="button" class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</button></a>
-		 			<a href="http://vde.com.mx/fichas-tecnicas/sunny-boy.pdf" target="_blank"><button type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</button></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=sunny-boy.pdf"><div class="button"> <div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
+		 			<a href="http://vde.com.mx/fichas-tecnicas/sunny-boy.pdf" target="_blank"><div class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 				</div>
                 	
                 	<!--[if IE]><b>.</b><![endif]--></div>
