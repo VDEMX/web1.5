@@ -17,13 +17,7 @@ function inicio ()
 	});	
 	//acordión del menú táctil
 	$('ul').accordion();
-    //pestañas
-   $(".tab").click(function tabs(){
-   //quitar la clase .active a la pestaña que la tenga:
-      $(".active").removeClass("active");
-   //agregar la clase .active la pestaña que hicimos click:
-   $(this).addClass("active");
-   });
+    
     $('.sec-1').click(
       function aviso1()
       {
@@ -60,6 +54,60 @@ function inicio ()
            $(".vbox-overlay").toggle();
       }
    );
+   $(".box1").click(function box1(){
+		//quitar la clase .active al boton que la tenga:
+		$(".active").removeClass("active");
+		//agregar la clase .active al boton al que hicimos click:
+		$(this).addClass("active");
+		//esconder el mapa
+		$("#box2, #box3, #box4, #box5, #box6").hide();
+		$("#box1").addClass("active");
+	});	
+	$(".box2").click(function box2(){
+		//quitar la clase .active al boton que la tenga:
+		$(".active").removeClass("active");
+		//agregar la clase .active al boton al que hicimos click:
+		$(this).addClass("active");
+		//esconder el mapa
+		$("#box1,#box3, #box4, #box5, #box6").hide();
+		$("#box2").addClass("active");
+	});	
+	$(".box3").click(function box3(){
+		//quitar la clase .active al boton que la tenga:
+		$(".active").removeClass("active");
+		//agregar la clase .active al boton al que hicimos click:
+		$(this).addClass("active");
+		//esconder el mapa
+		$("#box1, #box2, #box4, #box5, #box6").hide();
+		$("#box3").addClass("active");
+	});	
+	$(".box4").click(function box4(){
+		//quitar la clase .active al boton que la tenga:
+		$(".active").removeClass("active");
+		//agregar la clase .active al boton al que hicimos click:
+		$(this).addClass("active");
+		//esconder el mapa
+		$("#box1, #box2, #box3, #box5, #box6").hide();
+		$("#box4").addClass("active");
+	});	
+	$(".box5").click(function box5(){
+		//quitar la clase .active al boton que la tenga:
+		$(".active").removeClass("active");
+		//agregar la clase .active al boton al que hicimos click:
+		$(this).addClass("active");
+		//esconder el mapa
+		$("#box1, #box2, #box3, #box5, #box6").hide();
+		$("#box5").addClass("active");
+	});	
+	$(".box6").click(function box6(){
+		//quitar la clase .active al boton que la tenga:
+		$(".active").removeClass("active");
+		//agregar la clase .active al boton al que hicimos click:
+		$(this).addClass("active");
+		//esconder el mapa
+		$("#box1, #box2, #box3, #box4, #box5").hide();
+		$("#box6").addClass("active");
+	});	
 }
 
 //Alto automatico en los iframes

@@ -18,11 +18,11 @@
  		<div class="tabs">       
             <div role="navigation">
                 <ul id="boxLinks">
-					<li id="información"><a href="#box1" class="tab active">Información</a></li>
-                    <li id="modulos"><a href="#box2" class="tab">Módulos solares</a></li>
-                    <li id="invesores"><a href="#box3" class="tab">Inversores</a></li>
-                    <li id="accesorios"><a href="#box4" class="tab">Accesorios</a></li>
-                    <li id="capacitaciones"><a href="#box5" class="tab">Capacitaciones</a></li>
+					<li id="información"><a href="#" class="box1 active">Información</a></li>
+                    <li id="modulos"><a href="#" class="box2">Módulos solares</a></li>
+                    <li id="invesores"><a href="#" class="box3">Inversores</a></li>
+                    <li id="accesorios"><a href="#" class="box4">Accesorios</a></li>
+                    <li id="capacitaciones"><a href="#" class="box5">Capacitaciones</a></li>
 				</ul>
                 <div class="content">
                 	<div id="box1" class="active box">
@@ -34,7 +34,7 @@
 							<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=CATALOGO-FV.pdf"><div class="button"> <div class="icon icon-descargar"></div> Descargar Catálogo</div></a>
 							<a href="http://vde.com.mx/fichas-tecnicas/CATALOGO-FV.pdf" target="_blank"><div class="button"> <div class="icon icon-ojo"></div> Visualizar Catálogo</div></a>
 	 				</div>
-                       <!--[if IE]><b>.</b><![endif]-->
+                       <!--[if IE]><b>&nbsp</b><![endif]-->
                      </div>
                 	<div id="box2" class="box">
                 	<h2>MÓDULO SOLAR</h2>
@@ -48,7 +48,7 @@
 		 			<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=FICHA-TEC-OCT13-FV.pdf"><div class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 		 			<a href="http://vde.com.mx/fichas-tecnicas/FICHA-TEC-OCT13-FV.pdf" target="_blank"><div class="button"><div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 				</div>
-					<!--[if IE]><b>.</b><![endif]-->
+					<!--[if IE]><b>&nbsp</b><![endif]-->
 					</div>
                 	<div id="box3" class="box">
                 	<h2>MICRO INVERSORES</h2>
@@ -70,7 +70,7 @@
 		 			<a href="http://vde.com.mx/fichas-tecnicas/sunny-boy.pdf" target="_blank"><div class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 				</div>
                 	
-                	<!--[if IE]><b>.</b><![endif]--></div>
+                	<!--[if IE]><b>&nbsp</b><![endif]--></div>
                 	<div id="box4" class="box">
                 	
                 	<h2>ACCESORIOS</h2>
@@ -130,7 +130,7 @@ y el cable de extensión MC4. </p>
                 	<section class="p40">
 	                	<p>Está diseñado para protección de sobretensión de equipo eléctrico con conexión a tierra, monofásico o trifásico de hasta 650 Vca. Este supresor de picos es adecuado para su instalación en interiores o exteriores. </p>
                 	</section>
-                    <!--[if IE]><b>.</b><![endif]-->
+                    <!--[if IE]><b>&nbsp</b><![endif]-->
                   </div>
                   <div id="box5" class="box">
                   <h2>CAPACITACIONES</h2>
@@ -155,7 +155,7 @@ y el cable de extensión MC4. </p>
 	                  <h3>CONTÁCTANOS</h3>
 	                  <span>Para mayores informes contáctanos vía correo electrónico en: <a href="mailto:energiarenovable@vde.com.mx">energiarenovable@vde.com.mx</a></span>
 	                  <h4>¡Cupo limitado!</h4>
-	                  <a href="#box6"><button class="button">Contenido del curso</button></a>
+	                  <a href="#box6"><div class="button box6">Contenido del curso</div></a>
 	                  <figure>
 	                  		<img src="images/bullet-1.png" alt="Básico">
 		                  	<figcaption>En línea</figcaption>
@@ -164,9 +164,9 @@ y el cable de extensión MC4. </p>
 	                  		<img src="images/bullet-2.png" alt="Básico">
 		                  	<figcaption>Presencial</figcaption>
 	                  </figure>
-	                   <a href="/curso" class=""><button class="button mt1em">Inscripción al curso</button></a>
+	                   <a href="/curso" class=""><div class="button mt1em">Inscripción al curso</div></a>
                   </section>
-                    <!--[if IE]><b>.</b><![endif]-->
+                    <!--[if IE]><b>&nbsp</b><![endif]-->
                   </div>
                   <div id="box6" class="box">
                   <h2>CONTENIDO DE CURSOS</h2>
@@ -220,7 +220,7 @@ y el cable de extensión MC4. </p>
 						<img src="images/instalacion_fv.jpg" alt="instalacion_fv">
                   </p>
                   </article>
-                    <!--[if IE]><b>.</b><![endif]-->
+                    <!--[if IE]><b>&nbsp</b><![endif]-->
                   </div>
                 </div>
             </div>
