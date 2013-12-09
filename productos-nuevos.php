@@ -17,6 +17,17 @@
 			<ul class="grid cs-style-4">
 				<li>
 					<figure>
+						<div><img src="images/np-rdrive.jpg" alt="FDRIVE"></div>
+						<figcaption>
+							<h3>R-Drive</h3>
+							<span>Variador de frecuencia</span>
+							<img src="images/logo-hc.png" alt="HidroControl">
+							<a href="/rdrive"><div class="icon icon-ojo"></div> Ver producto</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
 						<div><img src="images/np-diva-sol.jpg" alt="DIVA"></div>
 						<figcaption>
 							<h3>Diva Solar MultiPower</h3>

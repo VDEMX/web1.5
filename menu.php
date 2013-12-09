@@ -94,6 +94,7 @@
          		<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/variadorv.html';"><span>Water Variat</span></a></li>
          		<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/subdrive.html';"><span>SubDrive</span></a></li>
          		<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href="/fdrive"><span>F-Drive</span></a></li>
+         		<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href="/rdrive"><span>R-Drive</span></a></li>
          	</ul>
          </li>
          <li class="has-sub"><a class="liga" href=" #"><span>Tanques</span></a>
