@@ -1,7 +1,7 @@
 <!--[if (gt IE 7)&(lt IE 10)]><ul><![endif]-->
 <!--[if !(gt IE 7)&(lt IE 10)]><!--> <ul class="accordion"> <!--<![endif]-->
-   <li <?php if ($active_page=="Inicio") echo " class='active'"; ?> id="inicio"><a class="liga" href=" /inicio"><span>Inicio</span></a></li>
-   <li <?php if ($active_page=="nosotros") echo " class='active'"; ?>><a class="liga" href=" /nosotros"><span>La empresa</span></a></li>
+   <li <?php if ($active_page=="Inicio") echo " class='active'"; ?> id="inicio"><a class="liga" href="/inicio"><span>Inicio</span></a></li>
+   <li <?php if ($active_page=="nosotros") echo " class='active'"; ?>><a class="liga" href="/nosotros"><span>La empresa</span></a></li>
    <li <?php if ($active_page=="productos") echo " class='active has-sub'"; elseif($active_page!=="productos") echo "class='has-sub'"?>><a class="liga"><span>Productos</span></a>
       <ul>
          <li class="has-sub"><a class="liga" href=" #"><span>Bombas Sumergibles para Pozo</span></a>
@@ -20,7 +20,7 @@
                <li><a class="liga" href="/k"><span>Altamira  Serie K</span></a></li>
                <li><a class="liga" href="/r"><span>Altamira  Serie R</span></a></li>
                <li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/msf.html';"><span>Franklin</span></a></li>
-               <li class="last"><a class="liga" href=" /motores"><span>Aqua Pak</span></a></li>
+               <li class="last"><a class="liga" href="/motores"><span>Aqua Pak</span></a></li>
             </ul>
          </li>
          <li class="has-sub"><a class="liga" href=" #"><span>Bombas Sumergibles para Aguas Residuales</span></a>
@@ -72,7 +72,7 @@
          				<li class="has-sub"><a class="liga" href=" #"><span>Una Bomba</span></a>
          					<ul>
          						<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/tecnoplus.html';"><span>Tecnoplus</span></a></li>
-         						<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href=" /diva"><span>Diva</span></a></li>
+         						<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href="/diva"><span>Diva</span></a></li>
          						<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/wvmultiple.html';"><span>Water Variat</span></a></li>
          						<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/fmultiple.html';"><span>SubDrive</span></a></li>
          					</ul>
@@ -93,7 +93,7 @@
          	<ul>
          		<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/variadorv.html';"><span>Water Variat</span></a></li>
          		<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/subdrive.html';"><span>SubDrive</span></a></li>
-         		<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href=" /fdrive"><span>F-Drive</span></a></li>
+         		<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href="/fdrive"><span>F-Drive</span></a></li>
          	</ul>
          </li>
          <li class="has-sub"><a class="liga" href=" #"><span>Tanques</span></a>
@@ -137,7 +137,7 @@
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/arrancadors.html';"><span>Arrancadores Suaves</span></a></li>
          		<li class="has-sub"><a class="liga" href="#"><span>Protecciones para Motor</span></a>
          			<ul>
-         				<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href=" /procontrol"><span>Procontrol</span></a></li>
+         				<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href="/procontrol"><span>Procontrol</span></a></li>
          				<li class="boton"><a class="liga" href="#" onclick="self.frames['contenido'].location.href = 'vde/pro_motor.html';"><span>Protecciones para Motores</span></a></li>
          			</ul>
          		</li>
@@ -146,16 +146,17 @@
          <li class="last has-sub">
          	<a class="liga" href=" #"><span>Energía renovable</span></a>
          	<ul>
-         	    <li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href=" /energiarenovable"><span>Sistemas Fotovoltaicos</span></a></li>
+         	    <li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href="/energiarenovable"><span>Sistemas Fotovoltaicos</span></a></li>
+         	    <li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href="/diva-solar"><span>Serie Diva Solar Multipower</span></a></li>
          	    <li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/calentadors.html';"><span>Calentadores de agua Sol Grande</span></a></li>
          	</ul>
          </li>
       </ul>
    </li>
-   <li <?php if ($active_page=="novedades") echo " class='active'"; ?>><a class="liga" href=" /novedades"><span>Nuevos productos</span></a></li>
-   <li <?php if ($active_page=="servicios") echo " class='active'"; ?>><a class="liga" href=" /servicios"><span>Servicios</span></a></li>
-   <li <?php if ($active_page=="oficinas") echo " class='active'"; ?>><a class="liga" href=" /oficinas"><span>Oficinas de ventas</span></a></li>
-   <li <?php if ($active_page=="federatas") echo " class='active'"; ?>><a class="liga" href=" /anexo"><span>Lista de precios</span></a></li>
-   <li <?php if ($active_page=="tipodecambio") echo " class='active'"; ?>><a class="liga" href=" /tipo-de-cambio"><span>Tipo de cambio</span></a></li>
-   <li <?php if ($active_page=="contacto") echo " class='active'"; ?>><a class="liga" href=" /contacto"><span>Contacto</span></a></li>
+   <li <?php if ($active_page=="novedades") echo " class='active'"; ?>><a class="liga" href="/novedades"><span>Nuevos productos</span></a></li>
+   <li <?php if ($active_page=="servicios") echo " class='active'"; ?>><a class="liga" href="/servicios"><span>Servicios</span></a></li>
+   <li <?php if ($active_page=="oficinas") echo " class='active'"; ?>><a class="liga" href="/oficinas"><span>Oficinas de ventas</span></a></li>
+   <li <?php if ($active_page=="federatas") echo " class='active'"; ?>><a class="liga" href="/anexo"><span>Lista de precios</span></a></li>
+   <li <?php if ($active_page=="tipodecambio") echo " class='active'"; ?>><a class="liga" href="/tipo-de-cambio"><span>Tipo de cambio</span></a></li>
+   <li <?php if ($active_page=="contacto") echo " class='active'"; ?>><a class="liga" href="/contacto"><span>Contacto</span></a></li>
 </ul>

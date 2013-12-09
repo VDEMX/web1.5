@@ -79,6 +79,7 @@ RewriteRule  ^leds$ /lamparas-led.php [QSA,L]
 RewriteRule  ^filtros-de-arena$ /filtros-arena-plastico.php [QSA,L]
 RewriteRule  ^filtros-de-arena-fibra$ /filtros-arena-fibra.php [QSA,L]
 RewriteRule  ^firma$ /firma.html [QSA,L]
+RewriteRule  ^diva-solar$ /serie-diva-sol.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f

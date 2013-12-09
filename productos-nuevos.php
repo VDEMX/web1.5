@@ -17,6 +17,17 @@
 			<ul class="grid cs-style-4">
 				<li>
 					<figure>
+						<div><img src="images/np-diva-sol.jpg" alt="DIVA"></div>
+						<figcaption>
+							<h3>Diva Solar MultiPower</h3>
+							<span>Sistema sumergible con variador de frecuencia energizado por fuentes de energía múltiples</span>
+							<img src="images/logo-hc-energia.png" alt="HidroControl">
+							<a href="/diva-solar"><div class="icon icon-ojo"></div> Ver producto</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
 						<div><img src="images/np-led.jpg" alt="Filtros de arena fibra"></div>
 						<figcaption>
 							<h3>Lámparas Led</h3>
