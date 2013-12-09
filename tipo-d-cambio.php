@@ -7,6 +7,7 @@
  	</head>
  	
  <body>
+ <?php include("aviso.php"); ?>
  <section id="container">
  	<?php include("header.php"); ?>	
  	<section id="federatas" class="active">

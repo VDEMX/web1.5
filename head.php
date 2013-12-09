@@ -12,7 +12,7 @@
  		<link rel="stylesheet" href="<?php echo "$url"?>css/styles.css" media="all">
  		<?php if ($active_page=="Inicio") echo " <link rel='stylesheet' href='css/flexslider.css' media='all'>"; ?>
 		<!-- Add venobox -->
-		<?php if ($active_page=="Inicio") echo " <link rel='stylesheet' href='css/venobox.css' media='screen'>"; ?>
+		<?php if ($active_page=="tipodecambio") echo " <link rel='stylesheet' href='css/venobox.css' media='screen'>"; ?>
 
  		<!-- Modernizr -->
  		<script src="http://modernizr.com/downloads/modernizr.js"></script>
