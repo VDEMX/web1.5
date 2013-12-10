@@ -85,6 +85,7 @@ RewriteRule  ^waterdrive$ /water-drive.php [QSA,L]
 RewriteRule  ^mac5$ /serie-mac5.php [QSA,L]
 RewriteRule  ^mac3$ /serie-mac3.php [QSA,L]
 RewriteRule  ^quickstop$ /serie-quickstop.php [QSA,L]
+RewriteRule  ^macnivel$ /serie-mac-nivel.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f

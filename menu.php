@@ -139,6 +139,7 @@
          			</ul>
          		</li>
          		<li><a class="liga" href="/switch"><span>Switch de Presión</span></a></li>
+         		<li><a class="liga" href="/macnivel"><span>Indicador de nivel</span></a></li>
          		<li><a class="liga" href="/tubos"><span>Tubo para columna</span></a></li>
          		<li class="has-sub"><a href="#"><span>Válvulas</span></a>
          			<ul>
