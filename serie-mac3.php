@@ -64,8 +64,8 @@
  			<h2>TABLA DE ESPECIFICACIONESO</h2>
  			<img src="images/mac3-tabla-02.jpg" alt="tabla">
  			<h2>DIMENSIONES</h2>
- 			<img src="images/mac3-tabla-dim.jpg" alt="DIMENSIONES" class="p30 inline-block">
- 			<img src="images/mac3-dim.jpg" alt="DIMENSIONES" class="p70 inline-block">
+ 			<img src="images/mac3-tabla-dim.jpg" alt="DIMENSIONES" class="p50 inline-block">
+ 			<img src="images/mac3-dim.jpg" alt="DIMENSIONES" class="p50 inline-block">
  		</section>
  		
  		<section class="doscol">
