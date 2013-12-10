@@ -2,6 +2,6 @@
 			<div class="aviso">
 			<h1>¡Importante!</h1>
 			<p>Estimado cliente: <br>
-				El día de hoy y mañana tendremos el tipo de cambio preferencial <strong>12.60</strong> por épocas decembrinas.</p>
+				Del día 9 al 10 de diciembre tendremos el tipo de cambio preferencial <strong>12.60</strong> por épocas decembrinas.</p>
 			</div>
 		</div></div></div><div class="vbox-close ">X</div></div>
