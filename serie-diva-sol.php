@@ -142,19 +142,19 @@ DIVA SOLAR MULTIPOWER.</li>
 		 		</ul>
 	 		</section>
  		</article>
- 		<h2>RANGOS DE OPERACIÓN</h2>
+ 		<h2 class="mt6em">RANGOS DE OPERACIÓN</h2>
  		<img src="images/diva-sol-rangos.jpg" alt="Rangos">
- 		<h2>TABLA DE ESPECIFICACIONES</h2>
+ 		<h2 class="mt6em">TABLA DE ESPECIFICACIONES</h2>
  		<img src="images/diva-sol-tabla-5.jpg" alt="ESPECIFICACIONES">
  		<p>*Datos obtenidos a la máxima frecuencia.</p>
- 		<h2>DIMENSIONES Y PESOS</h2>
+ 		<h2 class="mt6em">DIMENSIONES Y PESOS</h2>
  		<div id="dim">
 	 		<img src="images/diva-sol-tabla-4.jpg" alt="dimensiones" class="tabla">
 	 		<img src="images/diva-sol-dim.jpg" alt="diva" class="vector">
  		</div>
  		
- 		<h2>CURVAS DE RENDIMIENTO</h2>
- 		<h4>DIVASOLAR35-130MP <span class="rojo">(Máxima eficiencia: 35 lpm a 130 m)</span></h4>
+ 		<h2 class="mt6em">CURVAS DE RENDIMIENTO</h2>
+ 		<h4>DIVASOLAR35-130MP <span class="fdrive">(Máxima eficiencia: 35 lpm a 130 m)</span></h4>
  		<img src="images/diva-sol-curva-3.jpg" alt="curvas">
  		<h2>TABLA DE ESPECIFICACIONES</h2>
  		<img src="images/diva-sol-tabla-3.jpg" alt="TABLA DE ESPECIFICACIONES">
@@ -166,7 +166,7 @@ Corriente en el punto de máxima potencia (Imp) = 8.31 A<br>
 Voltaje de circuito abierto (Voc) = 37.4 V<br>
  		</p>
  		
- 		<h4>DIVASOLAR110-45MP<span class="rojo">(Máxima eficiencia: 110 lpm a 45 m)</span></h4>
+ 		<h4 class="mt6em">DIVASOLAR110-45MP<span class="fdrive">(Máxima eficiencia: 110 lpm a 45 m)</span></h4>
  		<img src="images/diva-sol-curva-2.jpg" alt="curvas">
  		<h2>TABLA DE ESPECIFICACIONES</h2>
  		<img src="images/diva-sol-tabla-2.jpg" alt="Tabla">
@@ -178,7 +178,7 @@ Corriente en el punto de máxima potencia (Imp) = 8.31 A<br>
 Voltaje de circuito abierto (Voc) = 37.4 V<br>
  		</p>
  		
- 		<h4>DIVASOLAR110-75MP<span class="rojo">(Máxima eficiencia: 110 lpm a 75 m)</span></h4>
+ 		<h4 class="mt6em">DIVASOLAR110-75MP<span class="fdrive">(Máxima eficiencia: 110 lpm a 75 m)</span></h4>
  		<img src="images/diva-sol-curva-1.jpg" alt="curvas">
  		<h2>TABLA DE ESPECIFICACIONES</h2>
  		<img src="images/diva-sol-tabla-1.jpg" alt="Tabla">

@@ -164,7 +164,7 @@ y el cable de extensión MC4. </p>
 	                  		<img src="images/bullet-2.png" alt="Básico">
 		                  	<figcaption>Presencial</figcaption>
 	                  </figure>
-	                   <a href="/curso" class=""><div class="button mt1em">Inscripción al curso</div></a>
+	                   <h5>Próximamente nuevas fechas para el 2014</h5>
                   </section>
                     <!--[if IE]><b>&nbsp</b><![endif]-->
                   </div>
