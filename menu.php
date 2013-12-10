@@ -135,6 +135,7 @@
          			<ul>
 	         			 <li><a class="liga" href="/flotador"><span>Altamira</span></a></li>
 	         			 <li><a class="liga" href="/mac5"><span>Serie Mac5</span></a></li>
+	         			 <li><a class="liga" href="/mac3"><span>Serie Mac3</span></a></li>
          			</ul>
          		</li>
          		<li><a class="liga" href="/switch"><span>Switch de Presión</span></a></li>
