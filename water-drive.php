@@ -18,7 +18,10 @@
  		<section class="doscol">
 	 		<h3>ESPECIFICACIONES</h3>
 	 		<article>
-		 		<p>WATER DRIVE es un variador de velocidad enfriado por agua, robusto e intuitivo que permite de una manera moderna y funcional el diseño de sistemas de bombeo de presión constante con un alta eficiencia energética.</p>
+		 		<p>WATER DRIVE es un variador de frecuencia enfriado por agua, robusto
+e intuitivo que permite de una manera moderna y funcional el diseño
+de sistemas de bombeo de presión constante con una alta eficiencia
+energética.</p>
 		 		<h4>Aplicaciones</h4>
 				<ul>
 					<li>Viviendas					   </li>
@@ -77,15 +80,14 @@
 				<li>Alarma por golpe de ariete (es activada cuando se detecta un golpe de presión de 2 veces la presión de trabajo).		 </li>
 				<li>Alarma externa (está opción es utilizada para detener la operación del equipo en caso de colocar algún flotador externo).</li>
 		 	</ul>
+		 	<h2>DESCRIPCIÓN DEL CÓDIGO</h2>
+		 	<img src="images/WD-codigo.jpg" alt="codigo">
  		</section>
  		<h2 class="tc">TABLA DE ESPECIFICACIONES</h4>
 		<img src="images/WD-tabla-04.gif" alt="tabla">
  		<h2>DIMENSIONES Y PESOS</h2>
  		<img src="images/WD-tabla-03.gif" alt="tabla" class="left">
  		<img src="images/WD-dimenciones.gif" alt="dimenciones" class="left ml1em">
- 		<h2>DIMENSIONES Y PESOS</h2>
- 		<img src="images/F-Drive_19.jpg" alt="Dimensiones y pesos" class="left mar-table">
- 		<img src="images/F-Drive_21.jpg" alt="Vectores" class="left">
 		<div class="clear"></div>
 	</section>
  	

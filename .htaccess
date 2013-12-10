@@ -81,6 +81,7 @@ RewriteRule  ^filtros-de-arena-fibra$ /filtros-arena-fibra.php [QSA,L]
 RewriteRule  ^firma$ /firma.html [QSA,L]
 RewriteRule  ^diva-solar$ /serie-diva-sol.php [QSA,L]
 RewriteRule  ^rdrive$ /r-drive.php [QSA,L]
+RewriteRule  ^waterdrive$ /water-drive.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
