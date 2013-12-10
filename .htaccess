@@ -82,6 +82,7 @@ RewriteRule  ^firma$ /firma.html [QSA,L]
 RewriteRule  ^diva-solar$ /serie-diva-sol.php [QSA,L]
 RewriteRule  ^rdrive$ /r-drive.php [QSA,L]
 RewriteRule  ^waterdrive$ /water-drive.php [QSA,L]
+RewriteRule  ^mac5$ /serie-mac5.php [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f

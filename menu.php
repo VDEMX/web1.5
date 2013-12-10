@@ -4,7 +4,7 @@
    <li <?php if ($active_page=="nosotros") echo " class='active'"; ?>><a class="liga" href="/nosotros"><span>La empresa</span></a></li>
    <li <?php if ($active_page=="productos") echo " class='active has-sub'"; elseif($active_page!=="productos") echo "class='has-sub'"?>><a class="liga"><span>Productos</span></a>
       <ul>
-         <li class="has-sub"><a class="liga" href=" #"><span>Bombas Sumergibles para Pozo</span></a>
+         <li class="has-sub"><a href=" #"><span>Bombas Sumergibles para Pozo</span></a>
             <ul>
                <li><a class="liga" href="/kor"><span>Altamira Serie KOR</span></a></li>
                <li><a class="liga" href="/bs"><span>Altamira Serie BS</span></a></li>
@@ -15,7 +15,7 @@
                
             </ul>
          </li>
-         <li class="has-sub"><a class="liga" href=" #"><span>Motores Sumergibles</span></a>
+         <li class="has-sub"><a href=" #"><span>Motores Sumergibles</span></a>
             <ul>
                <li><a class="liga" href="/k"><span>Altamira  Serie K</span></a></li>
                <li><a class="liga" href="/r"><span>Altamira  Serie R</span></a></li>
@@ -23,14 +23,14 @@
                <li class="last"><a class="liga" href="/motores"><span>Aqua Pak</span></a></li>
             </ul>
          </li>
-         <li class="has-sub"><a class="liga" href=" #"><span>Bombas Sumergibles para Aguas Residuales</span></a>
+         <li class="has-sub"><a href=" #"><span>Bombas Sumergibles para Aguas Residuales</span></a>
          	<ul>
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/bac.html';"><span>Bombas para Achique (Efluentes)</span> </a></li>
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/bal.html';"><span>Bombas para Lodos</span></a></li>
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/triturador.html';"><span>Bombas para Lodos (Trituradora)</span></a></li>
          	</ul>
          </li>
-         <li class="has-sub"><a class="liga" href=" #"><span>Bombas de Superficie</span></a>
+         <li class="has-sub"><a href=" #"><span>Bombas de Superficie</span></a>
          	<ul>
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/pd.html';"><span>Uso Doméstico, Sistemas de Riego e Hidroneumáticos</span></a></li>
          		<li><a class="liga" href="/loop"><span>Circuladora para Agua Caliente</span></a></li>
@@ -40,7 +40,7 @@
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/fps.htm';"><span>Uso Agrícola</span></a></li>
          	</ul>
          </li>
-         <li class="has-sub"><a class="liga" href=" #"><span>Piscinas</span></a>
+         <li class="has-sub"><a href=" #"><span>Piscinas</span></a>
          	<ul>
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/bpiscinas.html';"><span>Bombas</span></a></li>
          		<li class="has-sub">
@@ -56,7 +56,7 @@
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/accesorios piscinas.htm';"><span>Accesorios</span></a></li>
          	</ul>
          </li>
-         <li class="has-sub"><a class="liga" href=" #"><span>Presurizadores</span></a>
+         <li class="has-sub"><a href=" #"><span>Presurizadores</span></a>
          	<ul>
          		<li class="has-sub">
          			<a class="liga" href=" #"><span>Presurizador Tradicional</span></a>
@@ -89,7 +89,7 @@
          		</li>
          	</ul>
          </li>
-         <li class="has-sub"><a class="liga" href=" #"><span>Variadores de velocidad</span></a>
+         <li class="has-sub"><a href=" #"><span>Variadores de velocidad</span></a>
          	<ul>
          		<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/variadorv.html';"><span>Water Variat</span></a></li>
          		<li  class="boton"><a class="liga" href=" #" onclick="self.frames['contenido'].location.href = 'vde/subdrive.html';"><span>SubDrive</span></a></li>
@@ -98,7 +98,7 @@
          		<li <?php if ($active_page=="productos") echo " class='active'"; ?>><a class="liga" href="/water-drive"><span>Water Drive</span></a></li>
          	</ul>
          </li>
-         <li class="has-sub"><a class="liga" href=" #"><span>Tanques</span></a>
+         <li class="has-sub"><a href=" #"><span>Tanques</span></a>
          	<ul>
          		<li class="has-sub"><a class="liga" href=" #"><span>Altamira</span></a>
          			<ul>
@@ -118,9 +118,9 @@
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/tanquew.html';"><span>Well-X-Trol</span></a></li>
          	</ul>
          </li>
-         <li class="has-sub"><a class="liga" href=" #"><span>Accesorios</span></a>
+         <li class="has-sub"><a href=" #"><span>Accesorios</span></a>
          	<ul>
-         		<li class="has-sub"><a class="liga" href=" #"><span>Tableros de control</span></a>
+         		<li class="has-sub"><a href="#"><span>Tableros de control</span></a>
          			<ul>
          				<li><a class="liga" href="/tableros-velocidad-constante"><span>Velocidad constante</span></a></li>
          				<li><a class="liga" href="/tableros-presion-constante"><span>Presión constante</span></a></li>
@@ -131,7 +131,12 @@
          		<li><a class="liga" href="/pres10"><span>Control Automático de Presión</span></a></li>
          		<li><a class="liga" href="/cable"><span>Cable Sumergible</span></a></li>
          		<li><a class="liga" href="/manometro"><span>Manómetro</span></a></li>
-         		<li><a class="liga" href="/flotador"><span>Switch flotador</span></a></li>
+         		<li class="has-sub"><a href="#"><span>Switch flotador</span></a>
+         			<ul>
+	         			 <li><a class="liga" href="/flotador"><span>Altamira</span></a></li>
+	         			 <li><a class="liga" href="/mac5"><span>Serie Mac5</span></a></li>
+         			</ul>
+         		</li>
          		<li><a class="liga" href="/switch"><span>Switch de Presión</span></a></li>
          		<li><a class="liga" href="/tubos"><span>Tubo para columna</span></a></li>
          		<li><a class="liga" href="/valvulas"><span>Válvulas check para bombas sumergibles</span></a></li>
