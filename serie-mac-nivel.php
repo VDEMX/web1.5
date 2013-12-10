@@ -56,9 +56,9 @@ incorrectos.</li>
  		<section class="doscol">
 	 		<img src="images/mac-nivel-vector.jpg" alt="Vector">
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=11_FTAL-MAC5-131129.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/download.php?file=11_FTAL-MCNI-131129.pdf.pdf"><div type="button" class="button"><div class="icon icon-descargar"></div> Descargar ficha técnica</div></a>
 	 		
-	 		<a href="http://vde.com.mx/fichas-tecnicas/11_FTAL-MAC5-131129.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
+	 		<a href="http://vde.com.mx/fichas-tecnicas/11_FTAL-MCNI-131129.pdf.pdf" target="_blank"><div type="button" class="button"> <div class="icon icon-ojo"></div> Visualizar ficha técnica</div></a>
 	 		
 		 	
 		 	<h2>DESCRIPCIÓN DEL CÓDIGO</h2>
