@@ -140,7 +140,12 @@
          		</li>
          		<li><a class="liga" href="/switch"><span>Switch de Presión</span></a></li>
          		<li><a class="liga" href="/tubos"><span>Tubo para columna</span></a></li>
-         		<li><a class="liga" href="/valvulas"><span>Válvulas check para bombas sumergibles</span></a></li>
+         		<li class="has-sub"><a href="#"><span>Válvulas</span></a>
+         			<ul>
+	         			 <li><a class="liga" href="/valvulas"><span>Válvulas check para bombas sumergibles</span></a></li>
+	         			 <li><a class="liga" href="/quickstop"><span>Quickstop</span></a></li>
+         			</ul>
+         		</li>
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/arrancador.html';"><span>Arrancadores Magnéticos</span></a></li>
          		<li class="boton"><a class="liga"  href="#" onclick="self.frames['contenido'].location.href = 'vde/arrancadors.html';"><span>Arrancadores Suaves</span></a></li>
          		<li class="has-sub"><a class="liga" href="#"><span>Protecciones para Motor</span></a>
