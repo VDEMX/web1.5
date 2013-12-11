@@ -7,12 +7,11 @@
  	</head>
  	
  <body>
- <?php include("aviso.php"); ?>
+ <!--<?php include("aviso.php"); ?>-->
  <section id="container">
  	<?php include("header.php"); ?>	
  	<section id="federatas" class="active">
 			<?php include("vde/tc/tc.php"); ?>	
 	</section>
- 	
  	<?php include("iframe.php"); ?>
  	<?php include("footer.php"); ?>

@@ -161,7 +161,7 @@ DIVA SOLAR MULTIPOWER.</li>
  		<img src="images/diva-sol-curva-3.jpg" alt="curvas">
  		<h2>TABLA DE ESPECIFICACIONES</h2>
  		<img src="images/diva-sol-tabla-3.jpg" alt="TABLA DE ESPECIFICACIONES">
- 		<p class="nota">
+ 		<p>
 	 		*Paneles fotovoltaicos considerados con las siguientes características: <br>
 Potencia máxima (Pmax) = 250 W<br>
 Voltaje en el punto de máxima potencia (Vmp) = 30.1 V<br>
@@ -173,7 +173,7 @@ Voltaje de circuito abierto (Voc) = 37.4 V<br>
  		<img src="images/diva-sol-curva-2.jpg" alt="curvas">
  		<h2>TABLA DE ESPECIFICACIONES</h2>
  		<img src="images/diva-sol-tabla-2.jpg" alt="Tabla">
- 		<p class="nota">
+ 		<p>
 	 		*Paneles fotovoltaicos considerados con las siguientes características: <br>
 Potencia máxima (Pmax) = 250 W<br>
 Voltaje en el punto de máxima potencia (Vmp) = 30.1 V<br>
@@ -185,7 +185,7 @@ Voltaje de circuito abierto (Voc) = 37.4 V<br>
  		<img src="images/diva-sol-curva-1.jpg" alt="curvas">
  		<h2>TABLA DE ESPECIFICACIONES</h2>
  		<img src="images/diva-sol-tabla-1.jpg" alt="Tabla">
- 		<p class="nota">
+ 		<p>
 	 		*Paneles fotovoltaicos considerados con las siguientes características: <br>
 Potencia máxima (Pmax) = 250 W<br>
 Voltaje en el punto de máxima potencia (Vmp) = 30.1 V<br>

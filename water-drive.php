@@ -50,7 +50,7 @@ energética.</p>
 					<li>Ligero.</li>
 					<li>Robusto (succión y descarga de construcción metálica).</li>
 					<li>Puesta en Marcha fácil de realizar.</li>
-					<li>Led´s para programar y visualizar; presión del sistema, presión de re-arranque, corriente del motor y frecuencia de operación.</li>
+					<li>Led´s para programar y visualizar; presión del sistema, presión de arranque, corriente del motor y frecuencia de operación.</li>
 				</ul>
 	 		</article>
  		</section>
