@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Altapres</title>
  		<meta name="description" content="La bomba marca Altamira serie ALTAPRES fue diseñada para aumentar la presión del agua y puede ser usada en múltiples aplicaciones, gracias a su sistema de impulsor flotante se logran máximas eficiencias, larga vida útil y un incomparable desempeño.">
 		<meta name="keywords" content="bomba, Altamira, ALTAPRES,presión, agua, impulsor, flotante, incomparable, desempeño.">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/altapres-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -85,5 +85,5 @@
  		<img src="images/altapres-tabla-1.gif" alt="Dimensione">
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

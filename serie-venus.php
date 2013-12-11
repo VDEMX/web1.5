@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Venus</title>
  		<meta name="description" content="Bombas centrífugas monoetapas compactas, diseñadas para la recirculación de agua en sistemas de hidromasaje.">
 		<meta name="keywords" content="Bombas, centrífugas, monoetapas, compactas, recirculación,agua, sistemas, hidromasaje">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -73,5 +73,5 @@
  		<img src="images/venus-tabla.gif" alt="dimensiones">
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

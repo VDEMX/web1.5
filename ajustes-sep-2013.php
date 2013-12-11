@@ -1,5 +1,5 @@
 <?php $active_page="federatas"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | Ajustes Septiembre 2013</title>
  		<meta name="description" content="informe debido a recientes incrementos de costos por parte de proveedores">
 		<meta name="keywords" content="informe, incrementos, costos, proveedores,Anexo, Fe de Erratas, correcciones, actualización, lista, precios, productos, cambios">
@@ -8,7 +8,7 @@
  	
  <body>
  <section id="container">
- 	<?php include("header.php"); ?>	
+ 	<?php include("includes/header.php"); ?>	
  	<section id="federatas" class="active">
 			<h2 class="headline">Avisos importantes</h2>
 			<h3 class="titulo">Fecha de aviso: 28 de Septiembre de 2013</h3>
@@ -107,5 +107,5 @@ Para cualquier duda o comentario favor de comunicarse, con gusto le atenderemos.
 			<a href="/anexo" class="button"><span class="icon icon-atras"></span>Regresar</a>
 	</section>
 	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

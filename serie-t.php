@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie T</title>
  		<meta name="description" content="Bombas con diseño especial antibloqueo, este sistema mejora la eficiencia de la bomba y brinda protección contra el desgaste cuando opera con presencia de arena.">
 		<meta name="keywords" content="Bombas, sumergibles, calidad, resistencia, antibloqueo, protección,arena, opera, presencia">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	 	<section id="ax" class="active">
  	 	<img src="images/t-ficha-comercial.jpg" alt="Serie T">
@@ -162,5 +162,5 @@ la presión en sistemas contra incendios, etc.</p>
  		
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

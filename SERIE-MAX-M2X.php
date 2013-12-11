@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie MAX M2X</title>
  		<meta name="description" content="Bomba en acero inoxidable con impulsores en Noryl y difusores en Lexan, gracias a las propiedades de estos materiales obtenemos un equipo de gran durabilidad y calidad.">
 		<meta name="keywords" content="bombas, acero, inoxidable, Noryl, Lexan, durabilidad, calidad">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -24,5 +24,5 @@
  			Regresar
  		</a>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

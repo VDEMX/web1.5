@@ -1,5 +1,5 @@
 <?php $active_page="contacto"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | Registro al Curso: Conceptos Básicos e Instalación de Sistemas Fotovoltaicos</title>
  		<meta name="description" content="Registro a Curso en línea Conceptos Básicos e Instalación de Sistemas Fotovoltaicos">
 		<meta name="keywords" content="Registro, Curso en línea, Conceptos, Básicos, Instalación, Sistemas, Fotovoltaicos">
@@ -8,7 +8,7 @@
  	
  <body>
  <section id="container">
- 	<?php include("header.php"); ?>	
+ 	<?php include("includes/header.php"); ?>	
  	<section id="cursos-fv" class="content active">
  	<h2 class="titulo">Registro al Curso "Conceptos Básicos e Instalación de Sistemas Fotovoltaicos"</h2>
  	<h3>¿A qué curso se va a inscribir?</h3>
@@ -27,5 +27,5 @@
  	<img src="images/insta-fv.jpg" alt="insta-fv">
 </section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

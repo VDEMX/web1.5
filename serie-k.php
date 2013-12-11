@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie K</title>
  		<meta name="description" content="El motor ALTAMIRA SERIE K es un producto fabricado bajo los más estrictos controles de calidad para ofrecerle un motor sumergible rebobinable a baño de agua de larga vida y gran robustez.">
 		<meta name="keywords" content="motor, ALTAMIRA, SERIE K, producto, calidad, sumergible, rebobinable, robustez, <?php echo "$nombre"?>">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	 	<section id="ax" class="active">
  	 	<img src="images/k-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -64,5 +64,5 @@
  		
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

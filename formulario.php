@@ -1,6 +1,6 @@
 <?php $active_page="contacto"; ?>
-<?php include("head.php"); ?>
-<?php include("send.php"); ?>
+<?php include("includes/head.php"); ?>
+<?php include("includes/send.php"); ?>
  		<title><?php echo "$nombre"?> | Contacto</title>
  		<meta name="description" content="Contáctenos para solicitar información de nuestros productos y servicios">
 		<meta name="keywords" content="contacto, información, mensaje, diseñar, producir,distribuir,mayoreo, sistemas,equipos,alta calidad,agua, presencia, nacional, México, republica">
@@ -9,7 +9,7 @@
  	
  <body>
  <section id="container">
- 	<?php include("header.php"); ?>	
+ 	<?php include("includes/header.php"); ?>	
  	<section id="contacto" class="content active">
  	<h2 class="titulo">Contáctenos</h2>
  	<section>
@@ -32,5 +32,5 @@
  	</section>
 </section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

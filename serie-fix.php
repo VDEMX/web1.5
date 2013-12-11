@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Fix</title>
  		<meta name="description" content="Bomba de superficie tipo JET, ideal para aplicaciones donde se requiere que el agua no tenga contacto con materiales sujetos a oxidación.">
 		<meta name="keywords" content="bombas, superficie, jet, tipo">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -70,5 +70,5 @@
  		<img src="images/fix-tabla-dimensiones.jpg" alt="dimensiones">
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

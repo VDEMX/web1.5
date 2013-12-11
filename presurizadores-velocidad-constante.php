@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Presurizadores múltiples de VELOCIDAD CONSTANTE</title>
  		<meta name="description" content="Presurizadores múltiples de VELOCIDAD CONSTANTE">
 		<meta name="keywords" content="Presurizadores, múltiples, velocidad, constante">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -350,5 +350,5 @@
 <img src="images/zoom-tablero.jpg" alt="Presurizador">
 
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

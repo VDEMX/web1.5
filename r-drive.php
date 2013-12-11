@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | R-DRIVE</title>
  		<meta name="description" content="El R-DRIVE es un variador de frecuencia para el diseño de sistemas de presión constante en la red de una o hasta ocho motobombas">
  		<meta name="keywords" content="variador, frecuencia, sistemas, presión, constante, red, motobombas">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/r-drive-ficha-comercial.jpg" alt="Ficha comercial">
@@ -129,5 +129,5 @@ hacen del R-DRIVE un variador versátil y confiable.
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

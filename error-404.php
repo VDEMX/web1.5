@@ -1,5 +1,5 @@
 <?php $active_page="Inicio"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | Error 404</title>
  		<meta name="description" content="Página de error 404">
 		<meta name="keywords" content="página, error, 404, <?php echo "$sitio"?>">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  	
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="e404" class="content active">
 		<div class="box">
@@ -20,5 +20,5 @@
 		<p>Usted puede ir a la página de <a href="http://vde.com.mx">inicio</a> de nuestro sitio</p>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

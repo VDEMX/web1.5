@@ -1,5 +1,5 @@
 <?php $active_page="nosotros"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | Acerca de VDE</title>
  		<meta name="description" content="Empresa 100% Mexicana, fue fundada en 1992 y su giro consiste en diseñar, producir y distribuir al mayoreo, sistemas y equipos de alta calidad y tecnología de punta para el manejo del agua">
 		<meta name="keywords" content="empresa,mexicana,dedicada,diseñar, producir,distribuir,mayoreo, sistemas,equipos,alta calidad,agua, presencia, nacional, México, republica">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="acercade" class="content active">
  		<h2 class="titulo">Acerca de VDE</h2>
@@ -47,5 +47,5 @@
  		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

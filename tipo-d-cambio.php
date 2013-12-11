@@ -1,5 +1,5 @@
 <?php $active_page="tipodecambio"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?>  | Tipo de cambio</title>
  		<meta name="description" content="Tipo de cambio del Dolar y del Euro">
 		<meta name="keywords" content="tipo de cambio, dolar, euro,aviso, importante, tabla">
@@ -7,11 +7,11 @@
  	</head>
  	
  <body>
- <!--<?php include("aviso.php"); ?>-->
+ <!--<?php include("includes/aviso.php"); ?>-->
  <section id="container">
- 	<?php include("header.php"); ?>	
+ 	<?php include("includes/header.php"); ?>	
  	<section id="federatas" class="active">
 			<?php include("vde/tc/tc.php"); ?>	
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

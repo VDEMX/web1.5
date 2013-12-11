@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie TX</title>
  		<meta name="description" content="Bombas centrífugas multietapas con un diseño innovador vertical en línea (conexiones de succión y descarga al mismo nivel). Son ideales para líquidos en movimiento, aumento de presión y para múltiples aplicaciones industriales. Con los avanzados diseños técnicos logramos una óptima eficiencia y una larga vida útil que nos permiten ofrecerle una amplia gama de capacidades y características amigables.">
 		<meta name="keywords" content="Bombas, centrífugas, multietapas, vertical, en línea, industriales">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	 	<section id="ax" class="active">
  	 	<img src="images/tx-ficha-comercial.jpg" alt="Ficha comercial">
@@ -71,5 +71,5 @@
         </map>
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

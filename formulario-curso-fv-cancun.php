@@ -1,5 +1,5 @@
 <?php $active_page="contacto"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | Registro a Curso de Conceptos Básicos e Instalación de Sistemas Fotovoltaicos (Cancún)</title>
  		<meta name="description" content="Registro a Curso en línea Conceptos Básicos e Instalación de Sistemas Fotovoltaicos">
 		<meta name="keywords" content="Registro, Curso en línea, Conceptos, Básicos, Instalación, Sistemas, Fotovoltaicos">
@@ -8,7 +8,7 @@
  	
  <body>
  <section id="container">
- 	<?php include("header.php"); ?>	
+ 	<?php include("includes/header.php"); ?>	
  	<section id="mc_embed_signup" class="content active">
  	<h2 class="titulo">Registro a Curso "Conceptos Básicos e Instalación de Sistemas Fotovoltaicos" (Cancún)</h2>
 		<!-- Begin MailChimp Signup Form  -->
@@ -141,5 +141,5 @@
 <!--End mc_embed_signup-->		
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

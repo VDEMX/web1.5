@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Tableros de control de bombas de velocidad variable</title>
  		<meta name="description" content="Los tableros de control ALTAMIRA son equipos totalmente ensamblados y cableados, listos para instalarse; formados con componentes de excelente calidad, garantizan un largo período de vida. Estos tableros han sido diseñados para poder operar y controlar de forma sencilla y segura equipos de bombeo formados de dos, tres o cuatro bombas. Teniendo la opción de controlar en forma manual o automática. El tablero operando en forma automática estará alternando el turno de arranque de cada bomba, logrando un desgaste uniforme del grupo de bombas; y además va a conectar simultáneamente otra (s) bomba (s) si la demanda aumenta o si falla alguna de las que están operando.">
 		<meta name="keywords" content="Tableros, control, bombas, alternar, simultanear" >
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -455,5 +455,5 @@
  		
  		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

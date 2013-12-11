@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Supra</title>
  		<meta name="description" content="Las bombas SUPRA fueron diseñadas para recircular y realizar la filtración del agua en los sistemas de piscinas, sus altos estándares de calidad en materiales le permite ser una bomba muy atractiva y eficiente. Ideales para recircular el agua en su piscina">
 		<meta name="keywords" content="bombas, recircular, agua, piscina, alberca, filtración, agua, sistemas, piscinas">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -73,5 +73,5 @@
  		
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

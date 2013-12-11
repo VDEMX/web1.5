@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie BS</title>
  		<meta name="description" content="Bombas con diseño altamente eficiente, en su construcción se emplean materiales de excelente calidad y resistencia. El maquinado de los componentes y el balanceo de impulsores extremadamente preciso, dan como resultado grandes rendimientos con rangos de eficiencias del 75% al 85%, ofreciéndole un ahorro significativo en el consumo de energía eléctrica.">
 		<meta name="keywords" content="Bombas, sumergibles, calidad, resistencia">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	 	<section id="ax" class="active">
  	<div class="cien">
@@ -86,5 +86,5 @@
         </map>
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

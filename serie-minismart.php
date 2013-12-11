@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie MiniSmart</title>
  		<meta name="description" content="La bomba MINISMART es un equipo automático y sencillo de presurización, ideal para instalaciones en donde la presión del agua requiera ser mayor a la disponible.">
 		<meta name="keywords" content="La bomba,equipo , automático, presurización, presión">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -69,5 +69,5 @@
  		<img src="images/minismart-tabla-dimenciones.gif" alt="dimensiones">
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

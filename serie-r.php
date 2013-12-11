@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie R</title>
  		<meta name="description" content="El motor ALTAMIRA SERIE R es el resultado de una larga experiencia en motores sumergibles rebobinables a baño de agua, dando como resultado un motor de alta calidad. Su construcción robusta le permite trabajar por largo tiempo en condiciones normales, sin mantenimiento alguno.">
 		<meta name="keywords" content="motor, ALTAMIRA, SERIE R, motores, sumergibles, rebobinables, baño de agua, alta calidad">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	 	<section id="ax" class="active">
  	 	<img src="images/r-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -70,5 +70,5 @@
  		
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

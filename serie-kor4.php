@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
 <title><?php echo "$sitio"?> | Serie KOR 4"</title>
 <meta name="description" content="Estas bombas han sido diseñadas con tecnología de punta y construidas con materiales de la más alta calidad. En su fabricación se utiliza la maquinaria más moderna y precisa,logrando eficiencias hidráulicas sobresalientes que le garantizan bajos costos de operación.">
 <meta name="keywords" content="bombas, sumergibles, tecnología,calidad,moderna, precisa,eficiencias, hidráulicas, sistema, bombeo">
@@ -8,7 +8,7 @@
  	
 <body>
  	<section id="container">
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	<section id="ax" class="active">
  		<div class="cien">
  			<h2 class="headline verde-altamira">Serie KOR 4"</h2>
@@ -80,5 +80,5 @@
         <a class="button regresar" href="/kor"><div class="icon icon-atras"></div>Regresar</a>
 		<div class="clear"></div>
 	</section>
-<?php include("iframe.php"); ?> 	
-<?php include("footer.php"); ?> 	
+<?php include("includes/iframe.php"); ?> 	
+<?php include("includes/footer.php"); ?> 	

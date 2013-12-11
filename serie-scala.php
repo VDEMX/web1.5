@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Scala</title>
  		<meta name="description" content="Las bombas SCALA están diseñadas para funcionar con agua limpia(libre de sólidos). La alta calidad en sus materiales de construcción aseguran un buen funcionamiento y un excelente desempeño.">
 		<meta name="keywords" content="bombas, SCALA, ,agua, limpia,excelente, desempeño.">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/scala-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -108,5 +108,5 @@
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

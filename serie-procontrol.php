@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | SERIE PROCONTROL</title>
  		<meta name="description" content="PROCONTROL es un dispositivo electrónico especialmente diseñado para la Protección y Control de motores monofásicos y trifásicos.">
  		<meta name="keywords" content="PROCONTROL, dispositivo, electrónico, Protección, Control, motores, monofásicos, trifásicos">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/procontrol-ficha-comercial.jpg" alt="ficha comercial">
@@ -81,5 +81,5 @@ servicio.
  		</section>
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

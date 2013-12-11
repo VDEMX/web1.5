@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | QUICKSTOP</title>
  		<meta name="description" content="El QUICKSTOP ALTAMIRA es una válvula hidráulica que abre o cierra el suministro de líquido en función del nivel que desea mantener en el depósito, su diseño permite actuar de abierto a cerrado o viceversa en una fracción de segundo evitando el goteo y disminuyendo sensiblemente el tiempo de llenado">
 		<meta name="keywords" content="QUICKSTOP, ALTAMIRA, válvula, hidráulica, suministro, líquido, depósito, goteo, llenado.">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/qs-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -85,5 +85,5 @@ ELÉCTRICAS</h2>
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

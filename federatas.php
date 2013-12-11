@@ -1,5 +1,5 @@
 <?php $active_page="federatas"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | Lista de precios</title>
  		<meta name="description" content="Correcciones y actualizaciones lista de precios">
 		<meta name="keywords" content="Anexo, Fe de Erratas, correcciones, actualización, lista, precios, productos, cambios, equipo">
@@ -8,7 +8,7 @@
  	
  <body>
  <section id="container">
- 	<?php include("header.php"); ?>	
+ 	<?php include("includes/header.php"); ?>	
  	<section id="federatas" class="active">
 			<h2 class="headline">Anexo Fe de Erratas</h2>
 			<h3 class="titulo">Correcciones y actualizaciones lista de precios:</h3>
@@ -50,5 +50,5 @@
 			</article>
 	</section>
 	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

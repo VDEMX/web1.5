@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Sistemas Fotovoltaicos</title>
  		<meta name="description" content="Un sistema fotovoltaico, mediante MÓDULOS FOTOVOLTAICOS toma la energía solar y la convierte en energía eléctrica. Los módulos fotovoltaicos, están compuestos por CELDAS SOLARES, hechas de silicio, material semiconductor. Este material, al absorber la luz del sol, la transforma en energía.">
 		<meta name="keywords" content="sistemas, fotovoltaicos, energía, renovable, módulos, solares,electricidad, limpia, sustentable, ahorro, dinero,inversores, micro, capacitaciones">
@@ -11,7 +11,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="fotovoltaicos" class="active">
  		<img src="images/energia-renovable.jpg" alt="energia-renovable" class="centrar" />
@@ -227,8 +227,8 @@ y el cable de extensión MC4. </p>
         </div>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>
  	<script type="text/javascript" src="js/jquery.calendario.js"></script>
 		<script type="text/javascript" src="js/data.js"></script>
 		<script type="text/javascript">	

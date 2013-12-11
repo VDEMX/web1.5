@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie PRO-XL</title>
  		<meta name="description" content="TANQUES PRECARGADOS PARA SISTEMAS HIDRONEUMÁTICOS">
 		<meta name="keywords" content="TANQUES, PRECARGADOS, SISTEMAS, HIDRONEUMÁTICOS">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -84,5 +84,5 @@
  		<p class="small"><strong>NOTA:</strong> La entrega volumétrica puede variar por situaciones ambientales y condiciones del sistema, incluyendo temperatura y presión.</p>
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

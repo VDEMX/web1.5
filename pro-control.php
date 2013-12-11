@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Procontrol</title>
  		<meta name="description" content="PROCONTROL es un dispositivo electrónico para el control de motores monofásicos y trifásicos">
 		<meta name="keywords" content="contacto, información, mensaje, diseñar, producir,distribuir,mayoreo, sistemas,equipos,alta calidad,agua, presencia, nacional, México, republica">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="Table_01" class="content active">
  		<h2 class="titulo">Productos / <span>Control de sistemas de presión</span></h2>
@@ -30,5 +30,5 @@
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

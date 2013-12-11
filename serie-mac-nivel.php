@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | MACNIVEL</title>
  		<meta name="description" content="El MACNIVEL ALTAMIRA es un indicador de nivel, que funciona con el uso de una batería de 9v (no incluida) y el uso de cables conductores conectados en las terminales del dispositivo, la colocación de estos cables en forma ascendente en el depósito permite encender una barra de LEDS indicando el nivel presente de líquido">
 		<meta name="keywords" content="MACNIVEL, ALTAMIRA, indicador, nivel, LEDS, líquido">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/mac-nivel-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -89,5 +89,5 @@ ELÉCTRICAS</h2>
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Tubo para columna</title>
  		<meta name="description" content="Tubo ALTAMIRA COLUMNA construido de uPVC (policloruro de vinilo no plastificado), especialmente diseñado para columnas de motobombas sumergibles. Disponible en series para 150 y 250 metros de profundidad máxima">
 		<meta name="keywords" content="Tubo, ALTAMIRA, COLUMNA, uPVC, columnas ,motobombas, sumergibles" >
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -88,5 +88,5 @@ y arnes correspondientes, los cules son accesorios robustos construidos en acero
  		
  		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

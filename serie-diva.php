@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | SERIE DIVA</title>
  		<meta name="description" content="El sistema de presión constante DIVA permite ofrecer la solución más completa en bombas sumergibles de 4”; su diseño innovador integra la utilización eficiente de un variador de velocidad encapsulado y una motobomba sumergible de 4”, monitoreados a través del módulo de control externo">
  		<meta name="keywords" content="sistema, presión, constante, DIVA, bombas, sumergibles, variador, velocidad, encapsulado, motobomba">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/diva-ficha-tecnica.jpg" alt="ficha comercial">
@@ -115,5 +115,5 @@
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

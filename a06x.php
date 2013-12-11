@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | Serie A0.6X</title>
  		<meta name="description" content="dimenciones, tabla de especificaciones y curvas de rendimientos de las bombas centrífugas multietapas verticales en línea (conexiones de succión y descarga al mismo nivel). Por su amplio rango de capacidades, versatilidad y las grandes ventajas que ofrece en su facilidad de mantenimiento, sus bajos costos de operación, su probada eficiencia y sus componentes de alta tecnología la hacen una motobomba de calidad superior para las aplicaciones de manejo de agua y diversos líquidos.">
 		<meta name="keywords" content="dimenciones,tablas,especificaciones,curvas,rendimiento,bombas, centrifugas, multietapas, verticales, motobomba">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
 
@@ -30,5 +30,5 @@
 	<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

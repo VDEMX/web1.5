@@ -1,5 +1,5 @@
 <?php $active_page="servicios"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
 <title><?php echo "$nombre"?> | Servicios</title>
  		<meta name="description" content="Contamos condistintos tipos de servicios como: ventas, asesoría, ensamble de equipos, reparación y servicio">
 		<meta name="keywords" content="inventario, almacen, ventas, sesosoría, ensamble, reparación, taller, servicio, tecnicos, expertos, especializados, alta calidad,mayoreo, sistemas,equipos,agua">
@@ -8,7 +8,7 @@
  	
  <body>
  <section id="container">
- 	<?php include("header.php"); ?>	
+ 	<?php include("includes/header.php"); ?>	
  	<section id="servicios" class="active">
 			<h2 class="titulo">Servicios</h2>
 			<article>
@@ -33,5 +33,5 @@
 			</article>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?> 
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?> 

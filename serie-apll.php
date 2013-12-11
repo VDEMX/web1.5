@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie APLL</title>
  		<meta name="description" content="Electrobombas sumergibles para la evacuación de aguas fecales o residuales y lodos (aguas negras). Su diseño se ha concebido con materiales de alta resistencia a la abrasión que les confiere un aspecto muy compacto y robusto.">
 		<meta name="keywords" content="Electrobombas, sumergibles, evacuación, aguas, fecales, residuales, lodos, aguas negras, resistencia, abrasión, compacto,robusto">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	 	<section id="ax" class="active">
  	 	<img src="images/apll-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -79,5 +79,5 @@
  		<img src="images/apll-dimensiones.gif" alt="dimensiones" class="mb1em">	
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

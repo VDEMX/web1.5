@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | MAC5</title>
  		<meta name="description" content="El switch flotador ALTAMIRA MAC5 está diseñado para aplicaciones de lodos (agua negras), ya que su cuerpo pesado, voluminoso y carente de asperezas así como su construcción de doble cámara lo hace un flotador muy confiable en estas aplicaciones">
 		<meta name="keywords" content="switch, flotador, ALTAMIRA, MAC5, lodos, agua negras, doble cámara">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/mac5-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -77,5 +77,5 @@ ELÉCTRICAS</h2>
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | F-DRIVE</title>
  		<meta name="description" content="El FDRIVE es un dispositivo para control y protección de los sistemas de bombeo, basado en la variación de la frecuencia de alimentación al motor.">
  		<meta name="keywords" content="dispositivo,control,protección,sistemas,bombeo,variador,frecuencia,motor,alimentación">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/f-drive_03.jpg" alt="F-Drive ficha comercial">
@@ -67,5 +67,5 @@ como en instalaciones nuevas garantizando:</p>
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

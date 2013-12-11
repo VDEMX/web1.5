@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Loop</title>
  		<meta name="description" content="Bomba circuladora de agua caliente de 3 velocidades. Gracias a sus características hidráulicas de caudal y presión, cubre una extensa gama de aplicación que puede además ampliarse con el funcionamiento en serie o paralelo de varios circuladores.">
 		<meta name="keywords" content="Bomba, circuladora, agua, caliente, velocidades,funcionamiento, en serie ,paralelo, circuladores.">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -92,5 +92,5 @@
  		<img src="images/loop-tabla-dimensiones.gif" alt="dimensiones">
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

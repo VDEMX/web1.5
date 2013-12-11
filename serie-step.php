@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Step</title>
  		<meta name="description" content="La bomba multietapas serie STEP marca aqua pak nos ofrece confiabilidad y un bajo consumo energético. Es ideal para el uso doméstico , especialmente para la presurización y sistemas de irrigación.">
 		<meta name="keywords" content="bombas, multietapas, confiabilidad, bajo consumo, uso domestico, presurización, irrigación ">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -73,5 +73,5 @@
  		<img src="images/step-tabla-dimensiones.jpg" alt="dimensiones">
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

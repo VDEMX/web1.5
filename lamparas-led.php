@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | LÁMPARAS LED</title>
  		<meta name="description" content="La lámpara led PANDA es la innovación tecnológica en luces led para iluminación de piscinas controladas a distancia.">
  		<meta name="keywords" content="lámpara, led, PANDA, innovación, tecnológica, luces, iluminación, piscinas, control, distancia">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/led-ficha-comercial.jpg" alt="ficha comercial">
@@ -127,5 +127,5 @@ La lámpara led PANDA mejorará la apariencia de su piscina, mezclando colores p
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

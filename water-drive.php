@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$nombre"?> | SERIE WATER DRIVE</title>
  		<meta name="description" content="WATER DRIVE es un variador de velocidad enfriado por agua, robusto e intuitivo que permite de una manera moderna y funcional el diseño de sistemas de bombeo de presión constante con un alta eficiencia energética.">
  		<meta name="keywords" content="WATER, DRIVE, variador, velocidad, enfriado por agua, robusto, intuitivo, moderno, funcional, sistemas, bombeo, presión constante, eficiencia, energética">
@@ -8,7 +8,7 @@
  	
  <body>
  <section id="container">
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	<section id="ax" class="active">
  	<img src="images/WD-ficha-comercial.jpg" alt="ficha comercial">
  	<div class="cien">
@@ -91,5 +91,5 @@ energética.</p>
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?> 	
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?> 	
+ 	<?php include("includes/footer.php"); ?>

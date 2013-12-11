@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Job</title>
  		<meta name="Bomba centrífuga multietapas vertical con motor trifásico de alta calidad, eficiente, durable, con un diseño avanzado, ideal para el trabajo con altas cargas.">
 		<meta name="keywords" content="Bombas, centrífugas, multietapas, verticales, ligera, eficiente, durable, altas cargas, altas temperaturas, MOTOBOMBA, VERTICAL">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	 	<section id="ax" class="active">
  	 	<img src="images/job-ficha-comercial.jpg" alt="Serie T">
@@ -82,5 +82,5 @@
  		
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

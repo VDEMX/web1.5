@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Amiga</title>
  		<meta name="description" content="Bomba sumergible muy compacta, totalmente fabricada en materiales plásticos, permite una manipulación muy fácil para cualquier tipo de aplicación doméstica.">
 		<meta name="keywords" content="Bomba, sumergible, compacta, materiales, plásticos, aplicación, doméstica.">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	 	<section id="ax" class="active">
  	 	<img src="images/amiga-ficha-comercial.jpg" alt="Ficha comercial">
@@ -70,5 +70,5 @@
  		<img src="images/amiga-dimensiones.gif" alt="dimensiones" class="mb1em">	
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

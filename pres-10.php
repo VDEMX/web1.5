@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Pres 10</title>
  		<meta name="description" content="KIT DE PRESIÓN CONSTANTE PARA LA RED">
 		<meta name="keywords" content="<?php echo "$nombre"?>, KIT, PRESIÓN, CONSTANTE, RED" >
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -66,5 +66,5 @@
  		
  		<div class="clear"></div>
 	</section>
-	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>

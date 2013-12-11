@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | SERIE DIVA SOLAR MULTIPOWER</title>
  		<meta name="description" content="sistema sumergible con variador de frecuencia energizado por fuentes de energía múltiples: renovable (a través de paneles fotovoltaicos, generadores eólicos, etc.) o bien, mediante baterías, generadores operados por motores de combustión interna, alimentación de la red eléctrica de corriente alterna, etc.">
  		<meta name="keywords" content="sistema, sumergible, variador de frecuencia, energizado, energía renovable, paneles fotovoltaicos, generadores eólicos, baterías, generadores, motores de combustión interna, alimentación de la red eléctrica, de corriente alterna">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/diva-sol-ficha-comercial.jpg" alt="ficha comercial">
@@ -196,5 +196,5 @@ Voltaje de circuito abierto (Voc) = 37.4 V<br>
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | MAC3</title>
  		<meta name="description" content="El switch flotador ALTAMIRA MAC3 brinda a través de su diseño de construcción de doble cámara una doble seguridad en las aplicaciones de agua limpia">
 		<meta name="keywords" content="switch, flotador, ALTAMIRA, MAC3, agua, limpia, doble cámara, seguridad">
@@ -8,7 +8,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<img src="images/mac3-ficha-comercial.jpg" alt="Ficha Comercial">
@@ -78,5 +78,5 @@ ELÉCTRICAS</h2>
 		<div class="clear"></div>
 	</section>
  	
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

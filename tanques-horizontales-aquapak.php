@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Tanques horizontales</title>
  		<meta name="description" content="Los Tanques Precargados AQUA PAK están diseñados para ser la mejor solución para sistemas de agua a presión, son ideales para utilizarse en residencias, instalaciones comerciales y cualquier utilización que necesite mantener su sistema de agua con muy buena presión. Son completamente seguros ya que sus componentes cumplen con los estrictos requisitos de EUA para los componentes para agua (FDA). Además de esto, el diseño agradable a la vista de estos tanques le da un valor agregado a la inversión del cliente.">
 		<meta name="keywords" content="Tanques, Precargados, AQUA PAK, sistemas, agua, presión, residencias, instalaciones, comerciales, sistema, seguros">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -39,5 +39,5 @@
  		<h2>DIMENSIONES</h2>
  		<img src="images/tanques-tabla.gif" alt="Especificaciones">
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

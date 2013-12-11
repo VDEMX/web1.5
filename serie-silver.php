@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie silver</title>
  		<meta name="description" content="Bombas centrífugas monoetapas autoaspirantes para la filtración del agua de piscinas, con prefiltro incorporado. Muy silenciosas">
 		<meta name="keywords" content="bombas, centrífugas,monoetapas, autoaspirantes, piscina, alberca, filtración, agua, sistemas, piscinas">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -70,5 +70,5 @@
  		
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

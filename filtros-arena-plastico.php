@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Filtros para piscina (construcción en plástico)</title>
  		<meta name="description" content="Filtros de arena especialmente diseñados para dejar libre de sólidos el agua de su piscina">
 		<meta name="keywords" content="Filtros, arena, libre, agua, piscina, plastico">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -51,5 +51,5 @@
  		<section class="p30"><img src="images/filtros-plastico-dim.gif" alt="dimensiones"></section>
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

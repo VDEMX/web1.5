@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie AP</title>
  		<meta name="description" content="La bomba de superficie serie AP cuenta con impulsor de álabes periféricos de flujo radial, es ideal para bombear agua limpia, sin partículas abrasivas o líquidos químicamente no agresivos.">
 		<meta name="keywords" content="bombas, superficie, álabes, agua limpia, líquidos">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -74,5 +74,5 @@
  		<img src="images/serie-ap5-dimensiones.jpg" alt="dimensiones">
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

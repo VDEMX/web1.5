@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Serie Task</title>
  		<meta name="description" content="Las bombas sumergibles serie TASK son ideales para pozos profundos de 4” de diámetro y mayores, cuenta con materiales altamente resistentes y gracias a su diseño hidráulico eficiente se reduce la fricción.">
 		<meta name="keywords" content="bombas, sumergibles,task, pozos, profundos, materiales, resistentes, diseño, hidraulico, eficiente">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -67,5 +67,5 @@ a motores sumergibles de 4”.</li>
  		<img src="images/task-05n.gif" alt="DIMENSIONES">
 		<div class="clear"></div>
 	</section>
- 	<?php include("iframe.php"); ?>
- 	<?php include("footer.php"); ?>
+ 	<?php include("includes/iframe.php"); ?>
+ 	<?php include("includes/footer.php"); ?>

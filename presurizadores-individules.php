@@ -1,5 +1,5 @@
 <?php $active_page="productos"; ?>
-<?php include("head.php"); ?>
+<?php include("includes/head.php"); ?>
  		<title><?php echo "$sitio"?> | Presurizadores automáticos</title>
  		<meta name="description" content="Consiste en un Sistema Hidroneumático (agua-aire) Completo en forma de paquete que proporciona agua a presión en toda la red hidráulica de la casa. Sólo requiere un suministro de electricidad y conectar la succión de la bomba a la cisterna, tinaco o depósito de agua y descarga del equipo a la tubería. Está diseñado para uso residencial y comercial. Fabricado con el criterio de alta calidad para lograr una excelente operación durante muchos años sin problemas de mantenimiento.">
 		<meta name="keywords" content="Sistema, Hidroneumático, presión, red, hidráulica, bomba, cisterna, tinaco, depósito, agua, descarga, equipo, tubería, residencial, comercial">
@@ -9,7 +9,7 @@
  <body>
  <section id="container">
  
- 	<?php include("header.php"); ?>
+ 	<?php include("includes/header.php"); ?>
  	
  	<section id="ax" class="active">
  	<div class="cien">
@@ -630,5 +630,5 @@
 <img src="images/pres-pro.jpg" alt="Presurizadores">
 
 	</section> 	
-	<?php include("iframe.php"); ?> 
- 	<?php include("footer.php"); ?>
+	<?php include("includes/iframe.php"); ?> 
+ 	<?php include("includes/footer.php"); ?>
