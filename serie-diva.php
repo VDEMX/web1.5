@@ -102,11 +102,11 @@
  		<img src="images/diva-curva-03.gif" alt="curvas">
  		<img src="images/diva-tabla-03.gif" alt="Tabla">
  		<h4>DIVA60-95 <span class="rojo">PUNTO DE MÁXIMA EFICIENCIA 60 LPM A 95 METROS</span></h4>
- 		<img src="images/diva-curva-04.gif" alt="curvas" class="mb1em">
+ 		<img src="images/diva-curva-06.gif" alt="curvas" class="mb1em">
  		<img src="images/diva-tabla-07.gif" alt="Tabla">
  		
  		<h4>DIVA110-45 <span class="rojo"> PUNTO DE MÁXIMA EFICIENCIA 110 LPM A 45 METROS</span></h4>
- 		<img src="images/diva-curva-03.gif" alt="curvas">
+ 		<img src="images/diva-curva-05.gif" alt="curvas">
  		<img src="images/diva-tabla-04.gif" alt="Tabla">
  		<h4>DIVA110-75 <span class="rojo"> PUNTO DE MÁXIMA EFICIENCIA 110 LPM A 75 METROS</span></h4>
  		<img src="images/diva-curva-04.gif" alt="curvas" class="mb1em">
