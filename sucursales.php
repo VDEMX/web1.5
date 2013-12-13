@@ -10,9 +10,8 @@
  <section id="container">
  	
  	<?php include("includes/header.php"); ?>
-
- 		<iframe id="map" class="active" src="http://mapsengine.google.com/map/embed?mid=z_NQWtCVolDo.kK_Z6d7VjPDM" frameborder="0"></iframe>
-
+ 	
+ 		<img src="images/mapa.jpg" alt="mapa" class="active" id="map">
  	
  	<?php include("includes/iframe.php"); ?> 
  	<?php include("includes/footer.php"); ?>

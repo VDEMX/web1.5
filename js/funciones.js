@@ -17,7 +17,7 @@ function inicio ()
 	});	
 	//acordión del menú táctil
 	$('ul').accordion();
-    
+    //para la de de ratas
     $('.sec-1').click(
       function aviso1()
       {
@@ -48,12 +48,14 @@ function inicio ()
             window.location = '/aviso-nov-2012#sec-8';
       }
    );
+   //para cerrar el aviso
     $('.vbox-close').click(
       function ocultar()
       {
            $(".vbox-overlay").toggle();
       }
    );
+   //para las pestañas de los fotovoltaicos
    $(".box1").click(function box1(){
 		//quitar la clase .active al boton que la tenga:
 		$(".active").removeClass("active");
@@ -107,7 +109,7 @@ function inicio ()
 		//esconder el mapa
 		$("#box1, #box2, #box3, #box4, #box5").hide();
 		$("#box6").addClass("active");
-	});	
+	});
 }
 
 //Alto automatico en los iframes
@@ -121,17 +123,6 @@ function calcHeight()
 	//Cambio la altura del iframe
 	 document.getElementById('iframe')
 	.height= the_height;
-}
-
-//Detectar el iPad
-if( navigator.userAgent.match( /iPad/i ) ) 
-{
-  	//Simular el evento hover al hacer click en pantallas táctiles
-    var myLinks = document.getElementsByClassName('liga');
-	for(var i = 0; i < myLinks.length; i++){
-	   myLinks[i].addEventListener('touchstart', function(){this.className = "hover";}, false);
-	   myLinks[i].addEventListener('touchend', function(){this.className = "";}, false);
-	}
 }
 
 //Detectar el iPhone y el iPod
